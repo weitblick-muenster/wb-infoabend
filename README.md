@@ -21,3 +21,5 @@ Icons:
 Other:
   [jQuery](jquery.com)
   [Responsive Tools](github.com/ajlkn/responsive-tools)
+
+(c) 2020 Pferdinand :horse:
