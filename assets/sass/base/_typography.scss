@@ -11,7 +11,7 @@
     font-family: _font(family);
     font-size: 16pt;
     font-weight: _font(weight);
-    line-height: 1.75;
+    line-height: 2;
 
     @include breakpoint('<=xlarge') {
       font-size: 14pt;

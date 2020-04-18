@@ -94,7 +94,7 @@ html {
 }
 
 body {
-  background: #fcfcfc;
+  background: #ecf3fa;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -moz-animation: none !important;
@@ -113,7 +113,7 @@ body, input, select, textarea {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 16pt;
   font-weight: 300;
-  line-height: 1.75;
+  line-height: 2;
 }
 @media screen and (max-width: 1680px) {
   body, input, select, textarea {
@@ -1609,13 +1609,13 @@ ul.actions:not(.fixed) li .button.icon:before {
 }
 
 /* Icons */
-ul.icons {
+ul.vertical {
   cursor: default;
   list-style: none;
   padding-left: 0;
   margin: -1em 0 2em -1em;
 }
-ul.icons li {
+ul.vertical li {
   display: inline-block;
   padding: 1em 0 0 1em;
 }
@@ -1737,7 +1737,7 @@ select {
   text-overflow: ellipsis;
 }
 select option {
-  background: #fcfcfc;
+  background: #ecf3fa;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1815,7 +1815,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: #303536;
   border-color: #303536;
-  color: #fcfcfc;
+  color: #ecf3fa;
   content: "";
 }
 input[type=checkbox]:focus + label:before,
@@ -2034,7 +2034,7 @@ button.primary,
 .button.primary {
   box-shadow: none;
   background-color: #303536;
-  color: #fcfcfc !important;
+  color: #ecf3fa !important;
 }
 input[type=submit].primary:hover,
 input[type=reset].primary:hover,
@@ -2184,10 +2184,10 @@ button:disabled,
   background-color: #ffd700;
 }
 .tiles article.style4 > .image:before {
-  background-color: #a40d06;
+  background-color: #929f39;
 }
 .tiles article.style5 > .image:before {
-  background-color: #929f39;
+  background-color: #a40d06;
 }
 .tiles article.style6 > .image:before {
   background-color: #0972b3;
@@ -2268,7 +2268,8 @@ body.is-touch .tiles article .content {
 
 .ms-form {
   margin-top: 2rem;
-  height: 100%; }
+  height: 100%;
+}
 
 /* Header */
 #header {
@@ -2318,7 +2319,7 @@ body.is-touch .tiles article .content {
   height: 3em;
   line-height: 3em;
   padding: 0 1.5em;
-  background-color: rgba(252, 252, 252, 0.5);
+  background-color: rgba(236, 243, 250, 0.5);
   border-radius: 4px;
   border: 0;
   font-size: 0.8em;
@@ -2404,7 +2405,7 @@ body.is-touch .tiles article .content {
   height: 100%;
   -webkit-overflow-scrolling: touch;
   background: #303536;
-  color: #fcfcfc;
+  color: #ecf3fa;
   cursor: default;
   visibility: hidden;
   z-index: 10002;
@@ -2431,7 +2432,7 @@ body.is-touch .tiles article .content {
 }
 #menu > .inner > ul > li {
   padding: 0;
-  border-top: solid 1px rgba(252, 252, 252, 0.15);
+  border-top: solid 1px rgba(236, 243, 250, 0.15);
 }
 #menu > .inner > ul > li a {
   display: block;
@@ -2546,6 +2547,7 @@ body.is-menu-visible #menu .close {
 /* Main */
 #main {
   padding: 0em 0 6em 0;
+  margin-top: 50px;
 }
 @media screen and (max-width: 736px) {
   #main {
@@ -2556,7 +2558,7 @@ body.is-menu-visible #menu .close {
 /* Footer */
 #footer {
   padding: 5em 0 6em 0;
-  background-color: #f6f8f9;
+  background-color: #ecf3fa;
 }
 #footer > .inner {
   display: -moz-flex;
