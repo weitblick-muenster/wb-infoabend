@@ -2,7 +2,7 @@
 
 ## Project Setup
 We use SASS as a CSS reprocessor recommended way to install it
-`gem intall sass`
+`gem install sass`
 
 Usage:
 after modifying .sass files run `sass assets/sass/main.scss  assets/css/main.css` process sass files into the main.css
