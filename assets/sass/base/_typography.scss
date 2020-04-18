@@ -12,6 +12,7 @@
     font-size: 16pt;
     font-weight: _font(weight);
     line-height: 2;
+    letter-spacing: _font(letter-spacing);
 
     @include breakpoint('<=xlarge') {
       font-size: 14pt;
@@ -55,8 +56,11 @@
     color: _palette(fg-bold);
     font-weight: _font(weight-bold-alt);
     line-height: 1.3;
-    margin: 2em 0 (_size(element-margin) * 0.5) 0;
-    letter-spacing: _font(letter-spacing-alt);
+    margin: 0 0 (_size(element-margin) * 0.5) 0;
+
+    &:not(:first-child) {
+      margin-top: 4em;
+    }
 
     a {
       color: inherit;
@@ -78,7 +82,7 @@
     line-height: 1.5;
     margin: 0 0 (_size(element-margin) * 1) 0;
     text-transform: uppercase;
-    letter-spacing: _font(letter-spacing);
+    letter-spacing: _font(letter-spacing-alt);
 
     a {
       color: inherit;
