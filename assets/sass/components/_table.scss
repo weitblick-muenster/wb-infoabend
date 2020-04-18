@@ -20,10 +20,6 @@
         border: solid _size(border-width) _palette(border);
         border-left: 0;
         border-right: 0;
-
-        &:nth-child(2n + 1) {
-          background-color: _palette(border-bg);
-        }
       }
     }
 
@@ -40,11 +36,11 @@
     }
 
     thead {
-      border-bottom: solid (_size(border-width) * 2) _palette(border);
+      border-bottom: solid (_size(border-width) * 1) _palette(border);
     }
 
     tfoot {
-      border-top: solid (_size(border-width) * 2) _palette(border);
+      border-top: solid (_size(border-width) * 1) _palette(border);
     }
 
     &.alt {
