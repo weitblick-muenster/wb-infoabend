@@ -2266,6 +2266,10 @@ body.is-touch .tiles article .content {
   }
 }
 
+.ms-form {
+  margin-top: 2rem;
+  height: 100%; }
+
 /* Header */
 #header {
   padding: 8em 0 0.1em 0;
