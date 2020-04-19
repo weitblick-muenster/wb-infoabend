@@ -7,19 +7,5 @@
 /* Wrapper */
 
 #wrapper {
-  > * {
-    > .inner {
-      $gutter: _size(gutter);
-
-      width: 100%;
-      margin: 0 auto;
-      padding: 0 $gutter;
-
-      @include breakpoint('<=small') {
-        $gutter: _size(gutter) * 0.5;
-
-        padding: 0 $gutter;
-      }
-    }
-  }
+  padding: 0 15px;
 }
