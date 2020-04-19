@@ -17,6 +17,7 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-import-resolver-nuxt": "^1.0.0",
     "eslint-plugin-import": "^2.20.2",
+    "lodash": "^4.17.15",
     "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
     "sass-loader": "^8.0.2"
