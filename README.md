@@ -1,23 +1,36 @@
-# Readme
+# wb-infoabend
 
-## Project Setup
-We use [SASS](https://sass-lang.com/guide) as a CSS preprocessor
-- recommended way to install it `gem install sass`
+> Weitblick Münster - Infoabend Seite
 
-#### Usage:
-2 ways of preprocessing:
-- after modifying .sass files run `sass assets/sass/main.scss  assets/css/main.css`
-- listen on the .sass files during development: `sass --watch assets/sass:assets/css`
+## Build Setup
 
-both ways processes sass files into the main.css file.
+```bash
+# install dependencies
+$ yarn install
+
+# serve with hot reload at localhost:3000
+$ yarn dev
+
+# build for production and launch server
+$ yarn build
+$ yarn start
+
+# generate static project
+$ yarn generate
+```
+
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ## Contribution
+
 Create a `Pull Request`, request a review, merge to master.
 
 ## Deployment
+
 The latest changes in the project should be on the `master` branch. The default branch for deployments is `gh-pages`. Commits made to this branch are going to be deployed by the system. To deploy latest changes, merge the `master` into `gh-pages` branch.
 
 ## Credits
+
 Base on Phantom by HTML5 UP
 html5up.net | @ajlkn
 aj@lkn.io
@@ -25,9 +38,4 @@ aj@lkn.io
 Icons:
   Font [Awesome](fontawesome.io)
 
-Other:
-  [jQuery](jquery.com)
-  [Responsive Tools](github.com/ajlkn/responsive-tools)
-
 (c) 2020 Pferdinand :horse:
-
