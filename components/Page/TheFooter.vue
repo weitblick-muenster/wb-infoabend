@@ -3,10 +3,10 @@
     <ul class="vertical">
       <li>
         <a
-          href="#"
+          href="/"
           class="is-underlined"
         >
-          Impressum
+          Home
         </a>
       </li>
       <li>
@@ -14,7 +14,16 @@
           href="/privacy"
           class="is-underlined"
         >
-          Datenschutz
+          Impressum & Datenschutz
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://weitblicker.org/muenster/transparency"
+          class="is-underlined"
+          target="_blank"
+        >
+          Transparenz
         </a>
       </li>
     </ul>
