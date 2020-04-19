@@ -6,9 +6,16 @@
 
 /* Section/Article */
 
-section, article {
+section {
+  margin: 0 auto 100px;
+  max-width: 840px;
+
   &.special {
     text-align: center;
+  }
+
+  ul {
+    margin: 0 auto;
   }
 }
 
