@@ -1,18 +1,30 @@
 <template>
   <div>
+    <Introduction />
     <About />
+    <Follow />
     <Groups :groups="groups" />
+    <More />
   </div>
 </template>
 
 <script>
-import { About, Groups } from '~/components';
+import {
+  Introduction,
+  About,
+  Follow,
+  Groups,
+  More,
+} from '~/components';
 import groups from '~/data/groups';
 
 export default {
   components: {
+    Introduction,
+    Follow,
     About,
     Groups,
+    More,
   },
   data() {
     return {
