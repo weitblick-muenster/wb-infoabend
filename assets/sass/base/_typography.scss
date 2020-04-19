@@ -7,16 +7,12 @@
 /* Type */
 
 body, input, select, textarea {
-  color: _palette(fg);
+  color: _palette(text-main);
   font-family: _font(family);
-  font-size: 16pt;
+  font-size: 1.1rem;
   font-weight: _font(weight);
-  line-height: 2;
+  line-height: 2.2;
   letter-spacing: _font(letter-spacing);
-
-  @include breakpoint('<=large') {
-    font-size: 12pt;
-  }
 }
 
 a {
@@ -25,7 +21,7 @@ a {
     'color #{_duration(transition)} ease'
   ));
   text-decoration: none;
-  color: _palette(fg);
+  color: _palette(text-main);
 
   &:hover {
     border-bottom-color: transparent;
@@ -34,7 +30,7 @@ a {
 }
 
 strong, b {
-  color: _palette(fg-bold);
+  color: _palette(text-heading);
   font-weight: _font(weight-bold);
 }
 
@@ -47,15 +43,11 @@ p {
 }
 
 h1 {
-  font-size: 2em;
-  color: _palette(fg-bold);
+  font-size: 2rem;
+  color: _palette(text-heading);
   font-weight: _font(weight-bold-alt);
   line-height: 1.3;
   margin: 0 0 (_size(element-margin) * 0.5) 0;
-
-  &:not(:first-child) {
-    margin-top: 4em;
-  }
 
   a {
     color: inherit;
@@ -81,23 +73,15 @@ h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 1.1em;
+  font-size: 1.3rem;
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 h4 {
-  font-size: 0.8em;
-}
-
-h5 {
-  font-size: 0.8em;
-}
-
-h6 {
-  font-size: 0.8em;
+  font-size: 1.1em;
 }
 
 @include breakpoint('<=medium') {
@@ -184,5 +168,5 @@ hr {
 }
 
 .underlined {
-  background-image: linear-gradient(180deg,transparent 70%,rgba(255, 153, 0, .4) 0);
+  background-image: linear-gradient(180deg,transparent 70%,rgba(255, 153, 0, .6) 0);
 }
