@@ -9,6 +9,7 @@
     <p>{{ group.text }}</p>
 
     <iframe
+      v-if="group.videoSrc"
       :src="group.videoSrc"
       width="560"
       height="315"
