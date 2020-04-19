@@ -7,21 +7,22 @@
       Du fragst Dich wie? Auf dieser Seite findest Du vorab eine Informationssammlung zu Weitblick
       und allen Gruppen in Form von kurzen Texten und Videos. So kannst Du Dich schonmal vertraut
       machen mit unseren Gruppen.<br>
-      Am 7. Mai 2020 um 20 Uhr findet dann die eigentliche Infoveranstaltung
-      als Online-Videokonferenz statt. Da hast Du dann die Möglichkeit die Gruppen kennenzulernen
-      und direkt Deine Fragen zu stellen. Unten findest du ein Formular, über welches Du den
-      Gruppen deine Kontaktdaten hinterlassen kannst. Diese melden sich dann bei Dir.
+      <span class="underlined">Am 7. Mai 2020 um 20 Uhr</span> findet dann die eigentliche
+      Infoveranstaltung als Online-Videokonferenz statt. Da hast Du dann die Möglichkeit die
+      Gruppen kennenzulernen und direkt Deine Fragen zu stellen. Unten findest du ein Formular,
+      über welches Du den Gruppen deine Kontaktdaten hinterlassen kannst. Diese melden sich dann
+      bei Dir.
       Teilnehmen kannst du direkt über den Webbrowser ohne Installation eines Programmes.
       Wir empfehlen Dir aber dies mit deinem Computer zu machen.
     </p>
     <table>
       <tr>
         <td>Wann</td>
-        <td><a>Donnerstag, 7. Mai 2020 ab 20 Uhr</a></td>
+        <td><a class="underlined">Donnerstag, 7. Mai 2020 ab 20 Uhr</a></td>
       </tr>
       <tr>
         <td>Wo</td>
-        <td><a>Bei Dir zu Hause</a></td>
+        <td><a class="underlined">Bei Dir zu Hause</a></td>
       </tr>
     </table>
     <ul class="vertical">
