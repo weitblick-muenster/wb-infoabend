@@ -51,15 +51,19 @@
     </table>
     <ul class="vertical">
       <li>
-        <a
-          href="#"
+        <NuxtLink
+          tag="button"
+          :disabled="true"
+          to="/"
           class="button primary"
         >
           <span class="label">Teilnehmen</span>
-        </a>
+        </NuxtLink>
       </li>
       <li>
         <NuxtLink
+          tag="button"
+          :disabled="true"
           to="/form"
           class="button primary"
         >
