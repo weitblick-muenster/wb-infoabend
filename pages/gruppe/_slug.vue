@@ -6,7 +6,7 @@
       <img :src="imageSrc">
     </span>
 
-    <p>{{ group.description }}</p>
+    <p>{{ group.text }}</p>
 
     <iframe
       :src="group.videoSrc"

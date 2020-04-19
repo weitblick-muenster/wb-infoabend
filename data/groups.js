@@ -2,6 +2,7 @@ export default [
   {
     name: 'Austausch',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Austausch.png',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 1,
@@ -10,6 +11,7 @@ export default [
   {
     name: 'Honduras',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Honduras.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 2,
@@ -18,6 +20,7 @@ export default [
   {
     name: 'Kultour',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Kultour.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 3,
@@ -26,6 +29,7 @@ export default [
   {
     name: 'Kulturstürmer',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Kulturstürmer.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 4,
@@ -34,6 +38,7 @@ export default [
   {
     name: 'Science Slam',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Scienceslam.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 5,
@@ -42,6 +47,7 @@ export default [
   {
     name: 'WeitBeat',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Weitbeat.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 6,
@@ -50,6 +56,7 @@ export default [
   {
     name: 'WeitWeg',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/WeitWeg.jpeg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 2,
@@ -58,6 +65,7 @@ export default [
   {
     name: 'Weltwärts Begegnungen',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'group-pictures/Weltwärts.jpeg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 3,
@@ -66,6 +74,7 @@ export default [
   {
     name: 'Social Media',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'pic09.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 1,
@@ -74,6 +83,7 @@ export default [
   {
     name: 'IT',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'pic10.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 5,
@@ -82,6 +92,7 @@ export default [
   {
     name: 'Ideenschmiede',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'pic11.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 6,
@@ -90,6 +101,7 @@ export default [
   {
     name: 'Group No. 12',
     description: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
+    text: 'Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.',
     imgSrc: 'pic12.jpg',
     videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 4,
