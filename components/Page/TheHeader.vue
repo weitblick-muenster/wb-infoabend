@@ -1,18 +1,16 @@
 <template>
-  <header id="header">
-    <div class="inner">
-      <NuxtLink
-        to="/"
-        class="logo"
+  <header
+    id="header"
+  >
+    <NuxtLink
+      to="/"
+      class="logo"
+    >
+      <img
+        src="~/assets/images/logos/WBCD_Logo_standard.png"
+        alt="Weitblick Münster Logo"
       >
-        <span class="symbol">
-          <img
-            src="~/assets/images/logos/WBCD_Logo_standard.png"
-            alt="Weitblick Münster Logo"
-          >
-        </span>
-      </NuxtLink>
-    </div>
+    </NuxtLink>
   </header>
 </template>
 

@@ -1,7 +1,5 @@
 <template>
   <div>
-    <h1>Unsere Gruppen</h1>
-
     <section class="tiles">
       <Tile
         v-for="group in groups"
