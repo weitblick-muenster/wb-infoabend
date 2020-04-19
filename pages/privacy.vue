@@ -1,14 +1,14 @@
 <template>
   <!-- eslint-disable max-len -->
   <section>
-    <h4>Allgemeine Hinweise</h4>
+    <h1>Allgemeine Hinweise</h1>
     <p>
       Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten
       passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
       persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen
       Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
     </p>
-    <h4>Kontakt</h4>
+    <strong>Kontakt</strong>
     <p>
       Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
     </p>
@@ -19,7 +19,7 @@
       <a href="mailto:muenster@weitblicker.org">muenster@weitblicker.org</a>
     </p>
 
-    <h4>Zuständige Aufsichtsbehörde</h4>
+    <strong>Zuständige Aufsichtsbehörde</strong>
     <p>
       Sie haben das Recht, sich über die Verarbeitung personenbezogener Daten durch uns bei einer Aufsichtsbehörde für
       den Datenschutz zu beschweren. Sie können dies bei der zuständigen Aufsichtsbehörde tun:
@@ -34,14 +34,14 @@
       >https://www.ldi.nrw.de</a>
     </p>
 
-    <h4>Widerruf Ihrer Einwilligung zur Datenverarbeitung</h4>
+    <strong>Widerruf Ihrer Einwilligung zur Datenverarbeitung</strong>
     <p>
       Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine
       bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.
       Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
     </p>
 
-    <h4>Recht auf Datenübertragbarkeit</h4>
+    <strong>Recht auf Datenübertragbarkeit</strong>
     <p>
       Ihnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags
       automatisiert verarbeiten, an sich oder an Dritte aushändigen zu lassen. Die Bereitstellung erfolgt in einem
@@ -49,7 +49,7 @@
       erfolgt dies nur, soweit es technisch machbar ist.
     </p>
 
-    <h4>Recht auf Auskunft, Berichtigung, Sperrung, Löschung</h4>
+    <strong>Recht auf Auskunft, Berichtigung, Sperrung, Löschung</strong>
     <p>
       Sie haben jederzeit im Rahmen der geltenden gesetzlichen Bestimmungen das Recht auf unentgeltliche Auskunft über
       Ihre gespeicherten personenbezogenen Daten, Herkunft der Daten, deren Empfänger und den Zweck der Datenverarbeitung
@@ -58,7 +58,7 @@
       uns wenden.
     </p>
 
-    <h4>Cookies</h4>
+    <strong>Cookies</strong>
     <p>
       Auf unseren Internetseiten kommen Cookies zum Einsatz. Cookies sind kleine Textinformationen, die über Ihren Browser in
       Ihrem Endgerät gespeichert werden. Die Cookies sind erforderlich, um bestimmte Funktionen unserer Internetseiten zu
@@ -71,7 +71,7 @@
       Interesse im Sinne des Art. 6 Abs. 1 lit. f) ist der Betrieb dieser Internetseite.
     </p>
 
-    <h4>Server-Log-Dateien</h4>
+    <strong>Server-Log-Dateien</strong>
     <p>
       In Server-Log-Dateien erhebt und speichert der Provider (Github Pages) der Website automatisch Informationen, die Ihr
       Browser automatisch an uns übermittelt. Dies sind:
@@ -95,7 +95,7 @@
       </a>.
     </p>
 
-    <h4>Anfrage per E-Mail, Telefon oder Telefax</h4>
+    <strong>Anfrage per E-Mail, Telefon oder Telefax</strong>
     <p>
       Wenn Sie uns per E-Mail oder Telefon kontaktieren, wird Ihre Anfrage inklusive aller daraus
       hervorgehenden personenbezogenen Daten (Name, Anfrage) zum Zwecke der Bearbeitung Ihres Anliegens
@@ -111,7 +111,7 @@
       insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.
     </p>
 
-    <h4>Google Analytics</h4>
+    <strong>Google Analytics</strong>
     <p>
       Unsere Website verwendet Funktionen des Webanalysedienstes Google Analytics. Anbieter des Webanalysedienstes ist die
       Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
@@ -125,7 +125,7 @@
       Das Setzen von Google-Analytics-Cookies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f) DSGVO. Als Betreiber dieser Website
       haben wir ein berechtigtes Interesse an der Analyse des Nutzerverhaltens, um unser Webangebot und ggf. auch Werbung zu optimieren.
     </p>
-    <h5>IP-Anonymisierung</h5>
+    <strong>IP-Anonymisierung</strong>
     <p>
       Wir setzen Google Analytics in Verbindung mit der Funktion IP-Anonymisierung ein. Sie gewährleistet, dass Google Ihre
       IP-Adresse innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den
@@ -135,7 +135,7 @@
       und der Internetnutzung verbundene Dienstleistungen gegenüber uns zu erbringen. Es findet keine Zusammenführung der von
       Google Analytics übermittelten IP-Adresse mit anderen Daten von Google statt.
     </p>
-    <h5>Browser Plugin</h5>
+    <strong>Browser Plugin</strong>
     <p>
       Das Setzen von Cookies durch Ihren Webbrowser ist verhinderbar. Einige Funktionen unserer Website könnten dadurch jedoch
       eingeschränkt werden. Ebenso können Sie die Erfassung von Daten bezüglich Ihrer Website-Nutzung einschließlich Ihrer
@@ -146,7 +146,7 @@
         target="_blank"
       >https://tools.google.com/dlpage/gaoptout?hl=de</a>.
     </p>
-    <h5>Widerspruch gegen die Datenerfassung</h5>
+    <strong>Widerspruch gegen die Datenerfassung</strong>
     <p>
       Sie können die Erfassung Ihrer Daten durch Google Analytics verhindern, indem Sie auf folgenden Link klicken.
       Es wird ein Opt-Out-Cookie gesetzt, der die Erfassung Ihrer Daten bei zukünftigen Besuchen unserer Website verhindert:
@@ -161,12 +161,12 @@
         https://support.google.com/analytics/answer/6004245?hl=de
       </a>.
     </p>
-    <h5>Auftragsverarbeitung</h5>
+    <strong>Auftragsverarbeitung</strong>
     <p>
       Zur vollständigen Erfüllung der gesetzlichen Datenschutzvorgaben haben wir mit Google einen Vertrag über die
       Auftragsverarbeitung abgeschlossen.
     </p>
-    <h5>Demografische Merkmale bei Google Analytics</h5>
+    <strong>Demografische Merkmale bei Google Analytics</strong>
     <p>
       Unsere Website verwendet die Funktion “demografische Merkmale” von Google Analytics. Mit ihr lassen sich Berichte erstellen,
       die Aussagen zu Alter, Geschlecht und Interessen der Seitenbesucher enthalten. Diese Daten stammen aus interessenbezogener
@@ -176,7 +176,7 @@
       erläutert, generell untersagen.
     </p>
 
-    <h4>Google Web Fonts</h4>
+    <strong>Google Web Fonts</strong>
     <p>
       Unsere Website verwendet Web Fonts von Google. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View,
       CA 94043, USA.
