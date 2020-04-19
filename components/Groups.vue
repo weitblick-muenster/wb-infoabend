@@ -1,17 +1,13 @@
 <template>
-  <div>
-    <h1>Unsere Gruppen</h1>
-
-    <section class="tiles">
-      <Tile
-        v-for="group in groups"
-        :key="group.name"
-        :title="group.name"
-        :text="group.description"
-        :image="group.imgSrc"
-        :style-number="group.styleNumber"
-      />
-    </section>
+  <div class="tiles">
+    <Tile
+      v-for="group in groups"
+      :key="group.name"
+      :title="group.name"
+      :text="group.description"
+      :image="group.imgSrc"
+      :style-number="group.styleNumber"
+    />
   </div>
 </template>
 
