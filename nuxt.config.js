@@ -24,6 +24,7 @@ export default {
   */
   css: [
     '~/assets/sass/main.scss',
+    '@fortawesome/fontawesome-free/css/all.min.css',
   ],
   /*
   ** Plugins to load before mounting the App
