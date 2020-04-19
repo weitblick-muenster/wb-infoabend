@@ -27,7 +27,17 @@ Create a `Pull Request`, request a review, merge to master.
 
 ## Deployment
 
-The latest changes in the project should be on the `master` branch. The default branch for deployments is `gh-pages`. Commits made to this branch are going to be deployed by the system. To deploy latest changes, merge the `master` into `gh-pages` branch.
+The latest changes in the project should be on the `master` branch. The default branch for deployments is `gh-pages`. Commits made to this branch are going to be deployed by the system.
+
+In order to deploy the latest changes, run the following script:
+
+```bash
+# generate static project in dist/ folder
+yarn run generate
+
+# only deploy dist/ folder to GitHub Pages
+yarn run deploy
+```
 
 ## Credits
 
