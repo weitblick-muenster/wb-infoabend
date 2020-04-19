@@ -1,3 +1,4 @@
+import groups from './data/groups';
 
 export default {
   mode: 'universal',
@@ -64,8 +65,12 @@ export default {
   },
   generate: {
     routes() {
+      const groupRoutes = groups.map((group) => `/gruppe/${group.slug}`);
+
       return [
         '/',
+        '/form',
+        ...groupRoutes,
       ];
     },
   },

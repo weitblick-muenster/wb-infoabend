@@ -10,6 +10,7 @@
         :text="group.description"
         :image="group.imgSrc"
         :style-number="group.styleNumber"
+        :slug="group.slug"
       />
     </section>
   </div>

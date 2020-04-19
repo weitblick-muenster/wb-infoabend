@@ -6,12 +6,12 @@
         :alt="imageText"
       >
     </span>
-    <a>
+    <NuxtLink :to="`/gruppe/${slug}`">
       <h2>{{ title }}</h2>
       <div class="content">
         <p>{{ text }}</p>
       </div>
-    </a>
+    </NuxtLink>
   </article>
 </template>
 
@@ -38,6 +38,10 @@ export default {
       type: String,
       required: false,
       default: '',
+    },
+    slug: {
+      type: String,
+      required: true,
     },
     styleNumber: {
       type: Number,
