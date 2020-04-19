@@ -63,7 +63,9 @@ export default {
   },
   generate: {
     routes() {
-      return [];
+      return [
+        '/',
+      ];
     },
   },
 };
