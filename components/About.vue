@@ -16,14 +16,16 @@
       Wir empfehlen Dir aber dies mit deinem Computer zu machen.
     </p>
     <table>
-      <tr>
-        <td>Wann</td>
-        <td><a class="underlined">Donnerstag, 7. Mai 2020 ab 20 Uhr</a></td>
-      </tr>
-      <tr>
-        <td>Wo</td>
-        <td><a class="underlined">Bei Dir zu Hause</a></td>
-      </tr>
+      <tbody>
+        <tr>
+          <td>Wann</td>
+          <td><a class="underlined">Donnerstag, 7. Mai 2020 ab 20 Uhr</a></td>
+        </tr>
+        <tr>
+          <td>Wo</td>
+          <td><a class="underlined">Bei Dir zu Hause</a></td>
+        </tr>
+      </tbody>
     </table>
     <ul class="vertical">
       <li>
