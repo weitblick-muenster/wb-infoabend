@@ -126,6 +126,15 @@ export default [
     slug: 'patenprogramm',
   },
   {
+    name: 'Young Business',
+    description: '',
+    text: '',
+    imgSrc: 'group-pictures/YoungBusiness.jpg',
+    // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
+    styleNumber: 5,
+    slug: 'young-business',
+  },
+  {
     name: 'Öffentlichkeitsarbeit',
     description: 'Wir kümmern uns um Social Media und machen Pressearbeit.',
     text: 'Wir kümmern uns darum, wie Weitblick nach außen hin vertreten wird und unsere Idee von fairem Zugang zu Bildung weitergetragen wird. Ob Inhalte für Instagram, Facebook und Website oder Texte für die Presse, in unserer Gruppe ist jede Menge Kreativität und Einfallsreichtum gefragt. Dabei achten wir stets darauf uns kitisch mit unseren Inhalten auseinanderzusetzen.',
@@ -151,14 +160,5 @@ export default [
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 4,
     slug: 'mitgliedergewinnung',
-  },
-  {
-    name: 'Young Business',
-    description: '',
-    text: '',
-    imgSrc: 'pic12.jpg',
-    // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 5,
-    slug: 'young-business',
   },
 ];
