@@ -81,13 +81,13 @@ export default [
     slug: 'ideenschmiede',
   },
   {
-    name: 'Social Media',
-    description: '',
-    text: '',
+    name: 'Öffentlichkeitsarbeit',
+    description: 'Wir kümmern uns um Social Media und machen Pressearbeit.',
+    text: 'Wir kümmern uns darum, wie Weitblick nach außen hin vertreten wird und unsere Idee von fairem Zugang zu Bildung weitergetragen wird. Ob Inhalte für Instagram, Facebook und Website oder Texte für die Presse, in unserer Gruppe ist jede Menge Kreativität und Einfallsreichtum gefragt. Dabei achten wir stets darauf uns kitisch mit unseren Inhalten auseinanderzusetzen.',
     imgSrc: 'pic09.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 1,
-    slug: 'social-media',
+    slug: 'oeffentlichkeitsarbeit',
   },
   {
     name: 'IT',
