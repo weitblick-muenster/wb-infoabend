@@ -55,8 +55,15 @@ export default {
     optimizeImages: true,
     optimizeImagesInDev: true,
     mozjpeg: {
-      quality: 80,
+      quality: 20,
     },
+    webp: {
+      quality: 50,
+    },
+    responsive: {
+      name: 'img/[hash:7]-[width].[ext]',
+      sizes: [300, 600, 1200],
+    }
   },
   /*
   ** Build configuration
