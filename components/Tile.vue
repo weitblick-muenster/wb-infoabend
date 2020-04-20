@@ -1,10 +1,19 @@
 <template>
   <article :class="cssClasses">
     <span class="image">
-      <img
-        :src="imageSrc"
-        :alt="imageText"
-      >
+      <picture>
+        <source
+          :srcSet="imageSrcWebp"
+          type="image/webp"
+        >
+        <source
+          :srcSet="imageSrc"
+        >
+        <img
+          :src="imageSrc"
+          :alt="imageText"
+        >
+      </picture>
     </span>
     <NuxtLink :to="`/gruppe/${slug}`">
       <h2>{{ title }}</h2>
@@ -66,6 +75,9 @@ export default {
     },
     imageSrc() {
       return require(`~/assets/images/${this.image}`);
+    },
+    imageSrcWebp() {
+      return require(`~/assets/images/${this.image}?webp`);
     },
   },
 };

@@ -1,9 +1,20 @@
 <template>
   <section>
-    <img
-      :src="imageSrc"
-      class="hero-image"
-    >
+    <picture>
+      <source
+        :srcSet="imageSrcWebp"
+        type="image/webp"
+        class="hero-image"
+      >
+      <source
+        :srcSet="imageSrc"
+        class="hero-image"
+      >
+      <img
+        :src="imageSrc"
+        class="hero-image"
+      >
+    </picture>
     <h1>{{ group.name }}</h1>
     <p>{{ group.text }}</p>
     <iframe
@@ -49,6 +60,9 @@ export default {
   computed: {
     imageSrc() {
       return require(`~/assets/images/${this.group.imgSrc}`);
+    },
+    imageSrcWebp() {
+      return require(`~/assets/images/${this.group.imgSrc}?webp`);
     },
   },
 };
