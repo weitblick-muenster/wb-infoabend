@@ -48,7 +48,23 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@aceforth/nuxt-optimized-images',
   ],
+
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: false,
+    mozjpeg: {
+      quality: 20,
+    },
+    webp: {
+      quality: 50,
+    },
+    responsive: {
+      name: 'img/[hash:7]-[width].[ext]',
+      sizes: [300, 600, 1200],
+    }
+  },
   /*
   ** Build configuration
   */

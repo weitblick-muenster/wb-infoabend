@@ -3,7 +3,7 @@ export default [
     name: 'Austausch',
     description: '',
     text: '',
-    imgSrc: 'group-pictures/Austausch.png',
+    imgSrc: 'group-pictures/Austausch.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/JZ4r2OEWP98',
     styleNumber: 1,
     slug: 'austausch',

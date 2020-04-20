@@ -1,7 +1,7 @@
 <template>
   <section>
     <img
-      :src="imageSrc"
+      :srcSet="imageSrc.srcSet"
       class="hero-image"
     >
     <h1>{{ group.name }}</h1>
@@ -48,7 +48,7 @@ export default {
   },
   computed: {
     imageSrc() {
-      return require(`~/assets/images/${this.group.imgSrc}`);
+      return require(`~/assets/images/${this.group.imgSrc}?resize`);
     },
   },
 };

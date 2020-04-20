@@ -6,10 +6,20 @@
       to="/"
       class="logo"
     >
-      <img
-        src="~/assets/images/logos/WBCD_Logo_standard.png"
-        alt="Weitblick Münster Logo"
-      >
+      <picture>
+        <source
+          :srcSet="require('~/assets/images/logos/WBCD_Logo_standard.png?webp')"
+          type="image/webp"
+        >
+        <source
+          :srcSet="require('~/assets/images/logos/WBCD_Logo_standard.png')"
+          type="image/png"
+        >
+        <img
+          :src="require('~/assets/images/logos/WBCD_Logo_standard.png?webp')"
+          alt="Weitblick Münster Logo"
+        >
+      </picture>
     </NuxtLink>
   </header>
 </template>

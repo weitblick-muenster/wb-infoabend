@@ -2,7 +2,7 @@
   <article :class="cssClasses">
     <span class="image">
       <img
-        :src="imageSrc"
+        :srcSet="imageSrc.srcSet"
         :alt="imageText"
       >
     </span>
@@ -65,7 +65,7 @@ export default {
       ];
     },
     imageSrc() {
-      return require(`~/assets/images/${this.image}`);
+      return require(`~/assets/images/${this.image}?size=300`);
     },
   },
 };
