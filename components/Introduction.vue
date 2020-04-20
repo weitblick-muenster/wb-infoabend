@@ -67,7 +67,7 @@
           to="/form"
           class="button primary"
         >
-          <span class="label">Formular</span>
+          <span class="label">mitmachen</span>
         </NuxtLink>
       </li>
     </ul>
