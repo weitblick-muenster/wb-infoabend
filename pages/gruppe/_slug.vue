@@ -6,22 +6,12 @@
     >
     <h1>{{ group.name }}</h1>
     <p>{{ group.text }}</p>
-    <!-- <iframe
-      v-if="group.videoSrc"
-      :src="group.videoSrc"
-      width="560"
-      height="315"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    /> -->
-
-    <!-- use this as Placeholder until all Videos are uploaded -->
     <iframe
+      v-if="group.videoSrc"
       class="group-video"
-      src="https://www.youtube.com/embed/uejS5Az7Xbw"
+      :src="group.videoSrc"
       frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;"
       allowfullscreen
     />
     <Follow />
