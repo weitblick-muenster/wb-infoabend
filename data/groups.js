@@ -72,6 +72,15 @@ export default [
     slug: 'weltwaerts',
   },
   {
+    name: 'Ideenschmiede',
+    description: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen.',
+    text: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen. Es ist eine tolle Kooperation mit der Bäckerei Tollkötter umgesetzt worden. Außerdem haben wir ein Planspiel zum Thema Flucht und Migration entwickelt. Das wird in Schulen mit SuS umgesetzt und sensibilisiert diese für den Weg und die Erfahrungen einer Flucht. Wir hoffen, dass wir durch kreative neue Mitglieder*innen weitere Projekte umsetzen können.',
+    imgSrc: 'group-pictures/Ideenschmiede.jpg',
+    // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
+    styleNumber: 6,
+    slug: 'ideenschmiede',
+  },
+  {
     name: 'Social Media',
     description: '',
     text: '',
@@ -88,15 +97,6 @@ export default [
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 5,
     slug: 'it',
-  },
-  {
-    name: 'Ideenschmiede',
-    description: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen.',
-    text: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen. Es ist eine tolle Kooperation mit der Bäckerei Tollkötter umgesetzt worden. Außerdem haben wir ein Planspiel zum Thema Flucht und Migration entwickelt. Das wird in Schulen mit SuS umgesetzt und sensibilisiert diese für den Weg und die Erfahrungen einer Flucht. Wir hoffen, dass wir durch kreative neue Mitglieder*innen weitere Projekte umsetzen können.',
-    imgSrc: 'pic11.jpg',
-    // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 6,
-    slug: 'ideenschmiede',
   },
   {
     name: 'Mitgliedergewinnung',
@@ -151,5 +151,14 @@ export default [
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
     styleNumber: 6,
     slug: 'group-no-17',
+  },
+  {
+    name: 'Theater',
+    description: '',
+    text: '',
+    imgSrc: 'pic12.jpg',
+    // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
+    styleNumber: 6,
+    slug: 'group-no-18',
   },
 ];
