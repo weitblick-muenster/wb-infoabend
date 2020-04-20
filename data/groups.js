@@ -59,7 +59,7 @@ export default [
     text: 'Die „Weitweg-Gruppe“ kümmert sich um die Vor- und Nachbereitung für alldiejenigen, die mit Weitblick ins Ausland reisen. Dafür müssen Methoden vorbereitet und die Durchführung dieser organisiert werden. In unserer Gruppe sind teilweise Leute, die bereits mit Weitblick im Ausland waren, aber wir freuen uns auch sehr über neue Leute, die Lust und Spaß bei der Vor- und Nachbereitung von anderen haben!',
     imgSrc: 'group-pictures/WeitWeg.jpeg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 2,
+    styleNumber: 1,
     slug: 'weit-weg',
   },
   {
@@ -68,7 +68,7 @@ export default [
     text: 'Die Weltwärts-Begegnungs-Gruppe organisiert einen Jugendaustausch zwischen Benin und Deutschland zum Thema Nachhaltigkeit und Klimaschutz. Die Gruppe hat sich durch ein Projekt von Engagement Global gebildet. Zu allererst haben wir eine geeignete Partnerorganisation in Benin  gefunden, danach haben wir den Antrag für den Austausch erarbeitet, so dass der Austausch auch stattfinden kann, und nun geht es um die konkrete Ausarbeitung und Planung des Austauschs in Benin und in Deutschland vor Ort. Kommt gerne vorbei, wir freuen uns auf neue Gesichter!',
     imgSrc: 'group-pictures/Weltwärts.jpeg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 3,
+    styleNumber: 2,
     slug: 'weltwaerts',
   },
   {
@@ -77,7 +77,7 @@ export default [
     text: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen. Es ist eine tolle Kooperation mit der Bäckerei Tollkötter umgesetzt worden. Außerdem haben wir ein Planspiel zum Thema Flucht und Migration entwickelt. Das wird in Schulen mit SuS umgesetzt und sensibilisiert diese für den Weg und die Erfahrungen einer Flucht. Wir hoffen, dass wir durch kreative neue Mitglieder*innen weitere Projekte umsetzen können.',
     imgSrc: 'group-pictures/Ideenschmiede.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 6,
+    styleNumber: 3,
     slug: 'ideenschmiede',
   },
   {
@@ -86,7 +86,7 @@ export default [
     text: '',
     imgSrc: 'group-pictures/Weiterbilden.jpeg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 6,
+    styleNumber: 4,
     slug: 'weiterbilden',
   },
   {
@@ -95,7 +95,7 @@ export default [
     text: 'Beim Weitblick-Spendenlauf steht nicht die sportliche Höchstleistung im Vordergrund, sondern wie bei all unseren Aktionen der Spaß an der guten Sache. Der Lauf findet seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester statt und ist damit schon ein Weitblick Klassiker. Einen digitalen Spendenlauf, wie wir ihn bedingt durch die Corona Situation durchführen werden, hatten wir allerdings noch nie! Gerade für Neu-WeitblickerInnen ist die Veranstaltung mit vielen kleinen, aber auch ein paar größeren Aufgaben perfekt geeignet, um direkt loszulegen und eine erste Aktion mit zu organisieren. Zu Beginn des Sommersemesters kann man gut in das Projekt einsteigen.',
     imgSrc: 'group-pictures/spendenlauf.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 2,
+    styleNumber: 5,
     slug: 'spendenlauf',
   },
   {
@@ -113,7 +113,7 @@ export default [
     text: '',
     imgSrc: 'group-pictures/Weltweiterblick.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 3,
+    styleNumber: 1,
     slug: 'weltweiterblick',
   },
   {
@@ -122,7 +122,7 @@ export default [
     text: '',
     imgSrc: 'group-pictures/Patenprogramm.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 1,
+    styleNumber: 2,
     slug: 'patenprogramm',
   },
   {
@@ -131,7 +131,7 @@ export default [
     text: '',
     imgSrc: 'group-pictures/YoungBusiness.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 5,
+    styleNumber: 3,
     slug: 'young-business',
   },
   {
@@ -140,7 +140,7 @@ export default [
     text: 'Wir kümmern uns darum, wie Weitblick nach außen hin vertreten wird und unsere Idee von fairem Zugang zu Bildung weitergetragen wird. Ob Inhalte für Instagram, Facebook und Website oder Texte für die Presse, in unserer Gruppe ist jede Menge Kreativität und Einfallsreichtum gefragt. Dabei achten wir stets darauf uns kitisch mit unseren Inhalten auseinanderzusetzen.',
     imgSrc: 'pic09.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 1,
+    styleNumber: 4,
     slug: 'oeffentlichkeitsarbeit',
   },
   {
@@ -158,7 +158,7 @@ export default [
     text: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben. Das ist aber keine trockene Aufgabe, sondern macht sehr viel Spaß: Wir organisieren Veranstaltungen wie den Infoabend, die Kennenlernfahrt im Wintersemester und unseren Sommertag im Sommersemester und besuchen zu Beginn des Semesters Vorlesungen, um dort neuen Studierenden Weitblick vorzustellen. Schau gerne mal bei uns vorbei! :)',
     imgSrc: 'pic12.jpg',
     // videoSrc: 'https://www.youtube.com/embed/UdJOPTGj-C4',
-    styleNumber: 4,
+    styleNumber: 6 ,
     slug: 'mitgliedergewinnung',
   },
 ];
