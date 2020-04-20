@@ -26,10 +26,13 @@
     "sass-loader": "^8.0.2"
   },
   "devDependencies": {
+    "@aceforth/nuxt-optimized-images": "^1.0.0",
     "@nuxtjs/eslint-config": "^2.0.0",
     "@nuxtjs/eslint-module": "^1.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.1.0",
-    "eslint-plugin-nuxt": ">=0.4.2"
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0"
   }
 }

@@ -48,7 +48,16 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@aceforth/nuxt-optimized-images',
   ],
+
+  optimizedImages: {
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+    mozjpeg: {
+      quality: 80,
+    },
+  },
   /*
   ** Build configuration
   */
