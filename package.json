@@ -33,6 +33,7 @@
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "imagemin-mozjpeg": "^8.0.0",
-    "imagemin-pngquant": "^8.0.0"
+    "imagemin-pngquant": "^8.0.0",
+    "webp-loader": "^0.6.0"
   }
 }
