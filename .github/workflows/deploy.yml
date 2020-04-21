@@ -23,7 +23,7 @@ jobs:
       run: |
         sudo apt-get install libglu1
         sudo apt-get install libxi6 libgconf-2-4
-        sudo apt-get install  sudo apt-get install libjpeg-dev libpng-dev libwebp-dev
+        sudo apt-get install libjpeg-dev libpng-dev libwebp-dev
         sudo ldconfig
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
