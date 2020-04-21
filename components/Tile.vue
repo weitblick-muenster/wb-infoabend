@@ -2,8 +2,9 @@
   <article :class="cssClasses">
     <span class="image">
       <img
-        :srcSet="imageSrc.srcSet"
+        :data-srcset="imageSrc.srcSet"
         :alt="imageText"
+        class="lazyload"
       >
     </span>
     <NuxtLink :to="`/gruppe/${slug}`">

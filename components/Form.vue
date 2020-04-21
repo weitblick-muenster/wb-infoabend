@@ -2,7 +2,7 @@
   <div class="ms-form">
     <ClientOnly>
       <iframe
-        :src="formSrc"
+        :data-src="formSrc"
         width="100%"
         height="1800px"
         frameborder="0"
@@ -13,6 +13,7 @@
         webkitallowfullscreen=""
         mozallowfullscreen=""
         msallowfullscreen=""
+        class="lazyload"
       />
     </ClientOnly>
   </div>

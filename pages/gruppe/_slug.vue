@@ -8,8 +8,8 @@
     <p>{{ group.text }}</p>
     <iframe
       v-if="group.videoSrc"
-      class="group-video"
-      :src="group.videoSrc"
+      class="group-video lazyload"
+      :data-src="group.videoSrc"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope;"
       allowfullscreen

@@ -36,6 +36,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/lazysizes.client.js',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -61,8 +62,9 @@ export default {
       quality: 50,
     },
     responsive: {
-      name: 'img/[hash:7]-[width].[ext]',
+      name: 'img/[name]-[width].[ext]',
       sizes: [300, 600, 1200],
+      adapter: require('responsive-loader/sharp'),
     }
   },
   /*
@@ -72,6 +74,12 @@ export default {
     /*
     ** You can extend webpack config here
     */
+    extend (config, { isDev, isClient, loaders: { vue } }) {
+      if (isClient) {
+        vue.transformAssetUrls.img = ['data-src', 'src']
+        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+      }
+    },
     extend(config, ctx) {
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
