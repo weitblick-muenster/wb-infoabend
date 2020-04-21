@@ -20,7 +20,10 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: install missing pkg
-      run: apk --no-cache add pkgconfig autoconf automake libtool nasm build-base zlib-dev
+      run: |
+        apt-get install libglu1
+        apt-get install libxi6 libgconf-2-4
+        ldconfig
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - uses: borales/actions-yarn@v2.0.0
