@@ -25,6 +25,7 @@ jobs:
         sudo apt-get install libxi6 libgconf-2-4
         sudo apt-get install libjpeg-dev libpng-dev libwebp-dev
         sudo ldconfig
+        rm node_modules -rf
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
     - uses: borales/actions-yarn@v2.0.0
