@@ -34,10 +34,3 @@ jobs:
         BRANCH: gh-pages
         FOLDER: dist
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Serve Static files
-      uses: s0/git-publish-subdir-action@master
-      env:
-        REPO: self
-        BRANCH: gh-pages
-        FOLDER: static
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
