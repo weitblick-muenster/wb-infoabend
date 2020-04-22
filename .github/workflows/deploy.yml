@@ -24,10 +24,9 @@ jobs:
     - uses: borales/actions-yarn@v2.0.0
       with:
         cmd: install # will run `yarn install` command
-    - name: yarn generate
-      uses: borales/actions-yarn@v2.0.0
-        with:
-          cmd: generate # will run `yarn run generate` command
+    - uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: generate # will run `yarn run generate` command
     - name: Deploy
       uses: s0/git-publish-subdir-action@master
       env:
