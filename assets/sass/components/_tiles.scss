@@ -23,7 +23,7 @@
     ));
     position: relative;
     width: calc(#{(100% / 3)} - #{$gutter * 1});
-    height: 250px;
+    max-height: 220px;
     margin: $gutter 0 0 $gutter;
 
     > .image {
@@ -231,6 +231,7 @@
 
     article {
       width: 100%;
+      max-height: 200px;
       margin: $gutter 0 0 0;
     
       &:last-child {
