@@ -17,6 +17,7 @@
         allowfullscreen
       />
     </div>
+    <Random />
     <Follow />
     <a
       class="is-underlined"
@@ -32,12 +33,14 @@
 /* eslint-disable import/no-dynamic-require */
 import {
   Follow,
+  Random,
 } from '~/components';
 import groups from '~/data/groups';
 
 export default {
   components: {
     Follow,
+    Random,
   },
   asyncData({ payload, params, error }) {
     if (payload) return payload;
