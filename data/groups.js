@@ -9,6 +9,15 @@ export default [
     slug: 'honduras',
   },
   {
+    name: 'Benin',
+    description: 'Bei uns dreht sich alles um Benin!',
+    text: 'Wir haben in Benin mehrere Projektpartnerinnen und Partner, mit denen wir bereits teilweise viele Jahre zusammenarbeiten. In dieser Zeit der Zusammenarbeit haben wir unterschiedliche Projekte und Ideen realisieren können, wobei die Finanzierung von Schulgebäuden im Mittelpunkt steht. Als Gruppe koordinieren wir jeglichen Austausch mit den Projektpartner*Innen und sprechen über neue Vorschläge sowie Ideen für unsere Projekte. Pro Semester erarbeiten wir zusammen einen Entwicklungszusammenarbeits- Workshop, in dem wir Infos über die Geschichte und den aktuellen Stand der Projekte in Benin austauschen, die Kentnisse über das Land und die beninische Kultur vertiefen als auch uns in unserer eigenen Rolle des Studierenden reflektiert in dieser Thematik einordnen. Aber natürlich haben wir auch Treffen bei denen Freizeit & Spaß im Vordergrund stehen! So veranstalten oder nehmen wir oftmals an unterschiedlichen Events teil, welche vom “Afrikafestival” in Münster bis zu einem Kocheabend mit unseren Austauschstipendiat*innen reichen.',
+    imgSrc: 'group-pictures/Beningruppe.jpg',
+    videoSrc: 'https://www.youtube-nocookie.com/embed/KswKGCQ20oE',
+    styleNumber: 5,
+    slug: 'benin',
+  },
+  {
     name: 'Kultour',
     description: 'Wir von Kultour greifen im Rahmen regelmäßiger Semesteraktionen gesellschaftsrelevante Themen auf...',
     text: 'Wir von Kultour greifen im Rahmen regelmäßiger Semesteraktionen gesellschaftsrelevante Themen auf und berücksichtigen dabei sowohl das kulturelle Angebot des Münsterlandes als auch anderer Städte. Unsere Aktionen richten sich dabei nicht nur an Weitblick Mitglieder*innen, sondern an alle Kulturinteressierten. Sie können sowohl in kleinerem Rahmen und recht spontan stattfinden als auch längerfristig vorbereitet werden und eine größere Zahl von Teilnehmer*innen umfassen. Bei Kultour steht vor allem der gegenseitige Austausch und die gemeinsame Auseinandersetzung mit Themen, die uns und die Gesellschaft bewegen, im Mittelpunkt. Wir freuen uns auf dich!',
@@ -160,14 +169,5 @@ export default [
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 6,
     slug: 'mitgliedergewinnung',
-  },
-  {
-    name: 'Benin',
-    description: 'Wir sind für alle Projekte in und mit Benin zuständig.',
-    text: '',
-    imgSrc: 'pic10.jpg',
-    videoSrc: 'https://www.youtube-nocookie.com/embed/KswKGCQ20oE',
-    styleNumber: 5,
-    slug: 'benin',
   },
 ];
