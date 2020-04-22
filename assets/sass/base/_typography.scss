@@ -93,12 +93,26 @@ h4 {
 }
 
 @include breakpoint('<=small') {
-  h2 {
-    font-size: 1em;
+  body, input, select, textarea {
+    font-size: 1rem;
+    font-weight: _font(weight);
+    line-height: 2;
   }
 
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+  
   h3 {
-    font-size: 0.8em;
+    font-size: 1.1rem;
+  }
+  
+  h4 {
+    font-size: 1.0rem;
   }
 }
 
