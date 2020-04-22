@@ -65,7 +65,7 @@ export default {
       name: 'img/[name]-[width].[ext]',
       sizes: [300, 600, 1200],
       adapter: require('responsive-loader/sharp'),
-    }
+    },
   },
   /*
   ** Build configuration
@@ -74,10 +74,10 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend (config, { isDev, isClient, loaders: { vue } }) {
+    extend(config, { isDev, isClient, loaders: { vue } }) {
       if (isClient) {
-        vue.transformAssetUrls.img = ['data-src', 'src']
-        vue.transformAssetUrls.source = ['data-srcset', 'srcset']
+        vue.transformAssetUrls.img = ['data-src', 'src'];
+        vue.transformAssetUrls.source = ['data-srcset', 'srcset'];
       }
     },
     extend(config, ctx) {

@@ -66,15 +66,13 @@ button,
 
   &.primary {
     box-shadow: none;
-    background-color: _palette(fg);
+    background-color: _palette(accent1);
     color: _palette(bg) !important;
 
-    &:hover {
-      background-color: _palette(accent1);
-    }
-
+    &:focus,
+    &:hover,
     &:active {
-      background-color: darken(_palette(accent1), 8);
+      background-color: _palette(accent6);
     }
   }
 

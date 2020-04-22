@@ -4,6 +4,7 @@
     <About />
     <Follow />
     <Groups :groups="groups" />
+    <Random />
     <More />
   </div>
 </template>
@@ -14,6 +15,7 @@ import {
   About,
   Follow,
   Groups,
+  Random,
   More,
 } from '~/components';
 import groups from '~/data/groups';
@@ -24,6 +26,7 @@ export default {
     Follow,
     About,
     Groups,
+    Random,
     More,
   },
   data() {
