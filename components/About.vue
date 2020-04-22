@@ -1,7 +1,7 @@
 <template>
   <section>
     <h1>Über Weitblick</h1>
-    <div class="group-video">
+    <div class="group-video lazyload">
       <iframe
         src="https://www.youtube-nocookie.com/embed/wbm2OwbthGM"
         frameborder="0"
