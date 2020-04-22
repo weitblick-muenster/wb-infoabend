@@ -44,7 +44,6 @@
           </td>
         </tr>
         <tr>
-          <td>Zur</td>
           <td>
             <a
               class="is-underlined"
@@ -52,7 +51,7 @@
               target="_blank"
               rel="noreferrer"
             >
-              Facebook Veranstaltung
+              Zur Facebook Veranstaltung
             </a>
           </td>
         </tr>
