@@ -7,13 +7,7 @@
       Du fragst Dich wie? Auf dieser Seite findest Du vorab eine Informationssammlung zu Weitblick
       und allen Gruppen in Form von kurzen Texten und Videos. So kannst Du Dich schonmal vertraut
       machen mit unseren Gruppen.<br>
-      <a
-        class="is-underlined"
-        href="https://www.facebook.com/events/3625732604168833"
-        target="_blank"
-      >
-        Am 7. Mai 2020 um 20 Uhr
-      </a>
+      Am 7. Mai 2020 um 20 Uhr
       findet dann die eigentliche Infoveranstaltung als Online-Videokonferenz statt. Da hast Du
       dann die Möglichkeit die Gruppen kennenzulernen und direkt Deine Fragen zu stellen. Unten
       findest du ein Formular, über welches Du den Gruppen deine Kontaktdaten hinterlassen kannst.
@@ -30,6 +24,7 @@
               class="is-underlined"
               href="https://www.facebook.com/events/3625732604168833"
               target="_blank"
+              rel="noreferrer"
             >
               Donnerstag, 7. Mai 2020 ab 20 Uhr
             </a>
@@ -42,8 +37,22 @@
               class="is-underlined"
               href="https://www.facebook.com/events/3625732604168833"
               target="_blank"
+              rel="noreferrer"
             >
               Bei Dir zu Hause
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td>Zur</td>
+          <td>
+            <a
+              class="is-underlined"
+              href="https://www.facebook.com/events/3625732604168833"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Facebook Veranstaltung
             </a>
           </td>
         </tr>

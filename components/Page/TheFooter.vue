@@ -22,6 +22,7 @@
           href="https://weitblicker.org/muenster/transparency"
           class="is-underlined"
           target="_blank"
+          rel="noreferrer"
         >
           Transparenz
         </a>

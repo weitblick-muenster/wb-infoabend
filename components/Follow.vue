@@ -10,6 +10,8 @@
         <a
           href="https://www.instagram.com/weitblick_muenster/"
           class="icon brands style2 fa-instagram"
+          target="_blank"
+          rel="noreferrer"
         >
           <span class="label">Instagram</span>
         </a>
@@ -18,6 +20,8 @@
         <a
           href="https://www.facebook.com/WeitblickMuenster"
           class="icon brands style2 fa-facebook-f"
+          target="_blank"
+          rel="noreferrer"
         >
           <span class="label">Facebook</span>
         </a>

@@ -8,6 +8,7 @@
         class="is-underlined"
         href="https://weitblicker.org/muenster/"
         target="_blank"
+        rel="noreferrer"
       >
         weitblicker.org/muenster
       </a>

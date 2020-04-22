@@ -1,6 +1,13 @@
 <template>
   <section>
     <h1>Über Weitblick</h1>
+    <iframe
+      class="group-video"
+      src="https://www.youtube-nocookie.com/embed/wbm2OwbthGM"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+      allowfullscreen
+    />
     <p>
       Weitblick ist eine Studierendeninitiative an der Uni Münster.
       Gemeinsam setzen wir uns für einen
@@ -16,6 +23,15 @@
       Spendenlauf organisieren? Es gibt viele Möglichkeiten bei Weitblick
       aktiv zu werden oder uns auch
       passiv zu unterstützen.<br>
+      Hier gibt es mehr Infos zu unseren Projekten.<br>
+      <a
+        class="is-underlined"
+        href="https://weitblicker.org/muenster/projects/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        weitblicker.org/muenster/projects
+      </a>
     </p>
   </section>
 </template>
