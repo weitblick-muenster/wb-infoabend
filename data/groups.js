@@ -1,14 +1,5 @@
 export default [
   {
-    name: 'Austausch',
-    description: '',
-    text: '',
-    imgSrc: 'group-pictures/Austausch.jpg',
-    videoSrc: 'https://www.youtube-nocookie.com/embed/JZ4r2OEWP98',
-    styleNumber: 1,
-    slug: 'austausch',
-  },
-  {
     name: 'Honduras',
     description: 'Bei uns dreht sich alles um Honduras!',
     text: 'Bei uns dreht sich alles um Honduras! Unsere Aufgabe ist die konkrete Entwicklungszusammenarbeit anhand von Bauprojekten, Schulbuchfinanzierung oder anderer Hilfe an Stellen, wo sich Bildung schwer umsetzen lässt. Für einen Austausch auf Augenhöhe organisieren wir zudem Besuche und Begegnungen bspw. als „assistant teacher“ vor Ort. Hier in Münster versuchen wir uns Studierenden Land und Leute über Kultur- und Bildungsveranstaltungen näher zu bringen.',
@@ -81,17 +72,8 @@ export default [
     slug: 'ideenschmiede',
   },
   {
-    name: 'Weiterbilden',
-    description: '',
-    text: '',
-    imgSrc: 'group-pictures/Weiterbilden.jpeg',
-    // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
-    styleNumber: 4,
-    slug: 'weiterbilden',
-  },
-  {
     name: 'Spendenlauf',
-    description: 'Seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester - Ein Weitblick Klassiker, perfekt für Neulinge',
+    description: 'Seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester - Ein Weitblick Klassiker, perfekt für Neulinge.',
     text: 'Beim Weitblick-Spendenlauf steht nicht die sportliche Höchstleistung im Vordergrund, sondern wie bei all unseren Aktionen der Spaß an der guten Sache. Der Lauf findet seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester statt und ist damit schon ein Weitblick Klassiker. Einen digitalen Spendenlauf, wie wir ihn bedingt durch die Corona Situation durchführen werden, hatten wir allerdings noch nie! Gerade für Neu-WeitblickerInnen ist die Veranstaltung mit vielen kleinen, aber auch ein paar größeren Aufgaben perfekt geeignet, um direkt loszulegen und eine erste Aktion mit zu organisieren. Zu Beginn des Sommersemesters kann man gut in das Projekt einsteigen.',
     imgSrc: 'group-pictures/spendenlauf.jpg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
@@ -100,8 +82,8 @@ export default [
   },
   {
     name: 'Theater',
-    description: '',
-    text: '',
+    description: 'Wir stellen jedes Jahr gemeinsam ein Theaterstück auf die Beine.',
+    text: 'Bei uns sind ein Haufen verrückter, engagierter und herzlicher Menschen versammelt, die jedes Jahr gemeinsam ein Theaterstück auf die Beine stellen. Dabei ist wirklich alles selbstgemacht – Schauspiel, Regie, Technik, Bühnenbild, Maske und und und… Das ist nicht nur viel Arbeit, sondern macht vor allem mächtig Spaß! Im Dezember feiern wir dann drei Aufführungen, die immer gut besucht sind und ordentlich Spenden aquirieren. Wenn du dabei sein willst, schau gerne bei uns vorbei.',
     imgSrc: 'group-pictures/theater.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/ceGrL6K8MOI',
     styleNumber: 6,
@@ -117,6 +99,15 @@ export default [
     slug: 'weltweiterblick',
   },
   {
+    name: 'Weiterbilden',
+    description: '',
+    text: '',
+    imgSrc: 'group-pictures/Weiterbilden.jpeg',
+    // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
+    styleNumber: 4,
+    slug: 'weiterbilden',
+  },
+  {
     name: 'Patenprogramm',
     description: '',
     text: '',
@@ -124,6 +115,15 @@ export default [
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 2,
     slug: 'patenprogramm',
+  },
+  {
+    name: 'Austausch',
+    description: '',
+    text: '',
+    imgSrc: 'group-pictures/Austausch.jpg',
+    videoSrc: 'https://www.youtube-nocookie.com/embed/JZ4r2OEWP98',
+    styleNumber: 1,
+    slug: 'austausch',
   },
   {
     name: 'Young Business',
@@ -145,7 +145,7 @@ export default [
   },
   {
     name: 'IT',
-    description: '',
+    description: 'Wir sind das Zahnrad des Vereins und betreuen alles was mit Technik zutun hat!',
     text: '',
     imgSrc: 'pic10.jpg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
@@ -160,5 +160,14 @@ export default [
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 6,
     slug: 'mitgliedergewinnung',
+  },
+  {
+    name: 'Benin',
+    description: 'Wir sind für alle Projekte in und mit Benin zuständig.',
+    text: '',
+    imgSrc: 'pic10.jpg',
+    videoSrc: 'https://www.youtube-nocookie.com/embed/KswKGCQ20oE',
+    styleNumber: 5,
+    slug: 'benin',
   },
 ];
