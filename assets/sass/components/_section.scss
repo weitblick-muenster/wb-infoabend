@@ -36,8 +36,16 @@ header {
   p {
     margin-top: _size(element-margin) * -0.5;
   }
+}
 
-  @include breakpoint('<=small') {
+@include breakpoint('<=medium') {
+  section {
+    margin-bottom: 50px;
+  }
+}
+
+@include breakpoint('<=small') {
+  header {
     p {
       margin-top: 0;
     }
