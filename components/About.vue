@@ -1,13 +1,14 @@
 <template>
   <section>
     <h1>Über Weitblick</h1>
-    <iframe
-      class="group-video"
-      src="https://www.youtube-nocookie.com/embed/wbm2OwbthGM"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-      allowfullscreen
-    />
+    <div class="group-video">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/wbm2OwbthGM"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+        allowfullscreen
+      />
+    </div>
     <p>
       Weitblick ist eine Studierendeninitiative an der Uni Münster.
       Gemeinsam setzen wir uns für einen

@@ -6,14 +6,17 @@
     >
     <h1>{{ group.name }}</h1>
     <p>{{ group.text }}</p>
-    <iframe
+    <div
       v-if="group.videoSrc"
       class="group-video lazyload"
-      :data-src="group.videoSrc"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-      allowfullscreen
-    />
+    >
+      <iframe
+        :src="group.videoSrc"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+        allowfullscreen
+      />
+    </div>
     <Follow />
     <a
       class="is-underlined"
