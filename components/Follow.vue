@@ -12,6 +12,7 @@
           class="icon brands style2 fa-instagram"
           target="_blank"
           rel="noreferrer"
+          alt="Instagram Link"
         >
           <span class="label">Instagram</span>
         </a>
@@ -22,6 +23,7 @@
           class="icon brands style2 fa-facebook-f"
           target="_blank"
           rel="noreferrer"
+          alt="Instagram Link"
         >
           <span class="label">Facebook</span>
         </a>

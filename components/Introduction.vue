@@ -3,6 +3,7 @@
     <img
       :srcSet="require('~/assets/images/hero.jpg?resize').srcSet"
       class="hero-image"
+      alt="Collage von Weitblickern"
     >
     <h1>Hey, willkommen zur Infoveranstaltung!</h1>
     <p>

@@ -11,6 +11,7 @@
       class="group-video lazyload"
     >
       <iframe
+        title="Gruppen Vorstellungsvideo"
         :src="group.videoSrc"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope;"

@@ -3,6 +3,7 @@
     <h1>Über Weitblick</h1>
     <div class="group-video lazyload">
       <iframe
+        title="Weitblick Vorstellungsvideo"
         src="https://www.youtube-nocookie.com/embed/wbm2OwbthGM"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope;"
