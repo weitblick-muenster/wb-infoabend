@@ -6,16 +6,23 @@ export default {
   ** Headers of the page
   */
   head: {
+    htmlAttrs: {
+      lang: 'de',
+    },
     title: 'Weitblick Infoveranstaltung' || process.env.npm_package_name,
     meta: [
       { charset: 'utf-8' },
+      { name: 'robots', content: 'index, follow' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'title', content: 'Weitblick Infoveranstaltung' },
-      { name: 'description', content: 'Informationen zur Infoveranstaltung von Weitblick Münster' },
+      { name: 'description', content: 'Informationen zur Infoveranstaltung von Weitblick Münster am 7. Mai 2020.' },
+      { name: 'og:type', content: 'website' },
       { name: 'og:locale', content: 'de_DE' },
-      { name: 'og:url', content: 'https://muenster.weitblicker.live' },
+      { name: 'og:url', content: 'https://infoabend.weitblicker.live' },
       { name: 'og:title', content: 'Weitblick Infoveranstaltung' },
-      { name: 'og:description', content: 'Informationen zur Infoveranstaltung von Weitblick Münster' },
+      { name: 'og:description', content: 'Informationen zur Infoveranstaltung von Weitblick Münste am 7. Mai 2020.' },
+      { name: 'og:image', content: 'https://infoabend.weitblicker.live/_nuxt/img/hero-1200.jpg' },
+      { name: 'og:site_name', content: 'Weitblick Infoveranstaltung' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon-96x96.png' },
