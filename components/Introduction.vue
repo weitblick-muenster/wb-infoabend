@@ -1,5 +1,9 @@
 <template>
   <section>
+    <img
+      :srcSet="require('~/assets/images/hero.jpg?resize').srcSet"
+      class="hero-image"
+    >
     <h1>Hey, willkommen zur Infoveranstaltung!</h1>
     <p>
       Schön dass Du zu uns gefunden hast! Da Veranstaltungen aufgrund des aktuellen Kontaktverbotes
