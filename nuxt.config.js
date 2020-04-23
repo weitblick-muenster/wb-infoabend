@@ -1,3 +1,5 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import responsiveLoader from 'responsive-loader/sharp';
 import groups from './data/groups';
 
 export default {
@@ -71,7 +73,7 @@ export default {
     responsive: {
       name: 'img/[name]-[width].[ext]',
       sizes: [300, 600, 1200],
-      adapter: require('responsive-loader/sharp'),
+      adapter: responsiveLoader,
     },
   },
   /*
@@ -85,17 +87,16 @@ export default {
       if (isClient) {
         vue.transformAssetUrls.img = ['data-src', 'src'];
         vue.transformAssetUrls.source = ['data-srcset', 'srcset'];
-      }
-    },
-    extend(config, ctx) {
-      // Run ESLint on save
-      if (ctx.isDev && ctx.isClient) {
-        config.module.rules.push({
-          enforce: 'pre',
-          test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
-          exclude: /(node_modules)/,
-        });
+
+        if (isDev) {
+          // Run ESLint on save
+          config.module.rules.push({
+            enforce: 'pre',
+            test: /\.(js|vue)$/,
+            loader: 'eslint-loader',
+            exclude: /(node_modules)/,
+          });
+        }
       }
     },
   },

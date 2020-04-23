@@ -19,7 +19,6 @@
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-import-resolver-nuxt": "^1.0.0",
     "eslint-plugin-import": "^2.20.2",
-    "gh-pages": "^2.2.0",
     "lazysizes": "^5.2.0",
     "lodash": "^4.17.15",
     "node-sass": "^4.13.1",

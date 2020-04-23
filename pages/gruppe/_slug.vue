@@ -1,7 +1,7 @@
 <template>
   <section>
     <img
-      :srcSet="imageSrc.srcSet"
+      :srcset="imageSrc.srcSet"
       class="hero-image"
     >
     <h1>{{ group.name }}</h1>
