@@ -2,7 +2,7 @@
   <section>
     <h1>Noch nicht genug?</h1>
     <p>
-      Noch mehr Informationen zu unserer Arbeit und unseren Projekten findest Du auf unserer
+      Noch mehr Informationen zu unserer Arbeit und unseren Projekten findest du auf unserer
       offiziellen Homepage
       <a
         class="is-underlined"

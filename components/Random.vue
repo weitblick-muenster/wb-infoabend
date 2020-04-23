@@ -2,8 +2,8 @@
   <section>
     <h1>Glücksrad</h1>
     <p>
-      Puh, ganz schön Auswahl! Gar keine Ahnung welche Gruppe Du Dir ansehen möchtest?
-      Wir haben uns was für Dich überlegt. Klicke unten auf den Button und wir bringen Dich
+      Puh, ganz schön Auswahl! Gar keine Ahnung welche Gruppe du dir ansehen möchtest?
+      Wir haben uns was für dich überlegt. Klicke unten auf den Button und wir bringen dich
       zu einer zufälligen Gruppe.
     </p>
     <a
