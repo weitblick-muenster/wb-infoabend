@@ -5,20 +5,25 @@
       class="hero-image"
       alt="Collage von Weitblickern"
     >
-    <h1>Hey, willkommen zur Infoveranstaltung!</h1>
+    <!-- eslint-disable max-len -->
+    <h1>Hey! Willkommen zur Infoveranstaltung!</h1>
     <p>
-      Schön dass du zu uns gefunden hast! Da Veranstaltungen aufgrund des aktuellen Kontaktverbotes
-      nur eingeschränkt stattfinden können, halten wir die diesjährige Infoveranstaltung online ab.
-      du fragst dich wie? Auf dieser Seite findest du vorab eine Informationssammlung zu Weitblick
-      und allen Gruppen in Form von kurzen Texten und Videos. So kannst du dich schonmal vertraut
-      machen mit unseren Gruppen.<br>
-      Am 7. Mai 2020 um 20 Uhr
-      findet dann die eigentliche Infoveranstaltung als Online-Videokonferenz statt. Da hast du
-      dann die Möglichkeit die Gruppen kennenzulernen und direkt deine Fragen zu stellen. Unten
-      befindet sich ein Formular, über welches du den Gruppen deine Kontaktdaten hinterlassen
-      kannst. Diese melden sich dann bei dir.
-      Teilnehmen kannst du direkt über den Webbrowser ohne Installation eines Programmes.
-      Wir empfehlen dir aber dies mit deinem Computer zu machen.
+      Schön, dass du zu uns gefunden hast! Da Veranstaltungen aktuell nur eingeschränkt
+      stattfinden können, halten wir die diesjährige Infoveranstaltung online ab, damit
+      du trotzdem dieses Semester deinen Einstieg bei Weitblick nicht verpasst!
+      <br>
+      Du fragst dich, wie? Hier findest du einen Überblick zu Weitblick und unserem vielfältigen
+      Engagement, das auf viele verschiedene Projektgruppen verteilt wird. Wenn du jetzt schon vor
+      Interesse brennst, findest du weiter unten bereits eine Vorstellung der verschiedenen
+      Untergruppen in Form von kurzen Texten und Videos..
+      <br>
+      Am 7. Mai 2020 um 20 Uhr findet dann unsere Infoveranstaltung als Videokonferenz statt.
+      Da hast du dann die Möglichkeit die  Gruppen und Projekte kennenzulernen und direkt deine
+      Fragen zu stellen. Am Ende der Seite befindet sich ein Formular, über welches du deine Kontaktdaten
+      hinterlassen kannst, damit sich die jeweiligen Projektverantwortlichen bei dir melden können.
+      <br><br>
+      Teilnehmen am Online-Infoabend kannst du direkt über den Webbrowser ohne ein Programm zu installieren.
+      Am besten funktioniert dies über den Computer. Der Link unten wird dazu dann freigeschaltet.
     </p>
     <table>
       <tbody>

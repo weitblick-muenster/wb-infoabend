@@ -1,6 +1,18 @@
 <template>
   <section>
     <h1>Über Weitblick</h1>
+    <p>
+      Weitblick Münster ist eine Studierendeninitiative, die offen für alle
+      interessierten und motivierten Menschen ist, egal ob Studierende,
+      Auszubildende oder junge Berufstätige. Gemeinsam setzen wir uns für
+      einen weltweit gerechteren Zugang zu Bildung ein. Dazu fördern wir
+      Bildungsprojekte für Kinder und Jugendliche in Deutschland und in
+      unseren Partnerprojekten in Benin, Honduras, Madagaskar und Kambodscha.
+      Gleichzeitig setzen wir aber auch auf coole Aktionen in Münster, als
+      Fundraising, für unseren Spaß und für unsere Weiterbildung.
+      <br>
+      Sieh dir am besten selbst an, was Weitblick alles bedeuten kann:
+    </p>
     <div class="group-video lazyload">
       <iframe
         title="Weitblick Vorstellungsvideo"
@@ -11,20 +23,19 @@
       />
     </div>
     <p>
-      Weitblick ist eine Studierendeninitiative an der Uni Münster.
-      Gemeinsam setzen wir uns für einen
-      weltweit gerechteren Zugang zu Bildung ein. Dazu fördern wir die
-      Schul- und Berufsbildung
-      von Kindern und Jugendlichen in Deutschland und in unseren
-      Partnerprojekten in Benin, Honduras,
-      Madagaskar und Kambodscha.<br>
-      Hast du Lust dich an der Uni neben dem Studium zu engagieren
-      und gleichzeitig nette und interessante
-      Leute kennenzulernen? Würdest du gerne mal eine Podiumsdiskussion
-      inhaltlich ausarbeiten oder einen
-      Spendenlauf organisieren? Es gibt viele Möglichkeiten bei Weitblick
-      aktiv zu werden oder uns auch
-      passiv zu unterstützen.<br>
+      Hast du Lust dich zu engagieren und super coole und interessante
+      Leute kennenzulernen? Würdest du zum Beispiel gerne mal eine
+      Podiumsdiskussion inhaltlich ausarbeiten oder einen Spendenlauf
+      organisieren? Oder sind deine Stärken eher im Design oder im
+      Technischen? Kannst du gut motivieren und präsentieren oder bist
+      eher ein Allrounder? Vielleicht findest du dich auch im Theater
+      oder im Ausland wieder? Bei Weitblick haben wir für jedes Skillset
+      eine passende Aufgabe – oder du schaffst dir deine Eigene.
+      Bei uns finden sich Menschen aller Fachbereiche zu einer perfekten
+      Mischung zusammen. Vorranging suchen wir Leute, die Lust haben
+      Teil eines größeren Projekts zu sein, denn neben dem Spaß an der
+      Projektarbeit verbindet uns vor allem Freundschaft.
+      <br>
       Hier gibt es mehr Infos zu unseren Projekten.<br>
       <a
         class="is-underlined"

@@ -2,7 +2,7 @@ export default [
   {
     name: 'Honduras',
     description: 'Bei uns dreht sich alles um Honduras!',
-    text: 'Bei uns dreht sich alles um Honduras! Unsere Aufgabe ist die konkrete Entwicklungszusammenarbeit anhand von Bauprojekten, Schulbuchfinanzierung oder anderer Hilfe an Stellen, wo sich Bildung schwer umsetzen lässt. Für einen Austausch auf Augenhöhe organisieren wir zudem Besuche und Begegnungen bspw. als „assistant teacher“ vor Ort. Hier in Münster versuchen wir uns Studierenden Land und Leute über Kultur- und Bildungsveranstaltungen näher zu bringen.',
+    text: 'Bei uns dreht sich alles um Honduras! Unsere Aufgabe ist die konkrete Entwicklungszusammenarbeit mit unseren Projektpartner*innen in dem zentralamerikanischen Land anhand von Bauprojekten, Schulbuchfinanzierung oder  an Stellen, wo sich Bildung sonst schwer umsetzen lässt. Für einen guten Austausch mit unseren Partner*innen  organisieren wir zudem Besuche und Begegnungen beispielsweise als assistant teacher vor Ort. Hier in Münster versuchen wir uns und anderen Studierenden Land und Leute über Kultur- und Bildungsveranstaltungen näher zu bringen.',
     imgSrc: 'group-pictures/Honduras.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/AzDeUYJb-_k',
     styleNumber: 1,
@@ -11,7 +11,7 @@ export default [
   {
     name: 'Benin',
     description: 'Bei uns dreht sich alles um Benin!',
-    text: 'Wir haben in Benin mehrere Projektpartnerinnen und Partner, mit denen wir bereits teilweise viele Jahre zusammenarbeiten. In dieser Zeit der Zusammenarbeit haben wir unterschiedliche Projekte und Ideen realisieren können, wobei die Finanzierung von Schulgebäuden im Mittelpunkt steht. Als Gruppe koordinieren wir jeglichen Austausch mit den Projektpartner*Innen und sprechen über neue Vorschläge sowie Ideen für unsere Projekte. Pro Semester erarbeiten wir zusammen einen Entwicklungszusammenarbeits- Workshop, in dem wir Infos über die Geschichte und den aktuellen Stand der Projekte in Benin austauschen, die Kentnisse über das Land und die beninische Kultur vertiefen als auch uns in unserer eigenen Rolle des Studierenden reflektiert in dieser Thematik einordnen. Aber natürlich haben wir auch Treffen bei denen Freizeit & Spaß im Vordergrund stehen! So veranstalten oder nehmen wir oftmals an unterschiedlichen Events teil, welche vom “Afrikafestival” in Münster bis zu einem Kocheabend mit unseren Austauschstipendiat*innen reichen.',
+    text: 'Wir haben in Benin (Westafrika) mehrere Projektpartnerinnen und Partner, mit denen wir bereits seit vielen Jahren zusammenarbeiten. Die Finanzierung von Schulgebäuden steht im Vordergrund der Kooperation, allerdings haben wir in dieser Zeit der Zusammenarbeit auch verschiedenste andere Ideen mit unseren lokalen Partner*Innen realisieren können. Als Gruppe koordinieren wir jeglichen Austausch mit den Partnervereinen und sprechen über neue Vorschläge sowie Ideen für unsere Projekte. Bei unseren Projekten in Münster liegt uns auch das Lernen über die beninische Kultur und das beninische Leben am Herzen. Pro Semester erarbeiten wir zusammen einen Entwicklungszusammenarbeits-Workshop, in dem wir Infos über die Geschichte und den aktuellen Stand der Projekte in Benin austauschen, die Kenntnisse über das Land und die beninische Kultur vertiefen, als auch uns in unserer eigenen Rolle der/s Studierenden reflektiert in diese Thematik einordnen. Aber natürlich haben wir auch Treffen bei denen Freizeit & Spaß im Vordergrund stehen! So veranstalten oder nehmen wir oftmals an unterschiedlichen Events teil, welche vom “Afrikafestival” in Münster bis zu einem Kochabend mit unseren Austauschstipendiat*innen reichen.',
     imgSrc: 'group-pictures/Beningruppe.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/KswKGCQ20oE',
     styleNumber: 2,
@@ -19,17 +19,17 @@ export default [
   },
   {
     name: 'Austausch',
-    description: 'Wir organisieren den Austausch zwischen der Universität Abomey-Calavie in Benin und der Uni hier in Münster',
-    text: 'Die Austauschgruppe organisiert den Austausch zwischen der Universität Abomey-Calavie in Benin und der Uni hier in Münster. Jedes Jahr kommen ein oder zwei Studierenden aus Benin nach Münster und werden von Weitblick durch ein Stipendium gefördert. Unsere Aufgabe ist es vor allem, die Stipendiat*innen während des Semesters zu begleiten und gemeinsam mit den Koordinatoren in Benin die neuen Stipendiat*innen für das darauf folgende Jahr auszuwählen.',
+    description: 'Wir organisieren den Austausch zwischen der Universität Abomey-Calavie in Benin und der WWU',
+    text: 'Die Austauschgruppe organisiert den Austausch zwischen der Universität Abomey-Calavi in Benin und der WWU. Jedes Jahr kommen ein oder zwei Studierende aus Benin nach Münster und werden von Weitblick durch ein Stipendium gefördert. Unsere Aufgabe ist es, die Stipendiat*innen während des Semesters zu begleiten und gemeinsam mit den Koordinator*innen in Benin die neuen Stipendiat*innen für das darauf folgende Jahr auszuwählen.',
     imgSrc: 'group-pictures/Austausch.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/JZ4r2OEWP98',
     styleNumber: 3,
     slug: 'austausch',
   },
   {
-    name: 'Kultour',
-    description: 'Wir von Kultour greifen im Rahmen regelmäßiger Semesteraktionen gesellschaftsrelevante Themen auf...',
-    text: 'Wir von Kultour greifen im Rahmen regelmäßiger Semesteraktionen gesellschaftsrelevante Themen auf und berücksichtigen dabei sowohl das kulturelle Angebot des Münsterlandes als auch anderer Städte. Unsere Aktionen richten sich dabei nicht nur an Weitblick Mitglieder*innen, sondern an alle Kulturinteressierten. Sie können sowohl in kleinerem Rahmen und recht spontan stattfinden als auch längerfristig vorbereitet werden und eine größere Zahl von Teilnehmer*innen umfassen. Bei Kultour steht vor allem der gegenseitige Austausch und die gemeinsame Auseinandersetzung mit Themen, die uns und die Gesellschaft bewegen, im Mittelpunkt. Wir freuen uns auf dich!',
+    name: 'KulTour',
+    description: 'Wir von KulTour greifen im Rahmen regelmäßiger Semesteraktionen gesellschaftsrelevante Themen auf...',
+    text: 'Wir von KulTour greifen im Rahmen regelmäßiger Semesteraktionen gesellschaftsrelevante Themen auf und berücksichtigen dabei sowohl das kulturelle Angebot des Münsterlandes als auch anderer Städte. Unsere Aktionen richten sich dabei nicht nur an Weitblick Mitglieder, sondern an alle Kulturinteressierten. Sie können sowohl in kleinerem Rahmen und recht spontan stattfinden, als auch längerfristig vorbereitet werden und eine größere Zahl von Teilnehmer*innen umfassen. Bei KulTour steht vor allem der gegenseitige Austausch und die gemeinsame Auseinandersetzung mit Themen, die uns und die Gesellschaft bewegen, im Mittelpunkt. Wir freuen uns auf dich!',
     imgSrc: 'group-pictures/Kultour.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/PNzAqiio_p4',
     styleNumber: 4,
@@ -38,7 +38,7 @@ export default [
   {
     name: 'Kulturstürmer',
     description: 'Das Projekt setzt sich für die kulturelle Bildung von Grundschulkindern in Münster ein.',
-    text: 'Das lokale Projekt "Kulturstürmer” setzt sich für die kulturelle Bildung von Grundschulkindern in Münster ein. Eine Gruppe von Studierenden und Schulkindern unternimmt mehrmals im Semester gemeinsam Ausflüge in kulturelle Einrichtungen. Ziele des Projektes sind das Erfahren von Kultur außerhalb des Schulkontexts, gesellschaftliche Teilhabe und das Leisten eines kleinen Beitrags zur Verwirklichung von Chancengleichheit. Beispiele für bisherige Aktionen sind der Besuch von Museen in Münster, eines Ateliers, der Feuerwehr, des Planetariums oder eines Bauernhofs.',
+    text: 'Das lokale Projekt "Kulturstürmer” setzt sich für die kulturelle Bildung von Grundschulkindern in Münster ein. Eine Gruppe von Studierenden und Schulkindern unternimmt mehrmals im Semester gemeinsam Ausflüge in kulturelle Einrichtungen. Ziele des Projektes sind das Erfahren von Kultur außerhalb des Schulkontextes, gesellschaftliche Teilhabe und das Leisten eines kleinen Beitrags zur Verwirklichung von Chancengleichheit. Beispiele für bisherige Aktionen sind der Besuch von Museen in Münster, der Hafenkäserei, eines Ateliers, der Feuerwehr, des Planetariums oder eines Bauernhofs.',
     imgSrc: 'group-pictures/Kulturstürmer.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/HBLa11_5V0w',
     styleNumber: 5,
@@ -56,7 +56,7 @@ export default [
   {
     name: 'WeitBeat',
     description: 'Wir bei Weitbeat organisieren unterschiedliche Events wie Konzerte & Parties!',
-    text: 'Hallöchen. Wir bei Weitbeat organisieren unterschiedliche Events wie zum Beispiel Konzerte, Parties, kuschelige Wohnzimmerkonzerte oder die alljährliche Weihnachtsfeier. Damit versuchen wir für alle gemütliche Treffpunkte zu schaffen, ob jung ob alt, ob Mitglied oder nicht. Aber schaut doch einfach selbst einmal kurz in unseren Weitblickalltag rein …',
+    text: 'Hallöchen. Wir bei Weitbeat organisieren unterschiedliche Events wie zum Beispiel musikalische Events, Parties, kuschelige Wohnzimmerkonzerte oder die alljährliche Weihnachtsfeier. Damit versuchen wir für alle gemütliche Treffpunkte zu schaffen, ob jung, ob alt, ob Mitglied oder nicht. Aber schaut doch einfach selbst einmal kurz in unseren Weitblickalltag rein…',
     imgSrc: 'group-pictures/Weitbeat.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/swNk4d0FvzM',
     styleNumber: 1,
@@ -65,7 +65,7 @@ export default [
   {
     name: 'WeitWeg',
     description: 'Die Gruppe kümmert sich um die Vor- und Nachbereitung für alldiejenigen, die mit Weitblick ins Ausland reisen.',
-    text: 'Die „Weitweg-Gruppe“ kümmert sich um die Vor- und Nachbereitung für alldiejenigen, die mit Weitblick ins Ausland reisen. Dafür müssen Methoden vorbereitet und die Durchführung dieser organisiert werden. In unserer Gruppe sind teilweise Leute, die bereits mit Weitblick im Ausland waren, aber wir freuen uns auch sehr über neue Leute, die Lust und Spaß bei der Vor- und Nachbereitung von anderen haben!',
+    text: 'Die „Weitweg-Gruppe“ kümmert sich um die Vor- und Nachbereitung für all diejenigen, die mit Weitblick ins Ausland reisen. Dafür müssen Methoden vorbereitet und die Durchführung der Workshops organisiert werden. In unserer Gruppe sind zum Einen Leute, die bereits mit Weitblick im Ausland waren, zum Anderen freuen wir uns aber auch sehr über alle anderen neuen Menschen, die Lust und Spaß bei der Vor- und Nachbereitung von Auslandserfahrungen haben!',
     imgSrc: 'group-pictures/WeitWeg.jpeg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 2,
@@ -74,7 +74,7 @@ export default [
   {
     name: 'Weltwärts-Begegnung',
     description: 'Die Gruppe organisiert einen Jugendaustausch zwischen Benin und Deutschland zum Thema Nachhaltigkeit und Klimaschutz.',
-    text: 'Die Weltwärts-Begegnungs-Gruppe organisiert einen Jugendaustausch zwischen Benin und Deutschland zum Thema Nachhaltigkeit und Klimaschutz. Die Gruppe hat sich durch ein Projekt von Engagement Global gebildet. Zu allererst haben wir eine geeignete Partnerorganisation in Benin  gefunden, danach haben wir den Antrag für den Austausch erarbeitet, so dass der Austausch auch stattfinden kann, und nun geht es um die konkrete Ausarbeitung und Planung des Austauschs in Benin und in Deutschland vor Ort. Kommt gerne vorbei, wir freuen uns auf neue Gesichter!',
+    text: 'Die Weltwärts-Begegnungs-Gruppe organisiert einen Jugendaustausch zwischen Benin und Deutschland zum Thema Nachhaltigkeit und Klimaschutz. Die Gruppe hat sich durch eine Projektausschreibung von Engagement Global gebildet. Wir haben bereits eine geeignete Partnerorganisation in Benin (Westafrika) gefunden, als zweiten Schritt haben wir den Förderantrag für den internationalen Austausch erarbeitet, so dass der Austausch auch stattfinden kann. Nun geht es um die konkrete Ausarbeitung und Planung der Begegnung in Benin und in Deutschland vor Ort. Kommt gerne (virtuell) vorbei, wir freuen uns auf neue Gesichter!',
     imgSrc: 'group-pictures/Weltwärts.jpeg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/cYkkAArRmns',
     styleNumber: 3,
@@ -83,7 +83,7 @@ export default [
   {
     name: 'Ideenschmiede',
     description: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen.',
-    text: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder*innen. Es ist eine tolle Kooperation mit der Bäckerei Tollkötter umgesetzt worden. Außerdem haben wir ein Planspiel zum Thema Flucht und Migration entwickelt. Das wird in Schulen mit SuS umgesetzt und sensibilisiert diese für den Weg und die Erfahrungen einer Flucht. Wir hoffen, dass wir durch kreative neue Mitglieder*innen weitere Projekte umsetzen können.',
+    text: 'In der Ideenschmiede basieren die Projekte auf den Ideen der Mitglieder. Es ist mit dem Bildungsbrot eine tolle Kooperation mit der Bäckerei Tollkötter umgesetzt worden. Bestimmt habt ihr auch schon einmal ein Bildungsbier, aus einer Kooperation mit der Finne, getrunken. Außerdem haben wir ein Planspiel zum Thema Flucht und Migration entwickelt. Das wird in Schulen in Münster umgesetzt und sensibilisiert für den Weg und die Erfahrungen einer Flucht. Wir hoffen, dass wir durch kreative neue Mitglieder weitere Ideen realisieren können.',
     imgSrc: 'group-pictures/Ideenschmiede.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/13zvU8wjpGI',
     styleNumber: 4,
@@ -92,7 +92,7 @@ export default [
   {
     name: 'Spendenlauf',
     description: 'Seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester - Ein Weitblick Klassiker, perfekt für Neulinge.',
-    text: 'Beim Weitblick-Spendenlauf steht nicht die sportliche Höchstleistung im Vordergrund, sondern wie bei all unseren Aktionen der Spaß an der guten Sache. Der Lauf findet seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester statt und ist damit schon ein Weitblick Klassiker. Einen digitalen Spendenlauf, wie wir ihn bedingt durch die Corona Situation durchführen werden, hatten wir allerdings noch nie! Gerade für Neu-WeitblickerInnen ist die Veranstaltung mit vielen kleinen, aber auch ein paar größeren Aufgaben perfekt geeignet, um direkt loszulegen und eine erste Aktion mit zu organisieren. Zu Beginn des Sommersemesters kann man gut in das Projekt einsteigen.',
+    text: 'Beim Weitblick-Spendenlauf steht nicht die sportliche Höchstleistung im Vordergrund, sondern wie bei all unseren Aktionen der Spaß an der guten Sache. Der Lauf findet seit dem Gründungsjahr 2008 jedes Jahr im Sommersemester statt und ist damit schon ein Weitblick Klassiker. Einen digitalen Spendenlauf, wie wir ihn bedingt durch die Corona-Situation durchführen werden, hatten wir allerdings noch nie! Gerade für Neu-Weitblicker*innen ist die Veranstaltung mit vielen kleinen, aber auch ein paar größeren Aufgaben perfekt geeignet, um direkt loszulegen und eine erste Aktion mit zu organisieren. Zu Beginn des Sommersemesters kann man gut in das Projekt einsteigen.',
     imgSrc: 'group-pictures/spendenlauf.jpg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 5,
@@ -101,7 +101,7 @@ export default [
   {
     name: 'Theater',
     description: 'Wir stellen jedes Jahr gemeinsam ein Theaterstück auf die Beine.',
-    text: 'Bei uns sind ein Haufen verrückter, engagierter und herzlicher Menschen versammelt, die jedes Jahr gemeinsam ein Theaterstück auf die Beine stellen. Dabei ist wirklich alles selbstgemacht – Schauspiel, Regie, Technik, Bühnenbild, Maske und und und… Das ist nicht nur viel Arbeit, sondern macht vor allem mächtig Spaß! Im Dezember feiern wir dann drei Aufführungen, die immer gut besucht sind und ordentlich Spenden aquirieren. Wenn du dabei sein willst, schau gerne bei uns vorbei.',
+    text: 'Bei uns findet sich ein Haufen verrückter, engagierter und herzlicher Menschen, die jedes Jahr gemeinsam ein Theaterstück auf die Beine stellen. Dabei ist wirklich alles selbstgemacht – Schauspiel, Regie, Technik, Bühnenbild, Maske und und und… Das ist nicht nur viel Arbeit, sondern macht vor allem mächtig Spaß! Im Dezember feiern wir dann drei Aufführungen, die immer gut besucht sind und ordentlich Spenden für unsere anderen Projekte akquirieren. Wenn du Spaß am Theater hast, schau gerne bei uns vorbei!',
     imgSrc: 'group-pictures/theater.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/ceGrL6K8MOI',
     styleNumber: 6,
@@ -127,7 +127,7 @@ export default [
   },
   {
     name: 'Patenprogramm',
-    description: '',
+    description: 'Wir vermitteln Patenschaften zu Kindern und Jugendlichen in Münster.',
     text: 'Im Wintersemester 2014/2015 wurde ein Mentorenprogramm für Kinder und Jugendliche, auch Flüchtlingskinder, im Alter von 7 – 14 Jahren gestartet. Für den Zeitraum von mindestens einem halben Jahr übernimmt ein Studierender die Patenschaft für ein Flüchtlingskind oder ein sozial benachteiligtes Kind. Ziele des Programms sind: Förderung der Persönlichkeitsentwicklung und der Selbstverwirklichung, des interkulturellen Verständnisses und der Toleranz sowie Vermittlung von sozialen Kompetenzen. Wichtig ist also, dem Kind dabei zu helfen, sich in seiner neuen Heimat zurechtzufinden. Dies kann durch Ausflüge in Kultur- und Bildungseinrichtungen, Nachhilfe in Deutsch geschehen oder einfach durch Spielplatzbesuche, die die Möglichkeit bieten Kinder kennen zu lernen. Zwischen Studierenden und Kind kann sich ein Vertrauensverhältnis entwickeln, welches einen großen Beitrag zur Integration leistet. Dem Studierenden wird für die gemeinsamen Aktionen von Weitblick ein Semesterbudget zur Verfügung gestellt. Zur Verwirklichung arbeitet die Gruppe mit einer Grundschule, einer Realschule und einem Flüchtlingsheim in Nienberge zusammen. Die Finanzierung und Organisation wird von Weitblick übernommen, daher ist die Teilnahme kostenlos. Zur Durchführung bedarf es nicht nur eines engagierten Projektteams, das die organisatorischen Aufgaben wahrnimmt, sondern vor allem motivierter Studierende, die Spaß und Interesse daran haben, die Entwicklung von Kindern positiv zu beeinflussen. Neue Pat*innen dringend gesucht!',
     imgSrc: 'group-pictures/Patenprogramm.jpg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
