@@ -109,8 +109,8 @@ export default [
   },
   {
     name: 'Weltweiterblick',
-    description: '',
-    text: '',
+    description: 'Wir setzten uns mit verschiedensten Themenbereichen der Nachhaltigkeit auseinander!',
+    text: 'Wir setzten uns mit verschiedensten Themenbereichen der Nachhaltigkeit auseinander und der Frage, wie jede*r von uns im Alltag etwas Gutes für die Umwelt machen kann. Ideen sind z.B. gemeinsames Kochen aus geretteten Lebensmitteln, Müllsammeln und Diskussionsrunden über verschiedenste Umweltthemen stehen auf dem Plan. Neben diesen von uns geplanten Projekten ist es ebenso unser Ziel, dass wir mit anderen, bereits bestehenden Umweltgruppen Kontakte knüpfen. Somit wollen wir eine Vernetzung zwischen diesen Initiativen schaffen und für alle Beteiligten den größt möglichen Nutzen daraus ziehen. Uns gibt es erst seit Anfang des Jahres also freuen wir uns umso mehr auf deine Ideen! Fühl dich herzlich in unserer Gruppe willkommen. Wir freuen uns auf dich!',
     imgSrc: 'group-pictures/Weltweiterblick.jpg',
     videoSrc: 'https://www.youtube-nocookie.com/embed/Xh4k72N1I78',
     styleNumber: 1,
@@ -128,7 +128,7 @@ export default [
   {
     name: 'Patenprogramm',
     description: '',
-    text: '',
+    text: 'Im Wintersemester 2014/2015 wurde ein Mentorenprogramm für Kinder und Jugendliche, auch Flüchtlingskinder, im Alter von 7 – 14 Jahren gestartet. Für den Zeitraum von mindestens einem halben Jahr übernimmt ein Studierender die Patenschaft für ein Flüchtlingskind oder ein sozial benachteiligtes Kind. Ziele des Programms sind: Förderung der Persönlichkeitsentwicklung und der Selbstverwirklichung, des interkulturellen Verständnisses und der Toleranz sowie Vermittlung von sozialen Kompetenzen. Wichtig ist also, dem Kind dabei zu helfen, sich in seiner neuen Heimat zurechtzufinden. Dies kann durch Ausflüge in Kultur- und Bildungseinrichtungen, Nachhilfe in Deutsch geschehen oder einfach durch Spielplatzbesuche, die die Möglichkeit bieten Kinder kennen zu lernen. Zwischen Studierenden und Kind kann sich ein Vertrauensverhältnis entwickeln, welches einen großen Beitrag zur Integration leistet. Dem Studierenden wird für die gemeinsamen Aktionen von Weitblick ein Semesterbudget zur Verfügung gestellt. Zur Verwirklichung arbeitet die Gruppe mit einer Grundschule, einer Realschule und einem Flüchtlingsheim in Nienberge zusammen. Die Finanzierung und Organisation wird von Weitblick übernommen, daher ist die Teilnahme kostenlos. Zur Durchführung bedarf es nicht nur eines engagierten Projektteams, das die organisatorischen Aufgaben wahrnimmt, sondern vor allem motivierter Studierende, die Spaß und Interesse daran haben, die Entwicklung von Kindern positiv zu beeinflussen. Neue Pat*innen dringend gesucht!',
     imgSrc: 'group-pictures/Patenprogramm.jpg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 3,
