@@ -6,18 +6,18 @@
       alt="Collage von Weitblickern"
     >
     <!-- eslint-disable max-len -->
-    <h1>Hey! Willkommen zur Infoveranstaltung!</h1>
+    <h1>Hey! Willkommen zum Infoabend!</h1>
     <p>
       Schön, dass du zu uns gefunden hast! Da Veranstaltungen aktuell nur eingeschränkt
-      stattfinden können, halten wir die diesjährige Infoveranstaltung online ab, damit
+      stattfinden können, halten wir den diesjährigen Infoabend online ab, damit
       du trotzdem dieses Semester deinen Einstieg bei Weitblick nicht verpasst!
       <br>
       Du fragst dich, wie? Hier findest du einen Überblick zu Weitblick und unserem vielfältigen
       Engagement, das auf viele verschiedene Projektgruppen verteilt wird. Wenn du jetzt schon vor
       Interesse brennst, findest du weiter unten bereits eine Vorstellung der verschiedenen
-      Untergruppen in Form von kurzen Texten und Videos..
+      Untergruppen in Form von kurzen Texten und Videos.
       <br>
-      Am 7. Mai 2020 um 20 Uhr findet dann unsere Infoveranstaltung als Videokonferenz statt.
+      Am 7. Mai 2020 um 20 Uhr findet dann unser Infoabend als Videokonferenz statt.
       Da hast du dann die Möglichkeit die  Gruppen und Projekte kennenzulernen und direkt deine
       Fragen zu stellen. Am Ende der Seite befindet sich ein Formular, über welches du deine Kontaktdaten
       hinterlassen kannst, damit sich die jeweiligen Projektverantwortlichen bei dir melden können.
