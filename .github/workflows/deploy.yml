@@ -28,6 +28,7 @@ jobs:
       with:
         cmd: generate # will run `yarn run generate` command
     - name: Deploy
+      if: github.ref == 'refs/heads/master'
       uses: s0/git-publish-subdir-action@master
       env:
         REPO: self
