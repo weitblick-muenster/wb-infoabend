@@ -59,14 +59,14 @@
           to="/"
           class="button primary"
         >
-          <span class="label">Teilnehmen</span>
+          <span class="label">Stream</span>
         </NuxtLink>
       </li>
       <li>
         <NuxtLink
           tag="button"
-          :disabled="true"
-          to="/form"
+          :disabled="false"
+          to="/join"
           class="button primary"
         >
           <span class="label">mitmachen</span>
