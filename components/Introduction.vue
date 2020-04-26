@@ -11,7 +11,7 @@
       Schön, dass du zu uns gefunden hast! Da Veranstaltungen aktuell nur eingeschränkt
       stattfinden können, halten wir den diesjährigen Infoabend online ab, damit
       du trotzdem dieses Semester deinen Einstieg bei Weitblick nicht verpasst!
-      <br>
+
       Du fragst dich, wie? Hier findest du einen Überblick zu Weitblick und unserem vielfältigen
       Engagement, das auf viele verschiedene Projektgruppen verteilt wird. Wenn du jetzt schon vor
       Interesse brennst, findest du weiter unten bereits eine Vorstellung der verschiedenen
