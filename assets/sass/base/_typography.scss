@@ -13,6 +13,8 @@ body, input, select, textarea {
   font-weight: _font(weight);
   line-height: 2.2;
   letter-spacing: _font(letter-spacing);
+  hyphens: auto;
+  text-align: justify;
 }
 
 a {
@@ -106,11 +108,11 @@ h4 {
   h2 {
     font-size: 1.0rem;
   }
-  
+
   h3 {
     font-size: 1.0rem;
   }
-  
+
   h4 {
     font-size: 1.0rem;
   }
