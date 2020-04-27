@@ -69,7 +69,7 @@
           to="/join"
           class="button primary"
         >
-          <span class="label">mitmachen</span>
+          <span class="label">Mitmachen</span>
         </NuxtLink>
       </li>
     </ul>
