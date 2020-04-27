@@ -59,7 +59,7 @@
           to="/"
           class="button primary"
         >
-          <span class="label">Stream</span>
+          <span class="label">Streamen</span>
         </NuxtLink>
       </li>
       <li>
