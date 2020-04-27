@@ -65,7 +65,7 @@
       <li>
         <NuxtLink
           tag="button"
-          :disabled="false"
+          :disabled="true"
           to="/join"
           class="button primary"
         >
