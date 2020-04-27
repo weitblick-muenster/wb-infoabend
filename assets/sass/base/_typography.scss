@@ -50,6 +50,7 @@ h1 {
   font-weight: _font(weight-bold-alt);
   line-height: 1.3;
   margin: 0 0 (_size(element-margin) * 0.5) 0;
+  text-align: left;
 
   a {
     color: inherit;
@@ -68,6 +69,7 @@ h2, h3, h4, h5, h6 {
   margin: 0 0 (_size(element-margin) * 1) 0;
   text-transform: uppercase;
   letter-spacing: _font(letter-spacing-alt);
+  text-align: left;
 
   a {
     color: inherit;
