@@ -11,7 +11,7 @@
         <iframe
           :data-src="formSrc"
           width="100%"
-          height="2100px"
+          height="2000px"
           frameborder="0"
           marginwidth="0"
           marginheight="0"
@@ -23,6 +23,12 @@
           class="lazyload"
         />
       </ClientOnly>
+      <a
+      href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=peouUPPwFkytW-ZNLh-Tw-JhNObcD4xIrVq367O4HS1UQUU2VDI5T1pPVkVUS1FJMkNFU09URkJBQy4u&amp%3Bembed=true"
+      class="button primary"
+      >
+      Kontaktformular
+      </a>
     </div>
   </section>
 </template>
@@ -36,10 +42,3 @@ export default {
   },
 };
 </script>
-
-<style lang="scss" scoped>
-.ms-form {
-  margin-top: 2rem;
-  height: 100%;
-}
-</style>
