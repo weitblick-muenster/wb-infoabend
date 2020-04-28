@@ -18,7 +18,7 @@
       Untergruppen in Form von kurzen Texten und Videos.
       <br>
       Am 7. Mai 2020 um 20 Uhr findet dann unser Infoabend als Videokonferenz statt.
-      Da hast du dann die Möglichkeit die  Gruppen und Projekte kennenzulernen und direkt deine
+      Da hast du dann die Möglichkeit, die  Gruppen und Projekte kennenzulernen und direkt deine
       Fragen zu stellen. Am Ende der Seite befindet sich ein Formular, über welches du deine Kontaktdaten
       hinterlassen kannst, damit sich die jeweiligen Projektverantwortlichen bei dir melden können.
       <br><br>

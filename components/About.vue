@@ -32,7 +32,7 @@
       oder im Ausland wieder? Bei Weitblick haben wir für jedes Skillset
       eine passende Aufgabe – oder du schaffst dir deine Eigene.
       Bei uns finden sich Menschen aller Fachbereiche zu einer perfekten
-      Mischung zusammen. Vorranging suchen wir Leute, die Lust haben
+      Mischung zusammen. Vorrangig suchen wir Leute, die Lust haben,
       Teil eines größeren Projekts zu sein, denn neben dem Spaß an der
       Projektarbeit verbindet uns vor allem Freundschaft.
       <br>
