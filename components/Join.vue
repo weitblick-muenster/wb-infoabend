@@ -11,7 +11,7 @@
       >
         buero-muenster@weitblicker.org
       </a>
-      schicken. Wenn wir deine Anmeldung bearbeiten haben, bekommst du eine Bestätigung per Mail.
+      schicken. Wenn wir deine Anmeldung bearbeitet haben, bekommst du eine Bestätigung per Mail.
       Da in Zeiten von Social Distancing unser Vereinsleben rein digital abläuft, raten wir dazu,
       das Einverständnis zum Erstellen eines Intranet-Accounts auf der Beitrittserklärung
       zu erteilen.

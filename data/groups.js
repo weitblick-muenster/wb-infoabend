@@ -153,6 +153,15 @@ export default [
     slug: 'it',
   },
   {
+    name: 'Mitgliedergewinnung',
+    description: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben.',
+    text: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben. Das ist aber keine trockene Aufgabe, sondern macht sehr viel Spaß: Wir organisieren Veranstaltungen wie den Infoabend, die Kennenlernfahrt im Wintersemester und unseren Sommertag im Sommersemester und besuchen zu Beginn des Semesters Vorlesungen, um dort neuen Studierenden Weitblick vorzustellen. Schau gerne mal bei uns vorbei! :)',
+    imgSrc: 'group-pictures/Mitgliedergewinnung.jpg',
+    // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
+    styleNumber: 1,
+    slug: 'mitgliedergewinnung',
+  },
+  {
     name: 'Öffentlichkeitsarbeit',
     description: 'Wir kümmern uns um Social Media und machen Pressearbeit.',
     text: 'Wir, die Öffentlichkeitsarbeitsgruppe, kümmern uns um alles rund um die Social Media Kanäle von Weitblick. Wenn ihr also schon einmal in unsere Instagram oder Facebook Seite reingeschaut habt, seid ihr ganz sicher schon auf unsere Arbeit gestoßen. Dabei konzeptionieren und generieren wir die Inhalte, die euch zum Beispiel über kommende Veranstaltungen informieren oder posten Momente von vergangenen Events, um zu berichten was wir bei Weitblick gerade eigentlich alles so machen. Wie man sieht ist in unserer Gruppe jede Menge Kreativität und Einfallsreichtum gefragt und wir freuen uns immer auf neue Leute, die Lust haben zusammen etwas Cooles auf die Beine zu stellen.',
@@ -160,14 +169,5 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/uQTMAVOa1es',
     styleNumber: 6,
     slug: 'oeffentlichkeitsarbeit',
-  },
-  {
-    name: 'Mitgliedergewinnung',
-    description: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben.',
-    text: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben. Das ist aber keine trockene Aufgabe, sondern macht sehr viel Spaß: Wir organisieren Veranstaltungen wie den Infoabend, die Kennenlernfahrt im Wintersemester und unseren Sommertag im Sommersemester und besuchen zu Beginn des Semesters Vorlesungen, um dort neuen Studierenden Weitblick vorzustellen. Schau gerne mal bei uns vorbei! :)',
-    imgSrc: 'pic12.jpg',
-    // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
-    styleNumber: 1,
-    slug: 'mitgliedergewinnung',
   },
 ];
