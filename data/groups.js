@@ -118,8 +118,8 @@ export default [
   },
   {
     name: 'Weiterbilden',
-    description: '',
-    text: '',
+    description: 'Wir organisieren Workshops für alle Münsteraner Weitblicker.',
+    text: 'Wir organisieren Workshops für alle Münsteraner Weitblicker*innen. Einmal im Semester beschäftigen wir uns einen ganzen Samstag lang mit Themen, die für alle Weitblicker*innen spannend sind: Networking, Rassismuskritik, Entwicklungszusammenarbeit, Nachhaltigkeit – die Themen sind ganz unterschiedlich und wir freuen uns, über jeden, der inhaltliche Themen einbringen, bei der Organisation helfen will oder einfach Freude daran hat, zu diskutieren und zu hinterfragen. Für alle Neueinsteiger gibt es auch Workshops im kleinen Format zum Thema Entwicklungszusammenarbeit und einen Überblick über die Arbeit von Weitblick. Wir sind offen für neue Ideen und Formate und hoffen auf eure Kreativität.',
     imgSrc: 'group-pictures/Weiterbilden.jpeg',
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 2,
