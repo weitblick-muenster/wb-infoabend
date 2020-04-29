@@ -14,7 +14,7 @@
       schicken. Wenn wir deine Anmeldung bearbeitet haben, bekommst du eine Bestätigung per E-Mail.
       Da in Zeiten von Social Distancing unser Vereinsleben rein digital abläuft, raten wir dazu,
       das Einverständnis zum Erstellen eines Intranet-Accounts auf der Beitrittserklärung
-      zu erteilen, Damit du Zugriff auf entsprechende Tools, sowie deine persönliche Weitblick
+      zu erteilen, damit du Zugriff auf entsprechende Tools, sowie deine persönliche Weitblick
       E-Mail Adresse bekommst.
     </p>
     <a
