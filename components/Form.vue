@@ -24,10 +24,10 @@
         />
       </ClientOnly>
       <a
-      href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=peouUPPwFkytW-ZNLh-Tw-JhNObcD4xIrVq367O4HS1UQUU2VDI5T1pPVkVUS1FJMkNFU09URkJBQy4u&amp%3Bembed=true"
-      class="button primary"
+        href="https://forms.microsoft.com/Pages/ResponsePage.aspx?id=peouUPPwFkytW-ZNLh-Tw-JhNObcD4xIrVq367O4HS1UQUU2VDI5T1pPVkVUS1FJMkNFU09URkJBQy4u&amp%3Bembed=true"
+        class="button primary"
       >
-      Kontaktformular
+        Kontaktformular
       </a>
     </div>
   </section>
