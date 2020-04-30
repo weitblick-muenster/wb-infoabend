@@ -148,7 +148,7 @@ export default [
     description: 'Wir sind das Zahnrad des Vereins und betreuen alles was mit Technik zutun hat!',
     text: 'Wir bei der IT-Gruppe kümmern uns darum, dass alle Weitblicker*innen gut vernetzt sind. Dabei setzen wir primär auf die Allround-Plattform Microsoft 365. Im Vordergrund steht die Kommunikations-App Teams, wo wir als IT-Gruppe helfen, die 500 Personen starke Community in Münster bzw. die 1300 Weitblicker*innen in Deutschland zu verbinden. Dabei sind wir nicht nur Tech-Support im Notfall, sondern auch Treiber der Innovation, indem wir ständig neue Konzepte und Ideen wie diese Webseite hier einbringen. Bundesweit programmieren wir auch im Team an der Webseite für alle 17 Vereine. Insbesondere in diesen Zeiten ist unsere Kreativität und Know-How besonders gefragt, um sowohl das Vereinsleben als auch Projekte aufrecht zu erhalten. Falls du dich für unser cooles Team mit vielfältigen Spielfeldern und spannenden Möglichkeiten interessierst, schau doch gerne beim Infoabend rein. Wir freuen uns auf dich!',
     imgSrc: 'group-pictures/IT.jpg',
-    // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
+    videoSrc: 'https://www.youtube-nocookie.com/embed/Mfhf0wEMuIc',
     styleNumber: 5,
     slug: 'it',
   },
