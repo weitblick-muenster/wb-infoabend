@@ -6,6 +6,8 @@ import Random from './Random.vue';
 import More from './More.vue';
 import Form from './Form.vue';
 import Join from './Join.vue';
+import Stream from './Stream.vue';
+import Fick from './Fick.vue';
 
 export {
   Introduction,
@@ -16,4 +18,6 @@ export {
   More,
   Form,
   Join,
+  Stream,
+  Fick,
 };
