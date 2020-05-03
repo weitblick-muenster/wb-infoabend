@@ -55,8 +55,8 @@
       <li>
         <NuxtLink
           tag="button"
-          :disabled="true"
-          to="/"
+          :disabled="false"
+          to="/stream"
           class="button primary"
         >
           <span class="label">Streamen</span>

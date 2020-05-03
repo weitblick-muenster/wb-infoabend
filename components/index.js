@@ -6,6 +6,10 @@ import Random from './Random.vue';
 import More from './More.vue';
 import Form from './Form.vue';
 import Join from './Join.vue';
+import Stream from './Stream.vue';
+import Fick from './Fick.vue';
+import Speeddating from './Speeddating.vue';
+import Speedtile from './Speedtile.vue';
 
 export {
   Introduction,
@@ -16,4 +20,8 @@ export {
   More,
   Form,
   Join,
+  Stream,
+  Fick,
+  Speeddating,
+  Speedtile,
 };

@@ -107,6 +107,8 @@ export default {
       return [
         '/',
         '/join',
+        '/stream',
+        '/privacy',
         ...groupRoutes,
       ];
     },
