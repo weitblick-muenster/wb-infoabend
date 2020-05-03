@@ -1,6 +1,5 @@
 <template>
   <div>
-    <Fick />
     <Stream />
     <Fick />
   </div>
