@@ -84,7 +84,7 @@ export default [
     description: 'Die Gruppe kümmert sich um die Vor- und Nachbereitung für alldiejenigen, die mit Weitblick ins Ausland reisen.',
     text: 'Die „Weitweg-Gruppe“ kümmert sich um die Vor- und Nachbereitung für all diejenigen, die mit Weitblick ins Ausland reisen. Dafür müssen Methoden vorbereitet und die Durchführung der Workshops organisiert werden. In unserer Gruppe sind zum Einen Leute, die bereits mit Weitblick im Ausland waren, zum Anderen freuen wir uns aber auch sehr über alle anderen neuen Menschen, die Lust und Spaß bei der Vor- und Nachbereitung von Auslandserfahrungen haben!',
     imgSrc: 'group-pictures/WeitWeg.jpeg',
-    // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
+    videoSrc: 'https://www.youtube-nocookie.com/embed/j5rA1nxtPRo',
     styleNumber: 3,
     slug: 'weit-weg',
     teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
