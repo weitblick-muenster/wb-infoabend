@@ -1,5 +1,5 @@
 <template>
-  <section style="max-width: 80%;">
+  <section style="max-width: 1400px;">
     <div class="stream">
       <div class="lazyload stream-left">
         <iframe
