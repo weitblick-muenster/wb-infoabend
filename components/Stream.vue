@@ -13,7 +13,7 @@
       <div class="lazyload stream-right">
         <iframe
           title="Weitblick Live Stream"
-          src="https://www.youtube.com/live_chat?v=T7FgkXwiGc0&amp;embed_domain=https://infoabend.weitblicker.live"
+          src="https://www.youtube.com/live_chat?v=T7FgkXwiGc0&amp;embed_domain=https://weitblicker.live"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen
