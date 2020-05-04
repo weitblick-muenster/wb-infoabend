@@ -66,7 +66,7 @@
         <NuxtLink
           tag="button"
           :disabled="false"
-          to="/join"
+          to="/mitmachen"
           class="button primary"
         >
           <span class="label">Mitmachen</span>

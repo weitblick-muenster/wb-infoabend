@@ -11,7 +11,7 @@
       </li>
       <li>
         <a
-          href="/privacy"
+          href="/datenschutz"
           class="is-underlined"
         >
           Impressum & Datenschutz
