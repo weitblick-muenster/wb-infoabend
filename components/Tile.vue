@@ -75,12 +75,14 @@ export default {
       return [
         'image-stack',
         'tile',
-        { style1: this.styleNumber === 1 },
-        { style2: this.styleNumber === 2 },
-        { style3: this.styleNumber === 3 },
-        { style4: this.styleNumber === 4 },
-        { style5: this.styleNumber === 5 },
-        { style6: this.styleNumber === 6 },
+        {
+          style1: this.styleNumber === 1,
+          style2: this.styleNumber === 2,
+          style3: this.styleNumber === 3,
+          style4: this.styleNumber === 4,
+          style5: this.styleNumber === 5,
+          style6: this.styleNumber === 6,
+        },
       ];
     },
     imageCssClasses() {
