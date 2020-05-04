@@ -21,6 +21,13 @@ import { confetti } from 'dom-confetti';
 import groups from '~/data/groups';
 
 export default {
+  props: {
+    withTeamsUrls: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
   methods: {
     randomGroup() {
       const randGroup = groups[Math.floor(Math.random() * groups.length)];
@@ -28,7 +35,12 @@ export default {
 
       confetti(button);
       setTimeout(() => {
-        window.location.href = `/gruppe/${randGroup.slug}`;
+        debugger;
+        if (this.withTeamsUrls) {
+          window.open(randGroup.teams, '_blank');
+        } else {
+          window.location.href = `/gruppe/${randGroup.slug}`;
+        }
       }, 1500);
     },
   },

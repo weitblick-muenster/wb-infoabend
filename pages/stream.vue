@@ -6,11 +6,20 @@
       :groups="groups"
       :with-teams-urls="true"
     />
+    <Random
+      :with-teams-urls="true"
+    />
   </div>
 </template>
 
 <script>
-import { Stream, Fick, Groups } from '~/components';
+import {
+  Stream,
+  Fick,
+  Groups,
+  Random,
+} from '~/components';
+
 import groups from '~/data/groups';
 
 export default {
@@ -18,6 +27,7 @@ export default {
     Stream,
     Fick,
     Groups,
+    Random,
   },
   data() {
     return {
