@@ -1,6 +1,9 @@
 <template>
   <article :class="cssClasses">
-    <span class="image">
+    <span class="image image-stack item-top">
+      <img srcset="@/assets/images/teams.jpg" alt="imageText">
+    </span>
+    <span class="image image-stack item-bottom">
       <img
         :data-srcset="imageSrc.srcSet"
         :alt="imageText"
@@ -56,6 +59,7 @@ export default {
   computed: {
     cssClasses() {
       return [
+        'image-stack',
         'tile',
         { style1: this.styleNumber === 1 },
         { style2: this.styleNumber === 2 },
@@ -76,4 +80,23 @@ export default {
 .tile {
   cursor: pointer;
 }
+
+.image-stack {
+  position: relative;
+  // width: 100%;
+
+  .item-bottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .item-top {
+    padding-left: 50%;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+
 </style>
