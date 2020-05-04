@@ -63,7 +63,7 @@ export default {
 
   optimizedImages: {
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     mozjpeg: {
       quality: 20,
     },
