@@ -34,12 +34,13 @@ export default {
         title: group.name,
         text: group.description,
         image: group.imgSrc,
-        styleNumber: group.styleNumber,
         slug: group.slug,
       };
 
       if (this.withTeamsUrls) {
         tileProps.teamsUrl = group.teams;
+      } else {
+        tileProps.styleNumber = group.styleNumber;
       }
 
       return tileProps;

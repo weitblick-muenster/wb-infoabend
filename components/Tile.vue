@@ -1,9 +1,12 @@
 <template>
   <article :class="cssClasses">
-    <span class="image image-stack item-top">
+    <span
+      v-if="teamsUrl"
+      class="image image-stack item-top"
+    >
       <img srcset="@/assets/images/teams.jpg" alt="imageText">
     </span>
-    <span class="image image-stack item-bottom">
+    <span :class="imageCssClasses">
       <img
         :data-srcset="imageSrc.srcSet"
         :alt="imageText"
@@ -53,9 +56,9 @@ export default {
     styleNumber: {
       type: Number,
       required: false,
-      default: 1,
+      default: 0,
       validator(value) {
-        return inRange(value, 1, 7);
+        return inRange(value, 1, 7) || value === 0;
       },
     },
     teamsUrl: {
@@ -77,6 +80,15 @@ export default {
         { style6: this.styleNumber === 6 },
       ];
     },
+    imageCssClasses() {
+      return [
+        'image',
+        {
+          'image-stack': this.teamsUrl,
+          'item-bottom': this.teamsUrl,
+        },
+      ];
+    },
     imageSrc() {
       return require(`~/assets/images/${this.image}?size=300`);
     },
@@ -85,7 +97,10 @@ export default {
     },
     tileLinkProps() {
       if (this.teamsUrl) {
-        return { href: this.teamsUrl };
+        return {
+          href: this.teamsUrl,
+          target: '_blank',
+        };
       }
       return { to: `/gruppe/${this.slug}` };
     },
