@@ -2,19 +2,22 @@
   <div>
     <Stream />
     <Fick />
-    <Speeddating :groups="groups" />
+    <Groups
+      :groups="groups"
+      :with-teams-urls="true"
+    />
   </div>
 </template>
 
 <script>
-import { Stream, Fick, Speeddating } from '~/components';
+import { Stream, Fick, Groups } from '~/components';
 import groups from '~/data/groups';
 
 export default {
   components: {
     Stream,
     Fick,
-    Speeddating,
+    Groups,
   },
   data() {
     return {

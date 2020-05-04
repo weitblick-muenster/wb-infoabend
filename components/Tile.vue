@@ -7,12 +7,15 @@
         class="lazyload"
       >
     </span>
-    <NuxtLink :to="`/gruppe/${slug}`">
+    <component
+      :is="tileLinkComponent"
+      v-bind="tileLinkProps"
+    >
       <h2>{{ title }}</h2>
       <div class="content">
         <p>{{ text }}</p>
       </div>
-    </NuxtLink>
+    </component>
   </article>
 </template>
 
@@ -52,6 +55,11 @@ export default {
         return inRange(value, 1, 7);
       },
     },
+    teamsUrl: {
+      type: String,
+      required: false,
+      default: '',
+    },
   },
   computed: {
     cssClasses() {
@@ -67,6 +75,15 @@ export default {
     },
     imageSrc() {
       return require(`~/assets/images/${this.image}?size=300`);
+    },
+    tileLinkComponent() {
+      return this.teamsUrl ? 'a' : 'nuxt-link';
+    },
+    tileLinkProps() {
+      if (this.teamsUrl) {
+        return { href: this.teamsUrl };
+      }
+      return { to: `/gruppe/${this.slug}` };
     },
   },
 };
