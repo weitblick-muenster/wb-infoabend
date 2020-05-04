@@ -6,7 +6,13 @@
       Arbeit. Wenn du während der Präsentation Dinge nicht verstehst oder Fragen hast,
       stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
       Wenn du Hilfe benötigst oder etwas nicht klappt, findest du
-      <a href="#" class="is-underlined">hier</a> Hilfe.
+      <a
+        href="#"
+        class="is-underlined"
+      >
+        hier
+      </a>
+      Hilfe.
     </p>
     <h2>Speeddating</h2>
     <p>

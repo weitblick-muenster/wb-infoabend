@@ -8,8 +8,6 @@ import Form from './Form.vue';
 import Join from './Join.vue';
 import Stream from './Stream.vue';
 import Fick from './Fick.vue';
-import Speeddating from './Speeddating.vue';
-import Speedtile from './Speedtile.vue';
 
 export {
   Introduction,
@@ -22,6 +20,4 @@ export {
   Join,
   Stream,
   Fick,
-  Speeddating,
-  Speedtile,
 };

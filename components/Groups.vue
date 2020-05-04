@@ -4,11 +4,7 @@
       <Tile
         v-for="group in groups"
         :key="group.name"
-        :title="group.name"
-        :text="group.description"
-        :image="group.imgSrc"
-        :style-number="group.styleNumber"
-        :slug="group.slug"
+        v-bind="groupTileProps(group)"
       />
     </section>
   </div>
@@ -25,6 +21,28 @@ export default {
     groups: {
       type: Array,
       required: true,
+    },
+    withTeamsUrls: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
+  methods: {
+    groupTileProps(group) {
+      const tileProps = {
+        title: group.name,
+        text: group.description,
+        image: group.imgSrc,
+        styleNumber: group.styleNumber,
+        slug: group.slug,
+      };
+
+      if (this.withTeamsUrls) {
+        tileProps.teamsUrl = group.teams;
+      }
+
+      return tileProps;
     },
   },
 };
