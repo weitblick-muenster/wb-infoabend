@@ -1,6 +1,12 @@
 <template>
   <article :class="cssClasses">
-    <span class="image">
+    <span
+      v-if="teamsUrl"
+      class="image image-stack item-top"
+    >
+      <img srcset="@/assets/images/teams.jpg" alt="imageText">
+    </span>
+    <span :class="imageCssClasses">
       <img
         :data-srcset="imageSrc.srcSet"
         :alt="imageText"
@@ -50,9 +56,9 @@ export default {
     styleNumber: {
       type: Number,
       required: false,
-      default: 1,
+      default: 0,
       validator(value) {
-        return inRange(value, 1, 7);
+        return inRange(value, 1, 7) || value === 0;
       },
     },
     teamsUrl: {
@@ -64,6 +70,7 @@ export default {
   computed: {
     cssClasses() {
       return [
+        'image-stack',
         'tile',
         { style1: this.styleNumber === 1 },
         { style2: this.styleNumber === 2 },
@@ -71,6 +78,15 @@ export default {
         { style4: this.styleNumber === 4 },
         { style5: this.styleNumber === 5 },
         { style6: this.styleNumber === 6 },
+      ];
+    },
+    imageCssClasses() {
+      return [
+        'image',
+        {
+          'image-stack': this.teamsUrl,
+          'item-bottom': this.teamsUrl,
+        },
       ];
     },
     imageSrc() {
@@ -81,7 +97,10 @@ export default {
     },
     tileLinkProps() {
       if (this.teamsUrl) {
-        return { href: this.teamsUrl };
+        return {
+          href: this.teamsUrl,
+          target: '_blank',
+        };
       }
       return { to: `/gruppe/${this.slug}` };
     },
@@ -93,4 +112,23 @@ export default {
 .tile {
   cursor: pointer;
 }
+
+.image-stack {
+  position: relative;
+  // width: 100%;
+
+  .item-bottom {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+
+  .item-top {
+    padding-left: 50%;
+    z-index: 1;
+    overflow: hidden;
+  }
+}
+
 </style>
