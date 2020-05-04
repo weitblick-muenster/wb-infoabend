@@ -5,7 +5,7 @@
       class="image image-stack item-top"
     >
       <img
-        src="@/assets/images/teams.jpg"
+        src="~/assets/images/teams.jpg"
         alt="Teams"
       >
     </span>
