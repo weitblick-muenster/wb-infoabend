@@ -22,7 +22,16 @@
     >
       <h2>{{ title }}</h2>
       <div class="content">
-        <p>{{ text }}</p>
+        <p
+        v-if="teamsUrl"
+        >
+          Zum Speeddating 🕒
+        </p>
+        <p
+          v-else
+        >
+        {{ text }}
+      </p>
       </div>
     </component>
   </article>
