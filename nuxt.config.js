@@ -106,9 +106,9 @@ export default {
 
       return [
         '/',
-        '/join',
+        '/mitmachen',
         '/stream',
-        '/privacy',
+        '/datenschutz',
         ...groupRoutes,
       ];
     },
