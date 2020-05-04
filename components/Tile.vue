@@ -4,7 +4,10 @@
       v-if="teamsUrl"
       class="image image-stack item-top"
     >
-      <img srcset="@/assets/images/teams.jpg" alt="imageText">
+      <img
+        src="@/assets/images/teams.jpg"
+        alt="Teams"
+      >
     </span>
     <span :class="imageCssClasses">
       <img
