@@ -13,7 +13,7 @@
       <div class="lazyload stream-right">
         <iframe
           title="Weitblick Live Stream"
-          :src="liveChatSrc()"
+          :src="liveChatSrc"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen
@@ -25,9 +25,10 @@
 
 <script>
 export default {
-  methods: {
+  computed: {
     liveChatSrc() {
-      return `https://www.youtube.com/live_chat?v=kr91LP4ecDk&embed_domain=${window.location.hostname}`;
+      const host = process.env.NODE_ENV === 'development' ? 'localhost' : 'infoabend.weitblicker.live';
+      return `https://www.youtube.com/live_chat?v=kr91LP4ecDk&embed_domain=${host}`;
     },
   },
 };
