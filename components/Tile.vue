@@ -42,6 +42,7 @@ export default {
     text: {
       type: String,
       required: true,
+      default: '',
     },
     image: {
       type: String,
@@ -55,6 +56,7 @@ export default {
     slug: {
       type: String,
       required: true,
+      default: '',
     },
     styleNumber: {
       type: Number,
@@ -120,7 +122,6 @@ export default {
 
 .image-stack {
   position: relative;
-  // width: 100%;
 
   .item-bottom {
     position: absolute;
@@ -132,7 +133,6 @@ export default {
   .item-top {
     padding-left: 50%;
     z-index: 1;
-    overflow: hidden;
   }
 }
 
