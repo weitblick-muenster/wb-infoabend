@@ -43,7 +43,7 @@ export default {
   },
   data() {
     return {
-      groups: groups.map((group) => ({ ...group, description: 'Zum Speeddating 🕒' })),
+      groups: groups.map((group) => ({ ...group, description: 'Zum Speed Dating 🕒' })),
       pubs,
     };
   },
