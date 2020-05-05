@@ -8,10 +8,16 @@
     />
     <Random
       :with-teams-urls="true"
+      title='Blind Date'
     />
     <Groups
       :groups="pubs"
       :with-teams-urls="true"
+      :with-pubs="true"
+    />
+    <Random
+      :with-teams-urls="true"
+      title="Mitläufer"
       :with-pubs="true"
     />
   </div>
