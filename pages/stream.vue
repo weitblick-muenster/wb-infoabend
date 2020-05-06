@@ -8,7 +8,7 @@
     />
     <Random
       :with-teams-urls="true"
-      title='Blind Date'
+      title="Blind Date"
     />
     <Groups
       :groups="pubs"
