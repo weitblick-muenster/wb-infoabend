@@ -8,6 +8,7 @@
         <h1>Unsere Gruppen</h1>
       </template>
     </Groups>
+    <Follow />
     <More />
   </div>
 </template>
@@ -18,6 +19,7 @@ import {
   Schedule,
   StreamAnnouncement,
   Groups,
+  Follow,
   More,
 } from '~/components';
 import groups from '~/data/groups';
@@ -28,6 +30,7 @@ export default {
     Schedule,
     StreamAnnouncement,
     Groups,
+    Follow,
     More,
   },
   data() {

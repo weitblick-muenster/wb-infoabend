@@ -1,11 +1,11 @@
 <template>
-  <div class="section introduction is-lightgrey">
+  <div class="section is-lightgrey">
     <section class="container">
       <div class="row introduction-row">
         <div class="one-half column">
           <!-- eslint-disable max-len -->
           <h1>Hey! Willkommen zum Infoabend!</h1>
-          <p class="intro-text">
+          <p>
             Schön, dass du zu uns gefunden hast! Da Veranstaltungen aktuell nur eingeschränkt
             stattfinden können, halten wir den diesjährigen Infoabend online ab, damit
             du trotzdem dieses Semester deinen Einstieg bei Weitblick nicht verpasst!

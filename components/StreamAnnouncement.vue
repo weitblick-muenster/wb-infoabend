@@ -7,26 +7,13 @@
       >
         <NuxtLink to="/stream">
           <img
-            srcset="~/assets/images/stream.gif"
+            src="~/assets/images/stream.gif"
             class="stream-thumbnail"
           >
         </NuxtLink>
       </div>
 
       <template v-else>
-        <p class="stream-info-text no-margin-bottom">
-          Der Live-Stream ist zwar noch nicht gestartet, aber bleib dran!
-        </p>
-        <p class="stream-info-text">
-          Schau' dir doch noch einmal unsere
-          <a
-            href="#unsere-gruppen"
-            class="is-underlined"
-          >
-            Projektgruppen
-          </a> in der Zwischenzeit an.
-        </p>
-
         <div class="countdown-holder">
           <ClientOnly>
             <Countdown
@@ -38,6 +25,11 @@
             ref="countdownConfetti"
             class="confetti-holder"
           />
+          <p class="stream-info-text">
+            Der Live-Stream ist noch nicht gestartet schau<br>
+            dir in der Zwischenzeit doch unsere Gruppen an.<br>
+            ⬇️
+          </p>
         </div>
       </template>
     </section>
@@ -78,10 +70,6 @@ export default {
 </script>
 
 <style lang="scss">
-.no-margin-bottom {
-  margin-bottom: 0 !important;
-}
-
 .stream-thumbnail {
   max-width: 100%;
   opacity: 0.9;

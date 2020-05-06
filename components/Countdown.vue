@@ -28,23 +28,21 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 
 .vuejs-countdown {
-  font-family: 'Fira Code', monospace;
 
   .digit,
   li:after {
-    font-size: 10em !important;
+    font-size: 6rem !important;
   }
 
   .text {
-    font-size: 2em !important;
+    font-size: 1.1rem !important;
   }
 
   li:after {
-    top: -50px !important;
-    right: -45px !important;
+    top: -40px !important;
+    right: -25px !important;
   }
 }
 </style>
