@@ -1,20 +1,33 @@
 <template>
-  <div>
-    <section class="tiles">
-      <Tile
-        v-for="group in groups"
-        :key="group.name"
-        v-bind="groupTileProps(group)"
+  <div class="section">
+    <section
+      id="unsere-gruppen"
+      class="container"
+    >
+      <slot name="heading" />
+      <Random
+        :items="groups"
+        @randomized="redirectToGroup"
       />
+
+      <div class="tiles">
+        <Tile
+          v-for="group in groups"
+          :key="group.name"
+          v-bind="groupTileProps(group)"
+        />
+      </div>
     </section>
   </div>
 </template>
 
 <script>
+import Random from '~/components/Random.vue';
 import Tile from '~/components/Tile.vue';
 
 export default {
   components: {
+    Random,
     Tile,
   },
   props: {
@@ -44,6 +57,15 @@ export default {
       }
 
       return tileProps;
+    },
+    redirectToGroup(group) {
+      setTimeout(() => {
+        if (this.withTeamsUrls) {
+          window.open(group.teams, '_blank');
+        } else {
+          window.location.href = `/gruppe/${group.slug}`;
+        }
+      }, 1000);
     },
   },
 };

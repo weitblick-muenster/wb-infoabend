@@ -18,9 +18,11 @@
     </span>
     <component
       :is="tileLinkComponent"
+      class="tile-content"
       v-bind="tileLinkProps"
     >
-      <h2>{{ title }}</h2>
+      <!-- eslint-disable-next-line vue/no-v-html -->
+      <h2 v-html="title" />
       <div class="content">
         <p
           v-if="teamsUrl"
@@ -124,12 +126,27 @@ export default {
 
 <style lang="scss" scoped>
 .tile {
-  cursor: pointer;
+  margin: 10px 0 0 10px;
+
+  .image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  h2 {
+    font-size: large;
+    text-align: center;
+    hyphens: auto;
+  }
+
+  .content p {
+    font-size: large;
+    hyphens: none;
+  }
 }
 
 .image-stack {
   position: relative;
-  // width: 100%;
 
   .item-bottom {
     position: absolute;
@@ -145,4 +162,9 @@ export default {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .tiles {
+    margin: auto;
+  }
+}
 </style>

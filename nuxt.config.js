@@ -79,6 +79,12 @@ export default {
       adapter: responsiveLoader,
     },
   },
+  /**
+   * Vue Router config
+   */
+  router: {
+    linkActiveClass: 'is-active',
+  },
   /*
   ** Build configuration
   */

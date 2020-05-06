@@ -1,36 +1,74 @@
 <template>
-  <footer id="footer">
-    <ul class="vertical">
-      <li>
-        <a
-          href="/"
-          class="is-underlined"
+  <footer
+    id="footer"
+    class="footer"
+  >
+    <div class="container">
+      <ul class="vertical">
+        <li
+          v-for="link in footerLinks"
+          :key="link.text"
         >
-          Home
-        </a>
-      </li>
-      <li>
-        <a
-          href="/datenschutz"
-          class="is-underlined"
-        >
-          Impressum & Datenschutz
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://weitblicker.org/muenster/transparency"
-          class="is-underlined"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Transparenz
-        </a>
-      </li>
-    </ul>
+          <component
+            :is="footerLinkTag(link)"
+            v-bind="footerLinkProps(link)"
+            class="is-underlined"
+          >
+            {{ link.text }}
+          </component>
+        </li>
+      </ul>
+    </div>
   </footer>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      footerLinks: [
+        {
+          href: '/',
+          text: 'Home',
+        },
+        {
+          href: '/datenschutz',
+          text: 'Impressum & Datenschutz',
+        },
+        {
+          href: 'https://weitblicker.org/muenster/transparency',
+          text: 'Transparenz',
+          external: true,
+        },
+      ],
+    };
+  },
+  methods: {
+    footerLinkTag(link) {
+      return link.external ? 'a' : 'nuxt-link';
+    },
+    footerLinkProps(link) {
+      if (link.external) {
+        return {
+          href: link.href,
+          target: '_blank',
+          rel: 'noreferrer',
+        };
+      }
+
+      return { to: link.href };
+    },
+  },
+};
 </script>
+
+<style lang="scss" scoped>
+.footer {
+  background-color: lightgrey;
+  font-size: 15px;
+}
+
+.vertical {
+  margin: 0;
+}
+</style>
