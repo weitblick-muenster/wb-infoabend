@@ -24,16 +24,7 @@
       <!-- eslint-disable-next-line vue/no-v-html -->
       <h2 v-html="title" />
       <div class="content">
-        <p
-          v-if="teamsUrl"
-        >
-          Zum Speeddating 🕒
-        </p>
-        <p
-          v-else
-        >
-          {{ text }}
-        </p>
+        <p> {{ text }} </p>
       </div>
     </component>
   </article>
@@ -53,6 +44,7 @@ export default {
     text: {
       type: String,
       required: true,
+      default: '',
     },
     image: {
       type: String,
@@ -66,6 +58,7 @@ export default {
     slug: {
       type: String,
       required: true,
+      default: '',
     },
     styleNumber: {
       type: Number,
@@ -158,7 +151,6 @@ export default {
   .item-top {
     padding-left: 50%;
     z-index: 1;
-    overflow: hidden;
   }
 }
 

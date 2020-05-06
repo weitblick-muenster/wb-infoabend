@@ -5,7 +5,23 @@
     <Groups
       :groups="groups"
       :with-teams-urls="true"
-    />
+    >
+      <template #heading>
+        <h3>Blind Date</h3>
+      </template>
+    </Groups>
+    <Groups
+      :groups="pubs"
+      :with-teams-urls="true"
+    >
+      <template #heading>
+        <h3>Mitläufer</h3>
+      </template>
+      <template #text>
+        Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
+        Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
+      </template>
+    </Groups>
   </div>
 </template>
 
@@ -16,6 +32,7 @@ import {
   Groups,
 } from '~/components';
 import groups from '~/data/groups';
+import pubs from '~/data/pubs';
 
 export default {
   components: {
@@ -25,7 +42,8 @@ export default {
   },
   data() {
     return {
-      groups,
+      groups: groups.map((group) => ({ ...group, description: 'Zum Speed Dating 🕒' })),
+      pubs,
     };
   },
 };

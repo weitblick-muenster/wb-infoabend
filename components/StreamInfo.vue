@@ -21,13 +21,13 @@
 
     <div class="section has-background-grey">
       <div class="container">
-        <h2>Speeddating</h2>
+        <h2>Speed Dating</h2>
         <p>
-          Nach der Präsentation wird es ein Speeddating geben. Was bedeutet das? Da wir in vielen
-          Gruppen arbeiten, hast du die Möglichkeit - wie beim Speeddating - ca. 15 Minuten lang
+          Nach der Präsentation wird es ein Speed Dating geben. Was bedeutet das? Da wir in vielen
+          Gruppen arbeiten, hast du die Möglichkeit - wie beim Speed Dating - ca. 15 Minuten lang
           eine Gruppe kennenzulernen, danach geht es zur nächsten. Klicke dazu einfach auf eine der
           unten aufgeführten Gruppen, darüber gelangst du zum Video-Call. Wir werden im Stream
-          Bescheid geben, ab wann das Speeddating startet.
+          Bescheid geben, ab wann das Speed Dating startet.
         </p>
         <h2>Altstadt danach</h2>
         <p>
