@@ -112,6 +112,7 @@ export default {
         '/mitmachen',
         '/stream',
         '/datenschutz',
+        '/ueber-uns',
         ...groupRoutes,
       ];
     },
