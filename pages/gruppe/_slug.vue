@@ -1,47 +1,51 @@
 <template>
-  <section>
-    <img
-      :srcset="imageSrc.srcSet"
-      class="hero-image"
-    >
-    <h1>{{ group.name }}</h1>
-    <p>{{ group.text }}</p>
-    <div
-      v-if="group.videoSrc"
-      class="group-video lazyload"
-    >
-      <iframe
-        title="Gruppen Vorstellungsvideo"
-        :src="group.videoSrc"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-        allowfullscreen
-      />
+  <div>
+    <div class="section">
+      <div class="container">
+        <img
+          :srcset="imageSrc.srcSet"
+          class="hero-image"
+        >
+
+        <h1>{{ group.name }}</h1>
+        <p>{{ group.text }}</p>
+        <div
+          v-if="group.videoSrc"
+          class="group-video lazyload"
+        >
+          <iframe
+            title="Gruppen Vorstellungsvideo"
+            :src="group.videoSrc"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+            allowfullscreen
+          />
+        </div>
+      </div>
     </div>
-    <Random />
+
     <Follow />
-    <a
-      class="is-underlined"
-      href="/"
-    >
-      Zurück
-    </a>
-  </section>
+
+    <div class="container">
+      <NuxtLink
+        to="/"
+        class="is-underlined"
+      >
+        Zurück
+      </NuxtLink>
+    </div>
+  </div>
 </template>
 
 <script>
 /* eslint-disable global-require */
 /* eslint-disable import/no-dynamic-require */
-import {
-  Follow,
-  Random,
-} from '~/components';
+import { Follow } from '~/components';
 import groups from '~/data/groups';
 
 export default {
   components: {
     Follow,
-    Random,
   },
   asyncData({ payload, params, error }) {
     if (payload) return payload;
@@ -60,3 +64,40 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.hero-image {
+  max-height: 540px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 50px;
+}
+
+.group-video {
+  margin-bottom:50px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+
+  iframe,
+  object,
+  embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p,
+a {
+  font-size: 15px
+}
+</style>
