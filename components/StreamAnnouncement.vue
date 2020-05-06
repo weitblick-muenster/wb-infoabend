@@ -7,7 +7,7 @@
       >
         <NuxtLink to="/stream">
           <img
-            srcset="~/assets/images/stream.jpg?responsive"
+            srcset="~/assets/images/stream.gif"
             class="stream-thumbnail"
           >
         </NuxtLink>
@@ -92,7 +92,6 @@ export default {
 
   &:hover {
     opacity: 0.6;
-    transform: scale(1.05);
   }
 }
 
