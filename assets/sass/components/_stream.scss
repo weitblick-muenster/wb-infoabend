@@ -50,10 +50,10 @@
   }
 }
 
-@include breakpoint('<=xsmall') {
+@media screen and (max-width: 580px) {
   .stream {
     .stream-left {
-      height: 150px;
+      height: 250px;
 
     }
     .stream-right {
