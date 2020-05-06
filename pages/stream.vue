@@ -1,45 +1,44 @@
 <template>
   <div>
     <Stream />
-    <Fick />
+    <StreamInfo />
     <Groups
       :groups="groups"
       :with-teams-urls="true"
-    />
-    <Random
-      :with-teams-urls="true"
-      title='Blind Date'
-    />
+    >
+      <template #heading>
+        <h3>Blind Date</h3>
+      </template>
+    </Groups>
     <Groups
       :groups="pubs"
       :with-teams-urls="true"
-      :with-pubs="true"
-    />
-    <Random
-      :with-teams-urls="true"
-      title="Mitläufer"
-      :with-pubs="true"
-    />
+    >
+      <template #heading>
+        <h3>Mitläufer</h3>
+      </template>
+      <template #text>
+        Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
+        Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
+      </template>
+    </Groups>
   </div>
 </template>
 
 <script>
 import {
   Stream,
-  Fick,
+  StreamInfo,
   Groups,
-  Random,
 } from '~/components';
-
 import groups from '~/data/groups';
 import pubs from '~/data/pubs';
 
 export default {
   components: {
     Stream,
-    Fick,
+    StreamInfo,
     Groups,
-    Random,
   },
   data() {
     return {

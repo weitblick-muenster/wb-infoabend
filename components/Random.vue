@@ -1,66 +1,70 @@
 <template>
-  <section>
-    <h1>{{ title }}</h1>
-    <p
-      v-if="title === 'Mitläufer'"
-    >
-    Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
-    Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
-    </p>
-    <p v-else>
-      Puh, ganz schön viel Auswahl! Gar keine Ahnung, welche Gruppe du dir ansehen möchtest?
-      Wir haben uns etwas für dich überlegt. Klicke unten auf den Button und wir bringen dich
-      zu einer zufälligen Gruppe.
-    </p>
-    <a
-      tag="button"
-      class="random button primary"
-      @click="randomGroup"
-    >
-      Auf gut Glück
-    </a>
-  </section>
+  <div class="row random">
+    <div class="two-thirds column">
+      <p class="text">
+        <slot name="text">
+          Puh, ganz schön viel Auswahl! Gar keine Ahnung, welche Gruppe du dir ansehen möchtest?
+          Wir haben uns etwas für dich überlegt. Klicke unten auf den Button und wir bringen dich
+          zu einer zufälligen Gruppe.
+        </slot>
+      </p>
+    </div>
+    <div class="one-third column button-holder">
+      <a
+        ref="randomizer"
+        tag="button"
+        class="random-button button button-primary"
+        @click="randomGroup"
+      >
+        Auf gut Glück
+      </a>
+    </div>
+  </div>
 </template>
 
 <script>
 import { confetti } from 'dom-confetti';
-import groups from '~/data/groups';
-import pubs from '~/data/pubs';
 
 export default {
   props: {
-    withTeamsUrls: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-    title: {
-      type: String,
-      required: false,
-      default: 'normal',
-    },
-    withPubs: {
-      type: Boolean,
-      required: false,
-      default: false,
+    items: {
+      type: Array,
+      required: true,
     },
   },
   methods: {
     randomGroup() {
-      const group = this.withPubs ? pubs : groups;
-      const random = group[Math.floor(Math.random() * group.length)];
-      const button = document.querySelector('.random');
-
+      const randomItem = this.items[Math.floor(Math.random() * this.items.length)];
+      const button = this.$refs.randomizer;
+      this.$emit('randomized', randomItem);
       confetti(button);
-      setTimeout(() => {
-        debugger;
-        if (this.withTeamsUrls) {
-          window.open(random.teams, '_blank');
-        } else {
-          window.location.href = `/gruppe/${random.slug}`;
-        }
-      }, 1500);
     },
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.text {
+  font-size: 15px;
+}
+
+.random {
+  display: flex;
+  align-items: center;
+}
+
+.button-holder {
+  text-align: center;
+}
+
+.random-button {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 549px) {
+  .random {
+    display: block;
+  }
+}
+</style>

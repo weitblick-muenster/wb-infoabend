@@ -170,7 +170,7 @@ export default [
     teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
-    name: 'Mitgliedergewinnung',
+    name: 'Mitglieder&shy;gewinnung',
     description: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben.',
     text: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben. Das ist aber keine trockene Aufgabe, sondern macht sehr viel Spaß: Wir organisieren Veranstaltungen wie den Infoabend, die Kennenlernfahrt im Wintersemester und unseren Sommertag im Sommersemester und besuchen zu Beginn des Semesters Vorlesungen, um dort neuen Studierenden Weitblick vorzustellen. Schau gerne mal bei uns vorbei! :)',
     imgSrc: 'group-pictures/Mitgliedergewinnung.jpg',
@@ -180,7 +180,7 @@ export default [
     teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
-    name: 'Öffentlichkeitsarbeit',
+    name: 'Öffentlichkeits&shy;arbeit',
     description: 'Wir kümmern uns um Social Media und machen Pressearbeit.',
     text: 'Wir, die Öffentlichkeitsarbeitsgruppe, kümmern uns um alles rund um die Social Media Kanäle von Weitblick. Wenn ihr also schon einmal in unsere Instagram oder Facebook Seite reingeschaut habt, seid ihr ganz sicher schon auf unsere Arbeit gestoßen. Dabei konzeptionieren und generieren wir die Inhalte, die euch zum Beispiel über kommende Veranstaltungen informieren oder posten Momente von vergangenen Events, um zu berichten was wir bei Weitblick gerade eigentlich alles so machen. Wie man sieht ist in unserer Gruppe jede Menge Kreativität und Einfallsreichtum gefragt und wir freuen uns immer auf neue Leute, die Lust haben zusammen etwas Cooles auf die Beine zu stellen.',
     imgSrc: 'group-pictures/oeffentlichkeitsarbeit.jpg',

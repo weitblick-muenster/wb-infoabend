@@ -23,23 +23,23 @@
 
 // Base.
 
-@import 'base/reset';
-@import 'base/page';
+// @import 'base/reset';
+// @import 'base/page';
 @import 'base/typography';
 
 // Component.
 
-@import 'components/row';
-@import 'components/section';
+// @import 'components/row';
+// @import 'components/section';
 @import 'components/icon';
-@import 'components/list';
-@import 'components/actions';
+// @import 'components/list';
+// @import 'components/actions';
 @import 'components/icons';
-@import 'components/form';
-@import 'components/box';
-@import 'components/image';
-@import 'components/table';
-@import 'components/button';
+// @import 'components/form';
+// @import 'components/box';
+// @import 'components/image';
+// @import 'components/table';
+// @import 'components/button';
 @import 'components/tiles';
 @import 'components/forms';
 @import 'components/ms-forms';
@@ -48,7 +48,31 @@
 // Layout.
 
 @import 'layout/header';
-@import 'layout/menu';
-@import 'layout/main';
+// @import 'layout/menu';
+// @import 'layout/main';
 @import 'layout/footer';
-@import 'layout/wrapper';
+// @import 'layout/wrapper';
+
+.container {
+  max-width: 1200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+a:hover {
+  color: _palette(accent1) !important;
+}
+
+.button-primary {
+  background-color: _palette(accent1) !important;
+  border-color: _palette(accent1) !important;
+  color: _palette(bg) !important;
+  transition: 0.2s ease-in-out;
+
+  &:focus,
+  &:hover,
+  &:active {
+    border-color: _palette(accent6) !important;
+    background-color: _palette(accent6) !important;
+  }
+}

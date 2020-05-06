@@ -1,7 +1,6 @@
 .stream {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 50px;
   position: relative;
   height: 450px;
 
@@ -51,10 +50,10 @@
   }
 }
 
-@include breakpoint('<=xsmall') {
+@media screen and (max-width: 580px) {
   .stream {
     .stream-left {
-      height: 150px;
+      height: 250px;
 
     }
     .stream-right {

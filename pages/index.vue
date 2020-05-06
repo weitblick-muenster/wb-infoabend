@@ -1,33 +1,31 @@
 <template>
   <div>
     <Introduction />
-    <About />
-    <Follow />
-    <Groups :groups="groups" />
-    <Random />
-    <More />
+    <Schedule />
+    <StreamAnnouncement />
+    <Groups :groups="groups">
+      <template #heading>
+        <h1>Unsere Gruppen</h1>
+      </template>
+    </Groups>
   </div>
 </template>
 
 <script>
 import {
   Introduction,
-  About,
-  Follow,
+  Schedule,
+  StreamAnnouncement,
   Groups,
-  Random,
-  More,
 } from '~/components';
 import groups from '~/data/groups';
 
 export default {
   components: {
     Introduction,
-    Follow,
-    About,
+    Schedule,
+    StreamAnnouncement,
     Groups,
-    Random,
-    More,
   },
   data() {
     return {

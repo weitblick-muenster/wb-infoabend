@@ -1,21 +1,20 @@
 <template>
-  <div id="wrapper">
+  <div>
     <TheHeader />
-    <div id="main">
-      <div class="inner">
-        <nuxt />
-      </div>
-    </div>
+    <nuxt />
+    <More />
     <TheFooter />
   </div>
 </template>
 
 <script>
 import { TheHeader, TheFooter } from '~/components/Page';
+import { More } from '~/components';
 
 export default {
   components: {
     TheHeader,
+    More,
     TheFooter,
   },
 };

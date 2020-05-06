@@ -38,6 +38,9 @@ export default {
   ** Global CSS
   */
   css: [
+    'skeleton-css/css/normalize.css',
+    'skeleton-css/css/skeleton.css',
+    'hamburgers/dist/hamburgers.css',
     '~/assets/sass/main.scss',
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
@@ -76,6 +79,12 @@ export default {
       adapter: responsiveLoader,
     },
   },
+  /**
+   * Vue Router config
+   */
+  router: {
+    linkActiveClass: 'is-active',
+  },
   /*
   ** Build configuration
   */
@@ -109,6 +118,7 @@ export default {
         '/mitmachen',
         '/stream',
         '/datenschutz',
+        '/ueber-uns',
         ...groupRoutes,
       ];
     },
