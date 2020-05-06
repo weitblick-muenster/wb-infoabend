@@ -37,7 +37,7 @@ export default {
     title: {
       type: String,
       required: false,
-      default: 'normal',
+      default: 'Glücksrad',
     },
     withPubs: {
       type: Boolean,
