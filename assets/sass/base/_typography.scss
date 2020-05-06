@@ -6,6 +6,10 @@
 
 /* Type */
 
+html {
+  font-size: 100%; 
+}
+
 body, input, select, textarea {
   color: _palette(text-main);
   font-family: _font(family);
