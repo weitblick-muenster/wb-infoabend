@@ -1,6 +1,6 @@
 <template>
   <header class="header container row">
-    <div class="one-half column">
+    <div class="one-third column">
       <NuxtLink
         to="/"
         class="logo"
@@ -12,7 +12,7 @@
       </NuxtLink>
     </div>
 
-    <div class="one-half column nav">
+    <div class="two-thirds column nav">
       <NuxtLink
         v-for="link in navLinks"
         :key="link.name"
