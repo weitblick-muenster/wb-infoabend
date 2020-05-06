@@ -7,6 +7,7 @@
       :with-teams-urls="true"
     >
       <template #heading>
+        <h1>Unsere Gruppen</h1>
         <h3>Blind Date</h3>
       </template>
     </Groups>
@@ -15,6 +16,7 @@
       :with-teams-urls="true"
     >
       <template #heading>
+        <h1>Die Kneipen</h1>
         <h3>Mitläufer</h3>
       </template>
       <template #text>
