@@ -41,7 +41,7 @@
       'border-color #{_duration(transition)} ease-in-out'
     ));
     background-color: transparent;
-    border: solid 1px _palette(border);
+    border: solid 1px _palette(text-main);
     border-radius: _size(border-radius);
     width: 55px;
     height: 55px;
