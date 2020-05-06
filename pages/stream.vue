@@ -8,6 +8,17 @@
     />
     <Random
       :with-teams-urls="true"
+      title='Blind Date'
+    />
+    <Groups
+      :groups="pubs"
+      :with-teams-urls="true"
+      :with-pubs="true"
+    />
+    <Random
+      :with-teams-urls="true"
+      title="Mitläufer"
+      :with-pubs="true"
     />
   </div>
 </template>
@@ -21,6 +32,7 @@ import {
 } from '~/components';
 
 import groups from '~/data/groups';
+import pubs from '~/data/pubs';
 
 export default {
   components: {
@@ -31,7 +43,8 @@ export default {
   },
   data() {
     return {
-      groups,
+      groups: groups.map((group) => ({ ...group, description: 'Zum Speed Dating 🕒' })),
+      pubs,
     };
   },
 };
