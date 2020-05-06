@@ -1,7 +1,7 @@
 <template>
   <div>
     <Stream />
-    <Fick />
+    <StreamInfo />
     <Groups
       :groups="groups"
       :with-teams-urls="true"
@@ -12,7 +12,7 @@
 <script>
 import {
   Stream,
-  Fick,
+  StreamInfo,
   Groups,
 } from '~/components';
 import groups from '~/data/groups';
@@ -20,7 +20,7 @@ import groups from '~/data/groups';
 export default {
   components: {
     Stream,
-    Fick,
+    StreamInfo,
     Groups,
   },
   data() {

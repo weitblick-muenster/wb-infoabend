@@ -9,7 +9,7 @@ import Form from './Form.vue';
 import Join from './Join.vue';
 import Stream from './Stream.vue';
 import StreamAnnouncement from './StreamAnnouncement.vue';
-import Fick from './Fick.vue';
+import StreamInfo from './StreamInfo.vue';
 
 export {
   Introduction,
@@ -23,5 +23,5 @@ export {
   Join,
   Stream,
   StreamAnnouncement,
-  Fick,
+  StreamInfo,
 };
