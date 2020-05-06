@@ -19,7 +19,7 @@
       </div>
     </div>
 
-    <div class="section has-background-grey">
+    <div class="section is-lightgrey">
       <div class="container">
         <h2>Speed Dating</h2>
         <p>
@@ -39,21 +39,3 @@
     </div>
   </div>
 </template>
-
-<style lang="scss" scoped>
-h1 {
-  font-size: 20px;
-}
-
-h2 {
-  font-size: 16px;
-}
-
-p {
-  font-size: 15px
-}
-
-.has-background-grey {
-  background-color: lightgrey;
-}
-</style>

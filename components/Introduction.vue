@@ -1,5 +1,5 @@
 <template>
-  <div class="section introduction">
+  <div class="section introduction is-lightgrey">
     <section class="container">
       <div class="row introduction-row">
         <div class="one-half column">
@@ -33,18 +33,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.introduction {
-  background-color: lightgrey;
-
-  h1 {
-    font-size: x-large;
-  }
-}
-
-.intro-text {
-  font-size: 15px;
-}
-
 .hero-image {
   max-width: 100%;
 }

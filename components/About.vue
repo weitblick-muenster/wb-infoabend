@@ -46,14 +46,6 @@
 </template>
 
 <style lang="scss" scoped>
-h1 {
-  font-size: 20px;
-}
-
-p {
-  font-size: 15px
-}
-
 .group-video {
   margin-bottom:50px;
   position: relative;

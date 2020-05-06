@@ -91,13 +91,4 @@ export default {
     height: 100%;
   }
 }
-
-h1 {
-  font-size: 30px;
-}
-
-p,
-a {
-  font-size: 15px
-}
 </style>

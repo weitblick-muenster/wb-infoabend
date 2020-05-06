@@ -1,5 +1,5 @@
 <template>
-  <div class="section has-background-grey">
+  <div class="section is-lightgrey">
     <div class="container stream-container">
       <div class="stream">
         <div class="lazyload stream-left">
@@ -52,10 +52,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.has-background-grey {
-  background-color: lightgrey;
-}
-
 .stream-container {
   max-width: 1400px;
   margin-bottom: 20px;

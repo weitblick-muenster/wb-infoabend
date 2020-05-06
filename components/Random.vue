@@ -44,10 +44,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.text {
-  font-size: 15px;
-}
-
 .random {
   display: flex;
   align-items: center;

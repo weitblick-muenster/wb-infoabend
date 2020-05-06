@@ -63,10 +63,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.footer {
-  background-color: lightgrey;
-  font-size: 15px;
-}
 
 .vertical {
   margin: 0;

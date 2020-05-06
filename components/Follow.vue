@@ -1,5 +1,5 @@
 <template functional>
-  <div class="section">
+  <div class="section is-lightgrey">
     <div class="container">
       <h1>Folge uns!</h1>
       <p>
@@ -35,18 +35,7 @@
 </template>
 
 <style lang="scss" scoped>
-.section {
-  background-color: lightgrey;
-}
 
-p {
-  font-size: 15px;
-}
-
-.social-media {
-  font-size: 20px;
-  margin-bottom: 0;
-}
 
 .fa-facebook-f:hover {
   color: #3b5998 !important;

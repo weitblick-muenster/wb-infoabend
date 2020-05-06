@@ -63,10 +63,6 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-p, .schedule {
-  font-size: 15px;
-}
-
 table.schedule {
   td:first-child {
     border-top: 1px solid #E1E1E1;

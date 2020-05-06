@@ -1,5 +1,5 @@
 <template>
-  <div class="section has-background-grey">
+  <div class="section is-lightgrey">
     <section class="container">
       <div
         v-if="showStream"
@@ -78,10 +78,6 @@ export default {
 </script>
 
 <style lang="scss">
-.stream-info-text {
-  font-size: 15px;
-}
-
 .no-margin-bottom {
   margin-bottom: 0 !important;
 }
@@ -112,10 +108,6 @@ export default {
 
 .text-align-center {
   text-align: center;
-}
-
-.has-background-grey {
-  background-color: lightgrey;
 }
 
 @media screen and (min-width: 1024px) {

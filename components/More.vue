@@ -17,9 +17,3 @@
     </section>
   </div>
 </template>
-
-<style lang="scss" scoped>
-.text {
-  font-size: 15px;
-}
-</style>
