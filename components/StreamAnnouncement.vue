@@ -1,6 +1,6 @@
 <template>
   <div class="section has-background-grey">
-    <section class="container stream-container">
+    <section class="container">
       <div
         v-if="showStream"
         class="text-align-center"
@@ -14,15 +14,17 @@
       </div>
 
       <template v-else>
-        <p class="stream-info-text">
+        <p class="stream-info-text no-margin-bottom">
           Der Live-Stream ist zwar noch nicht gestartet, aber bleib dran!
-          In der Zwischenzeit schau' dir doch noch einmal unsere
+        </p>
+        <p class="stream-info-text">
+          Schau' dir doch noch einmal unsere
           <a
             href="#unsere-gruppen"
             class="is-underlined"
           >
             Projektgruppen
-          </a> an.
+          </a> in der Zwischenzeit an.
         </p>
 
         <div class="countdown-holder">
@@ -53,7 +55,7 @@ export default {
   data() {
     return {
       // streamStartingAt: '2020-05-07T20:00:00',
-      streamStartingAt: '2020-05-06T18:45:15',
+      streamStartingAt: '2020-05-06T21:20:00',
       showStream: false,
     };
   },
@@ -77,12 +79,12 @@ export default {
 </script>
 
 <style lang="scss">
-.stream-container {
-  max-width: 1400px;
-}
-
 .stream-info-text {
   font-size: 15px;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
 }
 
 .stream-thumbnail {
@@ -115,5 +117,11 @@ export default {
 
 .has-background-grey {
   background-color: lightgrey;
+}
+
+@media screen and (min-width: 1024px) {
+  .stream-thumbnail {
+    width: 70%;
+  }
 }
 </style>
