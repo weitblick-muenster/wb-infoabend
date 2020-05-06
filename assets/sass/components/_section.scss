@@ -8,15 +8,32 @@
 
 section {
   margin: 0 auto 100px;
-  max-width: 840px;
+  max-width: 900px;
 
   &.special {
     text-align: center;
   }
 
+  &.is-vertical {
+    max-width: 1200px;
+  }
+
+  &.is-grey {
+    background-color: _palette(bg-alt);
+  }
+
   ul {
     margin: 0 auto;
   }
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex: 50%;
 }
 
 .hero-image {
