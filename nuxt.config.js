@@ -38,6 +38,8 @@ export default {
   ** Global CSS
   */
   css: [
+    'skeleton-css/css/normalize.css',
+    'skeleton-css/css/skeleton.css',
     '~/assets/sass/main.scss',
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
