@@ -40,6 +40,7 @@ export default {
   css: [
     'skeleton-css/css/normalize.css',
     'skeleton-css/css/skeleton.css',
+    'hamburgers/dist/hamburgers.css',
     '~/assets/sass/main.scss',
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
