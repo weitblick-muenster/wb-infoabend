@@ -1,8 +1,8 @@
 <template>
   <section>
-    <h1>Live Stream</h1>
+    <h1>Live-Stream 🎥</h1>
     <p>
-      Ab 20 Uhr gibt es eine ca. 45 minütige Präsentation über Weitblick und unsere
+      Ab 20 Uhr gibt es eine ca. 45 minütige Präsentation über unsere
       Arbeit. Wenn du während der Präsentation Dinge nicht verstehst oder Fragen hast,
       stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
       Wenn du Hilfe benötigst oder etwas nicht klappt, findest du
@@ -14,15 +14,16 @@
       </a>
       Hilfe.
     </p>
-    <h2>Speed Dating</h2>
+    <h1>Speed Dating ⏲</h1>
     <p>
       Nach der Präsentation wird es ein Speed Dating geben. Was bedeutet das? Da wir in vielen
-      Gruppen arbeiten, hast du die Möglichkeit - wie beim Speed Dating - ca. 15 Minuten lang eine
-      Gruppe kennenzulernen, danach geht es zur nächsten. Klicke dazu einfach auf eine der unten
-      aufgeführten Gruppen, darüber gelangst du zum Video-Call. Wir werden im Stream bescheid
-      geben, ab wann das Speed Dating startet.
+      Gruppen arbeiten, hast du die Möglichkeit - wie beim Speed Dating - zwei mal ca. 15 Minuten
+      lang eine Gruppe kennenzulernen, danach geht es zur nächsten. Klicke dazu einfach auf eine
+      der unten aufgeführten Gruppen, darüber gelangst du zum Video-Call. Diesen kannst du bei den
+      meisten Browsern direkt ohne Installation von Teams beitreten. Wähle dies Option falls
+      verfügbar. Wir werden im Stream bescheid geben, ab wann das Speed Dating beginnt.
     </p>
-    <h2>Altstadt danach</h2>
+    <h1>Altstadt danach 🍻</h1>
     <p>
       Altstadt danach? Leider nein...Aber wir holen die Altstadt zu dir nach Hause! Unser Kneipen
       Feature ermöglicht es, einfach in lockerer Runde ein Getränk deiner Wahl zu genießen und

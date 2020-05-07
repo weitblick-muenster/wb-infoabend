@@ -3,10 +3,10 @@
     <Introduction />
     <EventInfo />
     <StreamTeaser />
-    <About />
-    <Follow />
     <Groups :groups="groups" />
     <Random />
+    <About />
+    <Follow />
     <More />
   </div>
 </template>

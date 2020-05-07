@@ -1,7 +1,7 @@
 <template>
   <div>
     <Stream />
-    <Fick />
+    <StreamInfo />
     <Groups
       :groups="groups"
       :with-teams-urls="true"
@@ -26,7 +26,7 @@
 <script>
 import {
   Stream,
-  Fick,
+  StreamInfo,
   Groups,
   Random,
 } from '~/components';
@@ -37,7 +37,7 @@ import pubs from '~/data/pubs';
 export default {
   components: {
     Stream,
-    Fick,
+    StreamInfo,
     Groups,
     Random,
   },
