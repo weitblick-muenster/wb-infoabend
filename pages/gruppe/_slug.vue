@@ -8,7 +8,7 @@
     <p>{{ group.text }}</p>
     <div
       v-if="group.videoSrc"
-      class="group-video lazyload"
+      class="yt-video lazyload"
     >
       <iframe
         title="Gruppen Vorstellungsvideo"
