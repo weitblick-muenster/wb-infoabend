@@ -35,3 +35,27 @@
 <script>
 export default {};
 </script>
+
+<style lang="scss" scoped>
+.fa-facebook-f {
+  color: #3B5998 !important;
+  border-color: #3B5998 !important;
+
+  &:hover {
+    color: #FFFFFF !important;
+    background-color: #3B5998 !important;
+    border-color: #3B5998 !important;
+  }
+}
+
+.fa-instagram {
+  color: #C13584 !important;
+  border-color: #C13584 !important;
+
+  &:hover {
+    color: #FFFFFF !important;
+    background-color: #C13584 !important;
+    border-color: #C13584 !important;
+  }
+}
+</style>
