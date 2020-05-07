@@ -1,7 +1,7 @@
 <template>
   <footer
     id="footer"
-    class="footer"
+    class="footer is-lightgrey"
   >
     <div class="container">
       <ul class="vertical">
