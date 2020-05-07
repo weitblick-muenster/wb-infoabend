@@ -44,7 +44,7 @@ export default {
   },
   data() {
     return {
-      streamStartingAt: '2020-05-07T19:50:00',
+      streamStartingAt: '2020-05-07T03:50:00',
       showStream: false,
     };
   },

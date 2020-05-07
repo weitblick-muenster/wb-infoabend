@@ -7,7 +7,7 @@
       stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
       Wenn du Hilfe benötigst oder etwas nicht klappt, findest du
       <a
-        href="#"
+        href="/help"
         class="is-underlined"
       >
         hier
@@ -20,8 +20,22 @@
       Gruppen arbeiten, hast du die Möglichkeit - wie beim Speed Dating - zwei mal ca. 15 Minuten
       lang eine Gruppe kennenzulernen, danach geht es zur nächsten. Klicke dazu einfach auf eine
       der unten aufgeführten Gruppen, darüber gelangst du zum Video-Call. Diesen kannst du bei den
-      meisten Browsern direkt ohne Installation von Teams beitreten. Wähle dies Option falls
+      meisten Browsern direkt ohne Installation von Teams beitreten. Wähle diese Option falls
       verfügbar. Wir werden im Stream bescheid geben, ab wann das Speed Dating beginnt.
+    </p>
+    <h1>Kontaktdaten 💌</h1>
+    <p>
+      Dir hat die ein oder andere Gruppe gut gefallen? Dann wird dich die Gruppenleitung sicherlich
+      gebeten haben, deine Kontaktdaten in einem Formular zu hinterlassen. Das kannst du hier
+      machen!
+      <br>
+      <NuxtLink
+        to="/mitmachen"
+        tag="button"
+        class="button primary"
+      >
+        <span class="label">Kontaktformular</span>
+      </NuxtLink>
     </p>
     <h1>Altstadt danach 🍻</h1>
     <p>
