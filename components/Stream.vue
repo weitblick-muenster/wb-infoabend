@@ -4,7 +4,7 @@
       <div class="yt-video lazyload stream-left">
         <iframe
           title="Weitblick Live Stream"
-          src="https://www.youtube-nocookie.com/embed/kr91LP4ecDk"
+          src="https://www.youtube.com/embed/kr91LP4ecDk"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen
