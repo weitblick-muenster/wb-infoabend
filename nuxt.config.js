@@ -38,9 +38,9 @@ export default {
   ** Global CSS
   */
   css: [
-    'hamburgers/dist/hamburgers.css',
     '~/assets/sass/main.scss',
     '@fortawesome/fontawesome-free/css/all.min.css',
+    'hamburgers/dist/hamburgers.css',
   ],
   /*
   ** Plugins to load before mounting the App
