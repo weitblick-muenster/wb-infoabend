@@ -44,15 +44,15 @@
       Email an:
       <a
         href="mailto:admin.muenster@weitblicker.org"
-        class ="is-underlined"
+        class="is-underlined"
       >
         admin.muenster@weitblicker.org
       </a>
     </p>
     <a
-      @click="$router.go(-1)"
       tag="button"
       class="button primary"
+      @click="$router.go(-1)"
     >
       <span class="label">Zurück</span>
     </a>
