@@ -38,6 +38,7 @@ export default {
   ** Global CSS
   */
   css: [
+    'hamburgers/dist/hamburgers.css',
     '~/assets/sass/main.scss',
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
@@ -75,6 +76,10 @@ export default {
       sizes: [300, 600, 1200],
       adapter: responsiveLoader,
     },
+  },
+
+  router: {
+    linkActiveClass: 'is-active',
   },
   /*
   ** Build configuration

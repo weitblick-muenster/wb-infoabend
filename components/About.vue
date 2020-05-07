@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="about">
     <h1>Über Weitblick</h1>
     <p>
       Weitblick Münster ist eine Studierendeninitiative, die offen für alle
