@@ -52,7 +52,7 @@
     <a
       tag="button"
       class="button primary"
-      @click="$router.go(-1)"
+      @click="$router.back()"
     >
       <span class="label">Zurück</span>
     </a>
