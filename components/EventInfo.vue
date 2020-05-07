@@ -18,5 +18,12 @@
         🎉 Unsere Gruppen melden sich bei dir und du kannst direkt loslegen
       </li>
     </ul>
+
+    <NuxtLink to="/stream">
+      <img
+        src="~/assets/images/wb-stream-cta.gif"
+        class="stream-thumbnail"
+      >
+    </NuxtLink>
   </section>
 </template>

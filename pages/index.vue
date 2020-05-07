@@ -2,7 +2,6 @@
   <div>
     <Introduction />
     <EventInfo />
-    <StreamTeaser />
     <Groups :groups="groups" />
     <Random
       :items="groups"
@@ -18,7 +17,6 @@
 import {
   Introduction,
   EventInfo,
-  StreamTeaser,
   About,
   Follow,
   Groups,
@@ -31,7 +29,6 @@ export default {
   components: {
     Introduction,
     EventInfo,
-    StreamTeaser,
     Follow,
     About,
     Groups,
