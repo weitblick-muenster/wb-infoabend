@@ -35,15 +35,25 @@
 </template>
 
 <style lang="scss" scoped>
-
-
-.fa-facebook-f:hover {
+.fa-facebook-f {
   color: #3b5998 !important;
   border-color: #3b5998 !important;
+
+  &:hover {
+    color: #FFF !important;
+    background-color: #3b5998 !important;
+    border-color: #3b5998 !important;
+  }
 }
 
-.fa-instagram:hover {
+.fa-instagram {
   color: #C13584 !important;
   border-color: #C13584 !important;
+
+  &:hover {
+    color: #FFF !important;
+    background-color: #C13584 !important;
+    border-color: #C13584 !important;
+  }
 }
 </style>
