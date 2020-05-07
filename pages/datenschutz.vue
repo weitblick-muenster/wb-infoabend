@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <!-- eslint-disable max-len -->
   <section>
     <h1>Allgemeine Hinweise</h1>
@@ -144,7 +144,3 @@
   </section>
   <!-- eslint-enable max-len -->
 </template>
-
-<script>
-export default {};
-</script>

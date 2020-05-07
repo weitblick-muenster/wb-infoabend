@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <section>
     <h1>Live-Stream 🎥</h1>
     <p>
@@ -6,12 +6,12 @@
       Arbeit. Wenn du während der Präsentation Dinge nicht verstehst oder Fragen hast,
       stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
       Wenn du Hilfe benötigst oder etwas nicht klappt, findest du
-      <a
-        href="/help"
+      <NuxtLink
+        to="/help"
         class="is-underlined"
       >
         hier
-      </a>
+      </NuxtLink>
       Hilfe.
     </p>
     <h1>Speed Dating ⏲</h1>
@@ -45,7 +45,3 @@
     </p>
   </section>
 </template>
-
-<script>
-export default {};
-</script>

@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <section>
     <h1>Werde Mitglied!</h1>
     <p>
@@ -28,7 +28,3 @@
     </a>
   </section>
 </template>
-
-<script>
-export default {};
-</script>

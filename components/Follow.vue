@@ -1,5 +1,5 @@
-<template>
-  <section>
+<template functional>
+  <section key="follow">
     <h1>Folge uns!</h1>
     <p>
       Du willst auf dem Laufenden bleiben? Folge uns doch auf unseren Social Media Kanälen
@@ -31,10 +31,6 @@
     </ul>
   </section>
 </template>
-
-<script>
-export default {};
-</script>
 
 <style lang="scss" scoped>
 .fa-facebook-f {

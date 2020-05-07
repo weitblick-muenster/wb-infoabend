@@ -1,5 +1,8 @@
-<template>
-  <section id="about">
+<template functional>
+  <section
+    id="about"
+    key="about"
+  >
     <h1>Über Weitblick</h1>
     <p>
       Weitblick Münster ist eine Studierendeninitiative, die offen für alle
@@ -48,7 +51,3 @@
     </p>
   </section>
 </template>
-
-<script>
-export default {};
-</script>

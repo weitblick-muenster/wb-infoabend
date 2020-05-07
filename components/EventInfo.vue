@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <section>
     <h1>So funktioniert es</h1>
     <ul class="explanation">
@@ -20,7 +20,3 @@
     </ul>
   </section>
 </template>
-
-<script>
-export default {};
-</script>

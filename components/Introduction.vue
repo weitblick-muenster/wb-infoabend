@@ -1,4 +1,4 @@
-<template>
+<template functional>
   <section class="is-vertical">
     <div class="row">
       <!-- eslint-disable max-len -->
@@ -26,7 +26,3 @@
     </div>
   </section>
 </template>
-
-<script>
-export default {};
-</script>
