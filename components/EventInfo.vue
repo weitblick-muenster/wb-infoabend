@@ -19,11 +19,11 @@
       </li>
     </ul>
 
-    <NuxtLink to="/stream">
+    <!-- <NuxtLink to="/stream">
       <img
         src="~/assets/images/wb-stream-cta.gif"
         class="stream-thumbnail"
       >
-    </NuxtLink>
+    </NuxtLink> -->
   </section>
 </template>
