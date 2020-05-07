@@ -13,7 +13,7 @@
       <br>
       Sieh dir am besten selbst an, was Weitblick alles bedeuten kann:
     </p>
-    <div class="group-video lazyload">
+    <div class="yt-video lazyload">
       <iframe
         title="Weitblick Vorstellungsvideo"
         src="https://www.youtube-nocookie.com/embed/wbm2OwbthGM"

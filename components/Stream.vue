@@ -1,7 +1,7 @@
 <template>
-  <section style="max-width: 1400px;">
+  <section class="is-vertical">
     <div class="stream">
-      <div class="lazyload stream-left">
+      <div class="yt-video lazyload stream-left">
         <iframe
           title="Weitblick Live Stream"
           src="https://www.youtube-nocookie.com/embed/kr91LP4ecDk"
@@ -10,7 +10,7 @@
           allowfullscreen
         />
       </div>
-      <div class="lazyload stream-right">
+      <div class="chat lazyload stream-right">
         <iframe
           title="Weitblick Live Stream"
           :src="liveChatSrc"

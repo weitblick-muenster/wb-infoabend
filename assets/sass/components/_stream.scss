@@ -14,11 +14,17 @@
   }
 
   .stream-left {
-    width: 60%;
+    width: 70%;
   }
 
   .stream-right {
     width: 30%;
+  }
+}
+
+@include breakpoint('<large') {
+  .chat {
+    display: none;
   }
 }
 
