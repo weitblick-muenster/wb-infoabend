@@ -4,7 +4,7 @@
       id="unsere-gruppen"
       class="container"
     >
-      <slot name="heading" />
+      <slot name="headline" />
       <div class="tiles">
         <Tile
           v-for="group in groups"
@@ -16,7 +16,14 @@
       <Random
         :items="groups"
         @randomized="redirectToGroup"
-      />
+      >
+        <template #heading>
+          <slot name="randomizer-heading" />
+        </template>
+        <template #text>
+          <slot name="randomizer-text" />
+        </template>
+      </Random>
     </section>
   </div>
 </template>

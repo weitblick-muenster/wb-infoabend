@@ -6,8 +6,10 @@
       :groups="groups"
       :with-teams-urls="true"
     >
-      <template #heading>
+      <template #headline>
         <h1>Unsere Gruppen</h1>
+      </template>
+      <template #randomizer-heading>
         <h3>Blind Date</h3>
       </template>
     </Groups>
@@ -15,11 +17,13 @@
       :groups="pubs"
       :with-teams-urls="true"
     >
-      <template #heading>
+      <template #headline>
         <h1>Die Kneipen</h1>
+      </template>
+      <template #randomizer-heading>
         <h3>Mitläufer</h3>
       </template>
-      <template #text>
+      <template #randomizer-text>
         Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
         Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
       </template>

@@ -4,7 +4,7 @@
     <Schedule />
     <StreamAnnouncement />
     <Groups :groups="groups">
-      <template #heading>
+      <template #headline>
         <h1>Unsere Gruppen</h1>
       </template>
     </Groups>

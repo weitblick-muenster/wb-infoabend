@@ -1,6 +1,7 @@
 <template>
   <div class="section">
     <div class="container">
+      <slot name="heading" />
       <p>
         <slot name="text">
           Puh, ganz schön viel Auswahl! Gar keine Ahnung, welche Gruppe du dir ansehen möchtest?
