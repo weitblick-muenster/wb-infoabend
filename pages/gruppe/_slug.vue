@@ -23,12 +23,12 @@
       @randomize="redirectToGroup"
     />
     <Follow />
-    <a
+    <NuxtLink
+      to="/"
       class="is-underlined"
-      href="/"
     >
       Zurück
-    </a>
+    </NuxtLink>
   </section>
 </template>
 
