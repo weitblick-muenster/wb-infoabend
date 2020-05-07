@@ -22,7 +22,7 @@
     >
       <h2>{{ title }}</h2>
       <div class="content">
-        <p> {{ text }} </p>
+        <p>{{ text }}</p>
       </div>
     </component>
   </article>
@@ -135,5 +135,4 @@ export default {
     z-index: 1;
   }
 }
-
 </style>
