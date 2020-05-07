@@ -3,7 +3,7 @@
     <h1>So funktioniert es</h1>
     <ul class="explanation">
       <li class="explanation-list-element">
-        💻 Online Infoabend mit Livestream und anschließendem Kennenlernen per Video-Call
+        💻 Online Infoabend mit Live-Stream und anschließendem Kennenlernen per Video-Call
       </li>
       <li class="explanation-list-element">
         💌 Hinterlasse der Gruppe die du interessant findest
