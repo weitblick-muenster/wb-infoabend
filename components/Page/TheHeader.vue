@@ -75,7 +75,7 @@ export default {
           text: 'Live Stream und Ablauf',
         },
         {
-          href: '#',
+          href: '/hilfe',
           name: 'hilfe',
           text: 'Hilfe & FAQs',
         },

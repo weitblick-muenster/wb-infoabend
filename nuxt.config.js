@@ -114,6 +114,7 @@ export default {
         '/mitmachen',
         '/stream',
         '/datenschutz',
+        '/hilfe',
         ...groupRoutes,
       ];
     },
