@@ -1,4 +1,6 @@
 import Introduction from './Introduction.vue';
+import EventInfo from './EventInfo.vue';
+import StreamTeaser from './StreamTeaser.vue';
 import About from './About.vue';
 import Follow from './Follow.vue';
 import Groups from './Groups.vue';
@@ -11,6 +13,8 @@ import Fick from './Fick.vue';
 
 export {
   Introduction,
+  EventInfo,
+  StreamTeaser,
   About,
   Follow,
   Groups,

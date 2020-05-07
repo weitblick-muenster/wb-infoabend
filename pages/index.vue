@@ -1,6 +1,8 @@
 <template>
   <div>
     <Introduction />
+    <EventInfo />
+    <StreamTeaser />
     <About />
     <Follow />
     <Groups :groups="groups" />
@@ -12,6 +14,8 @@
 <script>
 import {
   Introduction,
+  EventInfo,
+  StreamTeaser,
   About,
   Follow,
   Groups,
@@ -23,6 +27,8 @@ import groups from '~/data/groups';
 export default {
   components: {
     Introduction,
+    EventInfo,
+    StreamTeaser,
     Follow,
     About,
     Groups,
