@@ -8,10 +8,18 @@
 
 section {
   margin: 0 auto 100px;
-  max-width: 840px;
+  max-width: 900px;
 
   &.special {
     text-align: center;
+  }
+
+  &.is-vertical {
+    max-width: 1200px;
+  }
+
+  &.is-grey {
+    background-color: _palette(bg-alt);
   }
 
   ul {
@@ -19,11 +27,31 @@ section {
   }
 }
 
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  flex: 50%;
+}
+
 .hero-image {
   max-height: 540px;
   width: 100%;
   object-fit: cover;
   margin-bottom: 50px;
+}
+
+.explanation {
+  font-weight: 700;
+  list-style: none;
+  padding: 0;
+}
+
+.explanation-list-element:not(:last-child) {
+  margin-bottom: 15px;
+  paddin: 0;
 }
 
 .group-video {
@@ -45,6 +73,19 @@ section {
   }
 }
 
+.stream-teaser-image {
+  max-height: 540px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 50px;
+
+  &:focus,
+  &:hover,
+  &:active {
+    opacity: 0.8;
+  }
+}
+
 header {
   p {
     margin-top: _size(element-margin) * -0.5;
@@ -54,6 +95,10 @@ header {
 @include breakpoint('<=medium') {
   section {
     margin-bottom: 50px;
+  }
+
+  .row {
+    display: block;
   }
 }
 

@@ -1,0 +1,53 @@
+.stream-thumbnail {
+  max-width: 100%;
+  transition: 0.2s ease-in-out;
+
+  &:focus,
+  &:hover,
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.countdown {
+  text-align: center;
+}
+
+.countdown-confetti {
+  width: fit-content;
+  margin: auto;
+  &::before {
+    content: ' ';
+    white-space: pre;
+  }
+}
+
+.vuejs-countdown {
+  .digit,
+  li:after {
+    font-size: 7rem !important;
+  }
+  .text {
+    display:none;
+  }
+  li:after {
+    top: -50px !important;
+    right: -30px !important;
+  }
+}
+
+@include breakpoint('<=small') {
+  .vuejs-countdown {
+    .digit,
+    li:after {
+      font-size: 4rem !important;
+    }
+    .text {
+      font-size: 1rem !important;
+    }
+    li:after {
+      top: -24px !important;
+      right: -22px !important;
+    }
+  }
+}

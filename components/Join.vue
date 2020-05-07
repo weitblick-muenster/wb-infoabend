@@ -16,7 +16,7 @@
       das Einverständnis zum Erstellen eines Intranet-Accounts auf der Beitrittserklärung
       zu erteilen. Damit bekommst du Zugriff auf unsere Microsoft 365 Umgebung, über die wir chatten
       und Onlinetreffen veranstalten. Zusätzlich empfehlen wir auch, das unten stehende Formular
-      auszufüllen um direkt teil einer Gruppe zu werden.
+      auszufüllen um direkt Teil einer Gruppe zu werden.
     </p>
     <a
       href="https://weitblicker.org/media/documents/muenster/beitrittserklaerung.pdf"

@@ -72,12 +72,12 @@ export default {
         {
           href: '/stream',
           name: 'stream',
-          text: 'Live Stream und Ablauf',
+          text: 'Live-Stream',
         },
         {
           href: '/hilfe',
           name: 'hilfe',
-          text: 'Hilfe & FAQs',
+          text: 'Hilfe',
         },
       ],
     };

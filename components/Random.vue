@@ -4,8 +4,8 @@
     <p
       v-if="title === 'Mitläufer'"
     >
-    Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
-    Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
+      Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
+      Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
     </p>
     <p v-else>
       Puh, ganz schön viel Auswahl! Gar keine Ahnung, welche Gruppe du dir ansehen möchtest?
