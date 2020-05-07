@@ -38,6 +38,7 @@ export default {
   ** Global CSS
   */
   css: [
+    'hamburgers/dist/hamburgers.css',
     '~/assets/sass/main.scss',
     '@fortawesome/fontawesome-free/css/all.min.css',
   ],
@@ -76,6 +77,10 @@ export default {
       adapter: responsiveLoader,
     },
   },
+
+  router: {
+    linkActiveClass: 'is-active',
+  },
   /*
   ** Build configuration
   */
@@ -109,6 +114,7 @@ export default {
         '/mitmachen',
         '/stream',
         '/datenschutz',
+        '/hilfe',
         ...groupRoutes,
       ];
     },

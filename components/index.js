@@ -10,6 +10,7 @@ import Form from './Form.vue';
 import Join from './Join.vue';
 import Stream from './Stream.vue';
 import StreamInfo from './StreamInfo.vue';
+import Help from './Help.vue';
 
 export {
   Introduction,
@@ -24,4 +25,5 @@ export {
   Join,
   Stream,
   StreamInfo,
+  Help,
 };
