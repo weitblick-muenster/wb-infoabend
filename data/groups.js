@@ -7,7 +7,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/AzDeUYJb-_k',
     styleNumber: 1,
     slug: 'honduras',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmVlMjFlMTQtZjBmYy00M2QwLThjNGMtNGYxZDhhZDIxNmRj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MGJmMmZiOWYtZGFhNy00ZWYzLWIyOTAtZWMzOTFiNDhjMjQ5%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Benin',
@@ -17,7 +17,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/KswKGCQ20oE',
     styleNumber: 2,
     slug: 'benin',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_Yjk0NDhlMDMtMWZlMC00NmE2LWJjNWEtOWIyMDFkY2MyYWRl%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Austausch',
@@ -27,7 +27,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/JZ4r2OEWP98',
     styleNumber: 3,
     slug: 'austausch',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmM2OTJkN2ItY2ZiOS00MTliLWI1NGUtNWJkYWJhZjg4ODc4%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Spendenlauf',
@@ -37,7 +37,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/0JwRgM_O4-w',
     styleNumber: 4,
     slug: 'spendenlauf',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGQ0Y2UyOWItMmRhNC00NGRhLTliODctN2I4NzcyMDUwNTE2%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'KulTour',
@@ -47,7 +47,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/PNzAqiio_p4',
     styleNumber: 5,
     slug: 'kultour',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmVlMjFlMTQtZjBmYy00M2QwLThjNGMtNGYxZDhhZDIxNmRj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZGY2ZjRlZWEtYzU5Ny00MzU5LThkYWMtOTZlOGZkNTg2OGUx%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Kulturstürmer',
@@ -57,7 +57,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/HBLa11_5V0w',
     styleNumber: 6,
     slug: 'kulturstuermer',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmVlMjFlMTQtZjBmYy00M2QwLThjNGMtNGYxZDhhZDIxNmRj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzZjZWFkNmItNDQ0NC00YmQ3LTk5OGMtNDEwMzVmYzM1M2Rk%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Science Slam',
@@ -67,7 +67,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/6gu8IWVcpbQ',
     styleNumber: 1,
     slug: 'science-slam',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_NGU5ODA3OTgtZDVlMC00OTBkLWFhY2ItOGVjZDA4M2IzZWEy%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'WeitBeat',
@@ -77,7 +77,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/swNk4d0FvzM',
     styleNumber: 2,
     slug: 'weit-beat',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmVlMjFlMTQtZjBmYy00M2QwLThjNGMtNGYxZDhhZDIxNmRj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTA3ODgyYjUtODg2YS00OTc1LWI2ZDItYjQyM2IyYmUwMzg0%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'WeitWeg',
@@ -87,7 +87,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/j5rA1nxtPRo',
     styleNumber: 3,
     slug: 'weit-weg',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjcwYmY3NTYtZmNjZi00ODYyLTkzNWEtYWZiZmFlMWI5NzZj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Weltwärts-Begegnung',
@@ -97,7 +97,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/cYkkAArRmns',
     styleNumber: 4,
     slug: 'weltwaerts',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmFhYTkyZmMtZDZhYy00ZmI0LTk1OGMtOTI4NjUwMWIwYTNj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Ideenschmiede',
@@ -107,7 +107,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/13zvU8wjpGI',
     styleNumber: 5,
     slug: 'ideenschmiede',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YjM4ODZjMjctZjgzZC00YjY2LWE1YWMtOTUzODUzYmJlMDFj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MTRkOWNiNGQtODU4Ny00MzQzLTg2NDYtMGYwYzM5ZDczMjA5%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Theater',
@@ -117,7 +117,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/ceGrL6K8MOI',
     styleNumber: 6,
     slug: 'theater',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmVlMjFlMTQtZjBmYy00M2QwLThjNGMtNGYxZDhhZDIxNmRj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MDE1ZTIyOWQtMDlmZi00YWMxLTk1MWUtYjBmNDlkMTJjMDhh%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Weltweiterblick',
@@ -127,7 +127,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/Xh4k72N1I78',
     styleNumber: 1,
     slug: 'weltweiterblick',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzNlNjlkZGQtMDJlYS00NGZiLTg1NzEtYjJhMjkyMWEzYjdj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Weiterbilden',
@@ -137,7 +137,7 @@ export default [
     // videoSrc: 'https://www.youtube-nocookie.com/embed/UdJOPTGj-C4',
     styleNumber: 2,
     slug: 'weiterbilden',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YmNhMGFkODItMDZhZC00MzZmLWE5MTctY2QyNDVjNjkxOWI2%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Patenprogramm',
@@ -147,7 +147,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/Kxim7MJMoGc',
     styleNumber: 3,
     slug: 'patenprogramm',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmVlMjFlMTQtZjBmYy00M2QwLThjNGMtNGYxZDhhZDIxNmRj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmZkZjQ3N2ItNGZlMS00NzAyLWEzZTUtMzdiM2I5YTZkZWFk%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Young Business',
@@ -157,7 +157,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/jwp4apD5I88',
     styleNumber: 4,
     slug: 'young-business',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzYyNjMzNGItNDY2ZS00MWJhLWI3ODgtNDdjMDczYTNlY2I5%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'IT',
@@ -167,7 +167,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/Mfhf0wEMuIc',
     styleNumber: 5,
     slug: 'it',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjI5ODdhMDctZTJmMS00MzMzLTlkODktMDRiOGVmMTY2OTky%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Mitgliedergewinnung',
@@ -177,7 +177,7 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/NstU_yr6Kq4',
     styleNumber: 1,
     slug: 'mitgliedergewinnung',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_OGQ3YzkzNTMtZjNhMi00MjlkLThiYzQtNmQyYmE5MTY0NDQx%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
     name: 'Öffentlichkeitsarbeit',
@@ -187,6 +187,6 @@ export default [
     videoSrc: 'https://www.youtube-nocookie.com/embed/uQTMAVOa1es',
     styleNumber: 6,
     slug: 'oeffentlichkeitsarbeit',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YTEyNGRiNGItYmFhMi00M2Y1LTgzY2YtZTU4Y2YwZjVjY2Jj%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZmExMWZlMjMtZDVjMS00OWNhLTgwNzUtZDJmNzRlNTlkNGNm%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
 ];
