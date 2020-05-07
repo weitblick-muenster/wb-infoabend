@@ -4,7 +4,10 @@
     <EventInfo />
     <StreamTeaser />
     <Groups :groups="groups" />
-    <Random />
+    <Random
+      :items="groups"
+      @randomize="redirectToGroup"
+    />
     <About />
     <Follow />
     <More />
@@ -39,6 +42,13 @@ export default {
     return {
       groups,
     };
+  },
+  methods: {
+    redirectToGroup(group) {
+      setTimeout(() => {
+        window.location.href = `/gruppe/${group.slug}`;
+      }, 1500);
+    },
   },
 };
 </script>

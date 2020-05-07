@@ -2,24 +2,36 @@
   <div>
     <Stream />
     <StreamInfo />
+
     <Groups
       :groups="groups"
       :with-teams-urls="true"
     />
     <Random
-      :with-teams-urls="true"
-      title="Blind Date"
-    />
+      :items="groups"
+      @randomize="redirectToTeams"
+    >
+      <template #title>
+        Blind Date
+      </template>
+    </Random>
+
     <Groups
       :groups="pubs"
       :with-teams-urls="true"
-      :with-pubs="true"
     />
     <Random
-      :with-teams-urls="true"
-      title="Mitläufer"
-      :with-pubs="true"
-    />
+      :items="pubs"
+      @randomize="redirectToTeams"
+    >
+      <template #title>
+        Mitläufer
+      </template>
+      <template #text>
+        Keine Lieblingskneipe? Dir ist es egal wo hin es geht, hauptsache du bist dabei?
+        Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
+      </template>
+    </Random>
   </div>
 </template>
 
@@ -46,6 +58,13 @@ export default {
       groups: groups.map((group) => ({ ...group, description: 'Zum Speed Dating 🕒' })),
       pubs,
     };
+  },
+  methods: {
+    redirectToTeams(item) {
+      setTimeout(() => {
+        window.open(item.teams, '_blank');
+      }, 1500);
+    },
   },
 };
 </script>

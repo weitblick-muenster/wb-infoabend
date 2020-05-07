@@ -18,7 +18,10 @@
         allowfullscreen
       />
     </div>
-    <Random />
+    <Random
+      :items="groups"
+      @randomize="redirectToGroup"
+    />
     <Follow />
     <a
       class="is-underlined"
@@ -53,9 +56,21 @@ export default {
 
     return error({ statusCode: 404, message: 'Gruppe nicht gefunden' });
   },
+  data() {
+    return {
+      groups,
+    };
+  },
   computed: {
     imageSrc() {
       return require(`~/assets/images/${this.group.imgSrc}?resize`);
+    },
+  },
+  methods: {
+    redirectToGroup(group) {
+      setTimeout(() => {
+        window.location.href = `/gruppe/${group.slug}`;
+      }, 1500);
     },
   },
 };
