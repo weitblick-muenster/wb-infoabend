@@ -43,6 +43,17 @@ section {
   margin-bottom: 50px;
 }
 
+.explanation {
+  font-weight: 700;
+  list-style: none;
+  padding: 0;
+}
+
+.explanation-list-element:not(:last-child) {
+  margin-bottom: 15px;
+  paddin: 0;
+}
+
 .group-video {
   margin-bottom:50px;
   position: relative;
@@ -62,6 +73,19 @@ section {
   }
 }
 
+.stream-teaser-image {
+  max-height: 540px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 50px;
+
+  &:focus,
+  &:hover,
+  &:active {
+    opacity: 0.8;
+  }
+}
+
 header {
   p {
     margin-top: _size(element-margin) * -0.5;
@@ -71,6 +95,10 @@ header {
 @include breakpoint('<=medium') {
   section {
     margin-bottom: 50px;
+  }
+
+  .row {
+    display: block;
   }
 }
 
