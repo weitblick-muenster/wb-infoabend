@@ -68,11 +68,11 @@ export default {
           name: 'ueber-uns',
           text: 'Über uns',
         },
-        {
-          href: '/stream',
-          name: 'stream',
-          text: 'Live-Stream',
-        },
+        // {
+        //   href: '/stream',
+        //   name: 'stream',
+        //   text: 'Live-Stream',
+        // },
         {
           href: '/hilfe',
           name: 'hilfe',

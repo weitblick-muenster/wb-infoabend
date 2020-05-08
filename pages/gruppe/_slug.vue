@@ -6,6 +6,13 @@
     >
     <h1>{{ group.name }}</h1>
     <p>{{ group.text }}</p>
+    <NuxtLink
+      to="/mitmachen"
+      tag="button"
+      class="button primary"
+    >
+      <span class="label">Kontaktformular</span>
+    </NuxtLink>
     <div
       v-if="group.videoSrc"
       class="yt-video lazyload"

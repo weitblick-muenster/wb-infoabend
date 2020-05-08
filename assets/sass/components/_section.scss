@@ -49,13 +49,17 @@ section {
   padding: 0;
 }
 
-.explanation-list-element:not(:last-child) {
-  margin-bottom: 15px;
+.explanation-list-element {
   padding: 0;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .yt-video {
   margin-bottom:50px;
+  margin-top: 50px;
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 0;
