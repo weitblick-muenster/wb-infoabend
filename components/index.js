@@ -10,6 +10,7 @@ import Join from './Join.vue';
 import Stream from './Stream.vue';
 import StreamInfo from './StreamInfo.vue';
 import Help from './Help.vue';
+import GroupTableInfo from './GroupTableInfo.vue';
 
 export {
   Introduction,
@@ -24,4 +25,5 @@ export {
   Stream,
   StreamInfo,
   Help,
+  GroupTableInfo,
 };
