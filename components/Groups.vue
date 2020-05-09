@@ -1,6 +1,10 @@
 <template>
   <div>
-    <section class="tiles">
+    <section
+      class="tiles"
+      id="groups"
+      key="groups"
+    >
       <Tile
         v-for="group in groups"
         :key="group.name"
