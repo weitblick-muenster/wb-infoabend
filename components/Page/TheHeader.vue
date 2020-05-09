@@ -80,7 +80,7 @@ export default {
         },
         {
           href: '/gruppentische',
-          name: 'gruppentische',
+          name: 'gruppentisch-treffen',
           text: 'Gruppentisch-Treffen',
         },
         {
