@@ -115,6 +115,7 @@ export default {
         '/stream',
         '/datenschutz',
         '/hilfe',
+        '/gruppentisch-treffen'
         ...groupRoutes,
       ];
     },
