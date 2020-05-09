@@ -74,6 +74,16 @@ export default {
         //   text: 'Live-Stream',
         // },
         {
+          href: '/mitmachen',
+          name: 'mitmachen',
+          text: 'Mitmachen',
+        },
+        {
+          href: '/gruppentische',
+          name: 'gruppentische',
+          text: 'Gruppentisch-Treffen',
+        },
+        {
           href: '/hilfe',
           name: 'hilfe',
           text: 'Hilfe',
