@@ -79,7 +79,7 @@ export default {
           text: 'Mitmachen',
         },
         {
-          href: '/gruppentische',
+          href: '/gruppentisch-treffen',
           name: 'gruppentisch-treffen',
           text: 'Gruppentisch-Treffen',
         },
