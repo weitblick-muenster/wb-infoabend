@@ -22,13 +22,28 @@
         <span class="label is-underlined">hier.</span>
       </NuxtLink>
       <br>
-      gegen 21.30 Uhr informieren wir alle Gruppen und laden ein, mit in unsere "Altstadt" zu
+      Gegen 21.30 Uhr informieren wir alle Gruppen und laden ein, mit in unsere "Altstadt" zu
       ziehen. Dazu findet ihr unterhalb der Gruppenübericht Kneipen, in denen wir noch locker
       schacken, ein Bierchen trinken und vielleicht auch das ein oder andere Spiel spielen.
     </p>
+    <a
+      href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FmM2UyMTgtMmI3Ni00YzM3LWI5MTAtNzFlMjgyMzZiMWYz%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d"
+    >
+      <img
+        :srcSet="require('~/assets/images/plenum.png?resize').srcSet"
+        class="center outset"
+        alt="Audio Hilfe"
+      >
+    </a>
   </section>
 </template>
 
 <script>
 export default {};
 </script>
+
+<style media="screen">
+  .outset {
+    border: 5px outset;
+  }
+</style>

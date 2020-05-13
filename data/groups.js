@@ -170,6 +170,16 @@ export default [
     teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZjI5ODdhMDctZTJmMS00MzMzLTlkODktMDRiOGVmMTY2OTky%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   {
+    name: 'Nachhilfe-Programm',
+    description: '',
+    text: '',
+    imgSrc: 'group-pictures/nachhilfe.jpg',
+    // videoSrc: '',
+    styleNumber: 6,
+    slug: 'nachhilfe',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTdkY2Q0MmUtNWY3Zi00NWFkLTliNWUtYzA0ZWEwYmU0NmE2%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+  },
+  {
     name: 'Mitgliedergewinnung',
     description: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben.',
     text: 'Bei der Mitgliedergewinnung kümmern wir uns – wie der Name schon verrät - darum, neue Mitglieder für den Verein zu werben. Das ist aber keine trockene Aufgabe, sondern macht sehr viel Spaß: Wir organisieren Veranstaltungen wie den Infoabend, die Kennenlernfahrt im Wintersemester und unseren Sommertag im Sommersemester und besuchen zu Beginn des Semesters Vorlesungen, um dort neuen Studierenden Weitblick vorzustellen. Schau gerne mal bei uns vorbei! :)',

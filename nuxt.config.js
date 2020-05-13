@@ -112,7 +112,7 @@ export default {
       return [
         '/',
         '/mitmachen',
-        '/stream',
+        // '/stream',
         '/datenschutz',
         '/hilfe',
         '/gruppentisch-treffen',

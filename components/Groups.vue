@@ -1,9 +1,9 @@
 <template>
   <div>
     <section
-      class="tiles"
       id="groups"
       key="groups"
+      class="tiles"
     >
       <Tile
         v-for="group in groups"
