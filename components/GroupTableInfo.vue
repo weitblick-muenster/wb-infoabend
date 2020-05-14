@@ -2,18 +2,18 @@
   <section>
     <h1>Willkommen zum Gruppentisch-Treffen!</h1>
     <p>
-      Ein Mal im Monat ist Donnerstags kein normales treffen geplant, sondern ein Gruppentisch
-      treffen. Hier können alle Gruppen die Zeit nutzen und an ihren Projekten arbeiten.
-      Normalerweise findet das ganze im Juridicum 490 in einem großen Raum statt, da sich dort auch
+      Einmal im Monat ist Donnerstags kein normales Treffen geplant, sondern ein
+      Gruppentischtreffen. Hier können alle Gruppen die Zeit nutzen und an ihren Projekten arbeiten.
+      Normalerweise findet das Ganze im Juridicum 490 in einem großen Raum statt, da sich dort auch
       Möglichkeiten zum Austausch zwischen den Gruppen bilden. Nun findet das ganze Online statt.
     </p>
     <h1>Ablauf</h1>
     <p>
       Ab 20 Uhr finden wir uns alle in gemeinsamer Runde in einer Teams-Besprechung und es gibt
-      allgemeine Infos an Alle, sowie die Möglichkeit auch andere Gruppen über bevorstehende
+      allgemeine Infos für alle, sowie die Möglichkeit auch andere Gruppen über bevorstehende
       Aktionen zu informieren.
       <br>
-      Auf Los geht's Los, dann heißt es ab in die Gruppen-Calls. Dazu sind hier unten die einzelnen
+      Auf Los geht's los, dann heißt es ab in die Gruppen-Calls. Dazu sind hier unten die einzelnen
       Gruppen mit Teams Besprechungen verlinkt. Du bist neu dabei? Dann schaue gerne auch in
       verschiedene Gruppen hinein und stelle gerne Fragen! Infos über die Gruppen findest du
       <NuxtLink
@@ -23,8 +23,8 @@
       </NuxtLink>
       <br>
       Gegen 21.30 Uhr informieren wir alle Gruppen und laden ein, mit in unsere "Altstadt" zu
-      ziehen. Dazu findet ihr unterhalb der Gruppenübericht Kneipen, in denen wir noch locker
-      schacken, ein Bierchen trinken und vielleicht auch das ein oder andere Spiel spielen.
+      ziehen. Dazu findet ihr unterhalb der Gruppenübersicht Kneipen, in denen wir noch locker
+      schnacken, ein Bierchen trinken und vielleicht auch das ein oder andere Spiel spielen.
     </p>
     <a
       href="https://teams.microsoft.com/l/meetup-join/19%3ameeting_Y2FmM2UyMTgtMmI3Ni00YzM3LWI5MTAtNzFlMjgyMzZiMWYz%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d"

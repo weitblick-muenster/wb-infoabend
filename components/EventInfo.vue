@@ -6,7 +6,7 @@
         💻 Aufzeichung vom Infoabend anschauen
       </li>
       <li class="explanation-list-element">
-        💌 Hinterlasse der Gruppe die du interessant findest
+        💌 Hinterlasse der Gruppe, die du interessant findest,
         <NuxtLink
           to="/mitmachen"
         >
