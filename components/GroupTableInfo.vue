@@ -2,10 +2,10 @@
   <section>
     <h1>Willkommen zum Gruppentisch-Treffen!</h1>
     <p>
-      Einmal im Monat ist Donnerstags kein normales Treffen geplant, sondern ein
+      Einmal im Monat ist donnerstags kein normales Treffen geplant, sondern ein
       Gruppentischtreffen. Hier können alle Gruppen die Zeit nutzen und an ihren Projekten arbeiten.
       Normalerweise findet das Ganze im Juridicum 490 in einem großen Raum statt, da sich dort auch
-      Möglichkeiten zum Austausch zwischen den Gruppen bilden. Nun findet das ganze Online statt.
+      Möglichkeiten zum Austausch zwischen den Gruppen bilden. Nun findet das ganze online statt.
     </p>
     <h1>Ablauf</h1>
     <p>
