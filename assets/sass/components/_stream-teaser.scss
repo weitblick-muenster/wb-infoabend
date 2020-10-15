@@ -32,14 +32,14 @@
 .vuejs-countdown {
   .digit,
   li:after {
-    font-size: 6rem !important;
+    font-size: 70px !important;
   }
   .text {
     display:none;
   }
   li:after {
-    top: -50px !important;
-    right: -30px !important;
+    top: -33px !important;
+    right: -24px !important;
   }
 }
 
@@ -47,23 +47,55 @@
   .vuejs-countdown {
     .digit,
     li:after {
-      font-size: 4rem !important;
+      font-size: 45px !important;
     }
     .text {
       font-size: 1rem !important;
     }
     li:after {
-      top: -24px !important;
-      right: -22px !important;
+      top: -16px !important;
+      right: -19px !important;
     }
   }
   .countdown-header {
-    font-size: 35px;
+    font-size: 33px;
   }
 }
 
-@include breakpoint('<=small') {
+@include breakpoint('<small') {
+  .vuejs-countdown {
+    .digit,
+    li:after {
+      font-size: 35px !important;
+    }
+    .text {
+      font-size: 1rem !important;
+    }
+    li:after {
+      top: -13px !important;
+      right: -19px !important;
+    }
+  }
   .countdown-header {
     font-size: 25px;
+  }
+}
+
+@include breakpoint('<xsmall') {
+  .vuejs-countdown {
+    .digit,
+    li:after {
+      font-size: 30px !important;
+    }
+    .text {
+      font-size: 1rem !important;
+    }
+    li:after {
+      top: -10px !important;
+      right: -18px !important;
+    }
+  }
+  .countdown-header {
+    font-size: 20px;
   }
 }
