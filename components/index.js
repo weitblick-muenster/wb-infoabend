@@ -9,6 +9,7 @@ import Form from './Form.vue';
 import Join from './Join.vue';
 import Stream from './Stream.vue';
 import StreamInfo from './StreamInfo.vue';
+import StreamTeaser from './StreamTeaser.vue';
 import Help from './Help.vue';
 import GroupTableInfo from './GroupTableInfo.vue';
 
@@ -24,6 +25,7 @@ export {
   Join,
   Stream,
   StreamInfo,
+  StreamTeaser,
   Help,
   GroupTableInfo,
 };
