@@ -1,5 +1,18 @@
 <template functional>
   <section>
+    <h1>Weitblick und Corona</h1>
+    <p>
+      Wir ihr euch wahrscheinlich vorstellen könnt, können auch wir unsere Arbeit nicht wie gewohnt
+      durchführen, gemeinsam zusammensitzen, brainstormen und diskutieren. Auf unsere wöchentlichen
+      Treffen donnerstangs um 20 Uhr, wollen wir aber trotzdem nicht verzichten und treffen uns hier
+      ganz einfach auch für alle Neuen und Interessierten digital. Auch unsere Gruppen liegen nicht
+      lahm, sondern planen und entwerfen Ideen und Möglichkeiten, wie sie die Arbeit auch in
+      Coronazeiten weiterführen können. Dafür treffen sie sich, wenn möglich persönlich oder aber
+      auch digital bei Teams. Müllsammelaktionen im Viertel mit Abstand, ein coronafreundliches
+      Kochkarussell oder ein digitaler Stolpersteinrundgang und vieles mehr konnten wir so auch
+      im letzten Semester auf die Beine stellen und wir sind gespannt, was im nächsten Semester
+      so ansteht!
+    </p>
     <h1>Werde Mitglied!</h1>
     <p>
       Unsere Arbeit hat dein Interesse geweckt und du möchtest direkt aktiv
