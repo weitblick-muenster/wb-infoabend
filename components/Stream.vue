@@ -4,7 +4,7 @@
       <div class="yt-video lazyload stream-left">
         <iframe
           title="Weitblick Live Stream"
-          src="https://www.youtube.com/embed/kr91LP4ecDk"
+          src="https://www.youtube.com/embed/2PUPkItPenk"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen
@@ -28,8 +28,8 @@ export default {
   computed: {
     liveChatSrc() {
       const host = process.env.NODE_ENV === 'development' ? 'localhost' : 'infoabend.weitblicker.live';
-      return `https://www.youtube.com/live_chat?v=kr91LP4ecDk&embed_domain=${host}`;
-    },
+      return `https://www.youtube.com/live_chat?v=2PUPkItPenk&embed_domain=${host}`;
+    }
   },
 };
 </script>
