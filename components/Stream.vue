@@ -29,7 +29,7 @@ export default {
     liveChatSrc() {
       const host = process.env.NODE_ENV === 'development' ? 'localhost' : 'infoabend.weitblicker.live';
       return `https://www.youtube.com/live_chat?v=2PUPkItPenk&embed_domain=${host}`;
-    }
+    },
   },
 };
 </script>

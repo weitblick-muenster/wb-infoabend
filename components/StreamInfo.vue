@@ -2,10 +2,10 @@
   <section>
     <h1>Live-Stream 🎥</h1>
     <p>
-      Ab 20 Uhr gibt es eine ca. 45 minütige Präsentation über unsere
+      Ab 20 Uhr gibt es eine ca. 30 minütige Präsentation über unsere
       Arbeit. Wenn du während der Präsentation Dinge nicht verstehst oder Fragen hast,
       stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
-      Wenn du Hilfe benötigst oder etwas nicht klappt, findest du
+      Wenn etwas nicht klappt findest du
       <NuxtLink
         to="/hilfe"
         class="is-underlined"
@@ -21,7 +21,7 @@
       lang eine Gruppe kennenzulernen, danach geht es zur nächsten. Klicke dazu einfach auf eine
       der unten aufgeführten Gruppen, darüber gelangst du zum Video-Call. Diesen kannst du bei den
       meisten Browsern direkt ohne Installation von Teams beitreten. Wähle diese Option falls
-      verfügbar. Wir werden im Stream bescheid geben, ab wann das Speed Dating beginnt.
+      verfügbar. Wir werden im Stream Bescheid geben, ab wann das Speed Dating beginnt.
     </p>
     <h1>Kontaktdaten 💌</h1>
     <p>
