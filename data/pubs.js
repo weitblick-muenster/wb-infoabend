@@ -17,7 +17,7 @@ export default [
   {
     name: 'Games & Drinks',
     imgSrc: 'pubs/scribble.jpg',
-    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_MzhjYThkMjAtMTk0MS00MDIyLWJlZTgtMzZlZmFkMjY4ODYw%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
+    teams: 'https://teams.microsoft.com/l/meetup-join/19%3ameeting_YzhiYTMxOGItZGZmYy00Y2IxLTg1MzItM2Y5ZmU2YzEwYzM2%40thread.v2/0?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d',
   },
   // {
   //   name: 'Teilchen & Beschleuniger',
