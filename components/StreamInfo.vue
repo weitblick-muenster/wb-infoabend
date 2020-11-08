@@ -7,7 +7,7 @@
       stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
       Wenn du Hilfe benötigst oder etwas nicht klappt, findest du
       <NuxtLink
-        to="/help"
+        to="/hilfe"
         class="is-underlined"
       >
         hier
