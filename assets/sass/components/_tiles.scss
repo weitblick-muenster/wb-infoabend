@@ -16,6 +16,10 @@
   margin: 0 auto 100px;
   max-width: 1200px;
 
+  .pubs {
+    width: calc(#{(100% / 4)} - #{$gutter * 0.5});
+  }
+
   article {
     @include vendor('transition', (
       'transform #{$duration} #{$ease}',
@@ -198,14 +202,22 @@
       width: calc(#{(100% / 3)} - #{$gutter * 1});
       margin: $gutter 0 0 $gutter;
     }
+
+    .pubs {
+      width: calc(#{(100% / 4)} - #{$gutter * 1});
+    }
   }
 
   @include breakpoint('<=medium') {
     $gutter: _size(gutter);
 
     article {
-      width: calc(#{(100% / 2)} - #{$gutter * 1});
+      width: calc(#{(100% / 2)} - #{$gutter * 1.5});
       margin: $gutter 0 0 $gutter;
+    }
+
+    .pubs {
+      width: calc(#{(100% / 3)} - #{$gutter * 1.5});
     }
   }
 
@@ -213,7 +225,7 @@
     $gutter: _size(gutter) * 0.5;
 
     article {
-      width: calc(#{(100% / 2)} - #{$gutter * 1});
+      width: calc(#{(100% / 2)} - #{$gutter * 1.5});
       margin: $gutter 0 0 $gutter;
 
       &:hover {
@@ -221,6 +233,10 @@
           @include vendor('transform', 'scale(1.0)');
         }
       }
+    }
+
+    .pubs {
+      width: calc(#{(100% / 2)} - #{$gutter * 1.5});
     }
   }
 
@@ -233,10 +249,15 @@
       width: 100%;
       max-height: 200px;
       margin: $gutter 0 0 0;
-    
+
       &:last-child {
         margin-bottom: 50px;
       }
+    }
+
+    .pubs {
+      margin: $gutter 0 0 $gutter;
+      width: calc(#{(100% / 2)} - #{$gutter * 1});
     }
   }
 }

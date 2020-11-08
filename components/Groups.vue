@@ -9,6 +9,7 @@
         v-for="group in groups"
         :key="group.name"
         v-bind="groupTileProps(group)"
+        :class="pubs ? 'pubs' : ''"
       />
     </section>
   </div>
@@ -27,6 +28,11 @@ export default {
       required: true,
     },
     withTeamsUrls: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+    pubs: {
       type: Boolean,
       required: false,
       default: false,
