@@ -68,21 +68,21 @@ export default {
           name: 'ueber-uns',
           text: 'Über uns',
         },
-        // {
-        //   href: '/stream',
-        //   name: 'stream',
-        //   text: 'Live-Stream',
-        // },
+        {
+          href: '/stream',
+          name: 'stream',
+          text: 'Live-Stream',
+        },
         {
           href: '/mitmachen',
           name: 'mitmachen',
           text: 'Mitmachen',
         },
-        {
-          href: '/gruppentisch-treffen',
-          name: 'gruppentisch-treffen',
-          text: 'Gruppentisch-Treffen',
-        },
+        // {
+        //   href: '/gruppentisch-treffen',
+        //   name: 'gruppentisch-treffen',
+        //   text: 'Gruppentisch-Treffen',
+        // },
         {
           href: '/hilfe',
           name: 'hilfe',
