@@ -15,7 +15,7 @@
     </NuxtLink>
     <div
       v-if="group.videoSrc"
-      class="yt-video lazyload"
+      class="yt-video lazyload group-video"
     >
       <iframe
         title="Gruppen Vorstellungsvideo"
