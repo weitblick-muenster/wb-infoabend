@@ -1,18 +1,17 @@
 <template>
   <section>
-    <div
-      v-if="showStream"
+    <!-- <div
       class="countdown"
-    >
-      <NuxtLink to="/stream">
-        <img
-          src="~/assets/images/wb-stream-cta.gif"
-          class="stream-thumbnail"
-        >
-      </NuxtLink>
-    </div>
+    > -->
+    <NuxtLink to="/stream">
+      <img
+        src="~/assets/images/wb-stream-cta.gif"
+        class="stream-thumbnail"
+      >
+    </NuxtLink>
+    <!-- </div> -->
 
-    <template v-else>
+    <!-- <template v-else>
       <h2 class ="countdown-header">12.11.2020 | 20 Uhr</h2>
       <div class="countdown">
         <ClientOnly>
@@ -30,22 +29,22 @@
           ⬇️
         </p>
       </div>
-    </template>
+    </template> -->
   </section>
 </template>
 
 <script>
 import { confetti } from 'dom-confetti';
-import Countdown from './Countdown.vue';
+// import Countdown from './Countdown.vue';
 
 export default {
-  components: {
-    Countdown,
-  },
+  // components: {
+  //   Countdown,
+  // },
   data() {
     return {
       streamStartingAt: '2020-11-12T20:00:00',
-      showStream: false,
+      showStream: true,
     };
   },
   created() {
