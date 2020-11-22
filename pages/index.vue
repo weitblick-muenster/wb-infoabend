@@ -2,8 +2,7 @@
   <div>
     <Introduction />
     <EventInfo />
-    <Stream />
-    <StreamTeaser />
+    <StreamReplay />
     <Groups :groups="groups" />
     <Random
       :items="groups"
@@ -19,7 +18,7 @@
 import {
   Introduction,
   EventInfo,
-  Stream,
+  StreamReplay,
   About,
   Follow,
   Groups,
@@ -32,7 +31,7 @@ export default {
   components: {
     Introduction,
     EventInfo,
-    Stream,
+    StreamReplay,
     Follow,
     About,
     Groups,
