@@ -17,6 +17,7 @@
     <Groups
       :groups="pubs"
       :with-teams-urls="true"
+      :pubs="true"
     />
     <Random
       :items="pubs"
