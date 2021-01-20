@@ -29,7 +29,7 @@
       schnacken, ein Bierchen trinken und vielleicht auch das ein oder andere Spiel spielen.
     </p>
     <a
-      href="https://teams.microsoft.com/l/meetup-join/19%3a222b5e35c6b243399a4ea24b1a3cb0b7%40thread.skype/1586181463006?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22e63461e2-0fdc-488c-ad5a-b7ebb3b81d2d%22%7d"
+      href="https://teams.microsoft.com/l/meetup-join/19%3a222b5e35c6b243399a4ea24b1a3cb0b7%40thread.skype/1611148057669?context=%7b%22Tid%22%3a%22502eeaa5-f0f3-4c16-ad5b-e64d2e1f93c3%22%2c%22Oid%22%3a%22cd1c8080-3adf-4cb9-a977-b19a1e56f79b%22%7d"
     >
       <img
         :srcSet="require('~/assets/images/plenum.png?resize').srcSet"
