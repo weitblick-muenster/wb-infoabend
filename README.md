@@ -23,13 +23,13 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ## Contribution
 
-Create a `Pull Request`, request a review, merge to master.
+Create a `Pull Request`, request a review, merge to main.
 
 ## Deployment
 
-The latest changes in the project should be on the `master` branch. The default branch for deployments is `gh-pages`. Do not commit to this branch, the latest changes are going to be pushed during the deployment step.
+The latest changes in the project should be on the `main` branch. The default branch for deployments is `gh-pages`. Do not commit to this branch, the latest changes are going to be pushed during the deployment step.
 
-In order to deploy the latest changes, you only need to commit to the `master` branch, the deployment is going to be made by github Actions.
+In order to deploy the latest changes, you only need to commit to the `main` branch, the deployment is going to be made by github Actions.
 
 In case, you changed Files under `static/` you need to deploy once manually:
 
