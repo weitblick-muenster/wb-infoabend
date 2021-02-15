@@ -54,6 +54,7 @@ export default {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
+    '@nuxtjs/html-validator',
   ],
   /*
   ** Nuxt.js modules
