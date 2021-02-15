@@ -3362,6 +3362,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
+debug@^3.1.0:
+  version "3.2.7"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
+  integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
+  dependencies:
+    ms "^2.1.1"
+
 debug@^4.0.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.1.tgz#f0d229c505e0c6d8c49ac553d1b13dc183f6b2ee"
@@ -3932,6 +3939,14 @@ eslint-import-resolver-node@^0.3.4:
   dependencies:
     debug "^2.6.9"
     resolve "^1.13.1"
+
+eslint-import-resolver-nuxt@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-nuxt/-/eslint-import-resolver-nuxt-1.0.1.tgz#dadb6ea404c6260cf46ebe6f5e91787ab6093cf4"
+  integrity sha512-VY44yOhlsdnkJQCU4FrYGygiiMVHIJWaLbKDElG8WlGCuWLZt5zSWrHGLZtT3MVdIsEBY+Kr3OQRNoeA6e75TQ==
+  dependencies:
+    debug "^3.1.0"
+    resolve "^1.7.1"
 
 eslint-module-utils@^2.6.0:
   version "2.6.0"
@@ -8521,7 +8536,7 @@ resolve@^1.1.7, resolve@^1.10.0, resolve@^1.2.0:
   dependencies:
     path-parse "^1.0.6"
 
-resolve@^1.10.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.17.0:
+resolve@^1.10.1, resolve@^1.12.0, resolve@^1.13.1, resolve@^1.17.0, resolve@^1.7.1:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
