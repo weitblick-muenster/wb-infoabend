@@ -2,26 +2,28 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser',
+    requireConfigFile: false,
   },
   extends: [
-    'airbnb/base',
-    'plugin:vue/recommended'
+    '@nuxtjs',
+    'plugin:nuxt/recommended',
+    'airbnb-base',
   ],
-  // required to lint *.vue files
   plugins: [
-    'vue',
   ],
-  // add your custom rules here
-  rules: {
-    'no-param-reassign': 'off',
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-  },
   settings: {
     'import/resolver': 'nuxt',
   },
-}
+  // add your custom rules here
+  rules: {
+    'max-len': ['error', { code: 120, ignoreRegExpLiterals: true, ignoreUrls: true }],
+    'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    'object-curly-newline': 'off',
+    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+  },
+};

@@ -4,6 +4,7 @@ import groups from './data/groups';
 
 export default {
   target: 'static',
+
   /*
   ** Headers of the page
   */
@@ -12,6 +13,7 @@ export default {
       lang: 'de',
     },
     title: 'Weitblick Infoabend' || process.env.npm_package_name,
+    /* eslint-disable max-len */
     meta: [
       { charset: 'utf-8' },
       { name: 'robots', content: 'index, follow' },
@@ -26,14 +28,20 @@ export default {
       { property: 'og:image', content: 'https://infoabend.weitblicker.live/_nuxt/img/hero-1200.jpg' },
       { property: 'og:site_name', content: 'Weitblick Infoabend' },
     ],
+    /* eslint-enable max-len */
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon-96x96.png' },
     ],
   },
+
   /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+
+  // Auto import components (https://go.nuxtjs.dev/config-components)
+  components: false,
+
   /*
   ** Global CSS
   */
@@ -42,13 +50,14 @@ export default {
     '@fortawesome/fontawesome-free/css/all.min.css',
     'hamburgers/dist/hamburgers.css',
   ],
+
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/lazysizes.client.js',
-    '~/plugins/contentfulClient.js',
+    { src: '~/plugins/lazysizes.js', mode: 'client' },
   ],
+
   /*
   ** Nuxt.js dev-modules
   */
@@ -56,6 +65,7 @@ export default {
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
   ],
+
   /*
   ** Nuxt.js modules
   */
@@ -93,6 +103,7 @@ export default {
   router: {
     linkActiveClass: 'is-active',
   },
+
   /*
   ** Build configuration
   */
@@ -100,23 +111,16 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extend(config, { isDev, isClient, loaders: { vue } }) {
+    extend(config, { isClient, loaders: { vue } }) {
       if (isClient) {
+        /* eslint-disable no-param-reassign */
         vue.transformAssetUrls.img = ['data-src', 'src'];
         vue.transformAssetUrls.source = ['data-srcset', 'srcset'];
-
-        if (isDev) {
-          // Run ESLint on save
-          config.module.rules.push({
-            enforce: 'pre',
-            test: /\.(js|vue)$/,
-            loader: 'eslint-loader',
-            exclude: /(node_modules)/,
-          });
-        }
+        /* eslint-enable no-param-reassign */
       }
     },
   },
+
   generate: {
     routes() {
       const groupRoutes = groups.map((group) => `/gruppe/${group.slug}`);
