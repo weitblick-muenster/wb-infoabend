@@ -3,7 +3,7 @@ import responsiveLoader from 'responsive-loader/sharp';
 import groups from './data/groups';
 
 export default {
-  mode: 'universal',
+  target: 'static',
   /*
   ** Headers of the page
   */
@@ -47,6 +47,7 @@ export default {
   */
   plugins: [
     '~/plugins/lazysizes.client.js',
+    '~/plugins/contentfulClient.js',
   ],
   /*
   ** Nuxt.js dev-modules
@@ -61,6 +62,17 @@ export default {
   modules: [
     '@aceforth/nuxt-optimized-images',
   ],
+
+  publicRuntimeConfig: {
+    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN,
+    baseURL: process.env.CTF_CDA_ACCESS_TOKEN,
+  },
+  privateRuntimeConfig: {
+    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN,
+    baseURL: process.env.CTF_CDA_ACCESS_TOKEN,
+  },
 
   optimizedImages: {
     optimizeImages: true,
