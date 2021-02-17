@@ -18,5 +18,19 @@ export default {
     TheHeader,
     TheFooter,
   },
+  watch: {
+    $route() {
+      this.fetchSchedule();
+    },
+  },
+  async created() {
+    await this.fetchSchedule();
+  },
+  methods: {
+    async fetchSchedule() {
+      const { items: [schedule] } = await this.$contentfulClient.fetchItems({ type: 'schedule' });
+      this.$store.dispatch('setSchedule', schedule);
+    },
+  },
 };
 </script>

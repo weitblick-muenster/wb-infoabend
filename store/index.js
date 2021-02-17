@@ -5,6 +5,7 @@ export const plugins = [
 ];
 
 export const state = () => ({
+  schedule: null,
   groups: [],
   pubs: [],
 });
