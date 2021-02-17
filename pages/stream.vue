@@ -52,7 +52,7 @@ export default {
   methods: {
     redirectToTeams(item) {
       setTimeout(() => {
-        window.open(item.teams, '_blank');
+        window.open(item.teamsMeetingUrl, '_blank');
       }, 1500);
     },
   },
