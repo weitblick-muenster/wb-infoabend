@@ -56,6 +56,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/lazysizes.js', mode: 'client' },
+    { src: '~/plugins/contentful.js' },
   ],
 
   /*
@@ -75,14 +76,18 @@ export default {
   ],
 
   publicRuntimeConfig: {
-    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN,
-    baseURL: process.env.CTF_CDA_ACCESS_TOKEN,
+    baseURL: process.env.BASE_URL || 'https://infoabend.weitblicker.live',
+    contentful: {
+      space: process.env.CONTENTFUL_SPACE_ID,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    },
   },
   privateRuntimeConfig: {
-    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: process.env.CTF_CDA_ACCESS_TOKEN,
-    baseURL: process.env.CTF_CDA_ACCESS_TOKEN,
+    baseURL: process.env.BASE_URL || 'https://infoabend.weitblicker.live',
+    contentful: {
+      space: process.env.CONTENTFUL_SPACE_ID,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    },
   },
 
   optimizedImages: {
