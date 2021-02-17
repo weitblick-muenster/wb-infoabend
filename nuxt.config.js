@@ -71,6 +71,7 @@ export default {
   */
   modules: [
     '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/markdownit',
   ],
 
   publicRuntimeConfig: {
@@ -98,6 +99,12 @@ export default {
       sizes: [300, 600, 1200],
       adapter: responsiveLoader,
     },
+  },
+
+  markdownit: {
+    runtime: true,
+    linkify: true,
+    breaks: true,
   },
 
   router: {
