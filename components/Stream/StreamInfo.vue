@@ -4,7 +4,7 @@
     <p>
       Ab 20 Uhr gibt es eine ca. 30 minütige Präsentation über unsere
       Arbeit. Wenn du während der Präsentation Dinge nicht verstehst oder Fragen hast,
-      stelle diese gerne im Chat! Unsere Moderator*innen werden sie nebenbei beantworten.
+      stelle diese gerne im Chat! Unsere Moderator:innen werden sie nebenbei beantworten.
       Wenn etwas nicht klappt findest du
       <NuxtLink
         to="/hilfe"
@@ -41,7 +41,7 @@
     <p>
       Altstadt danach? Leider nein...Aber wir holen die Altstadt zu dir nach Hause! Unser Kneipen
       Feature ermöglicht es, einfach in lockerer Runde ein Getränk deiner Wahl zu genießen und
-      dabei Weitblicker*innen und neue kennen zu lernen!
+      dabei Weitblicker:innen und neue kennen zu lernen!
     </p>
   </section>
 </template>
