@@ -27,7 +27,8 @@
 export default {
   computed: {
     liveChatSrc() {
-      const host = process.env.NODE_ENV === 'development' ? 'localhost' : 'infoabend.weitblicker.live';
+      const baseURL = new URL(this.$config.baseURL);
+      const host = process.env.NODE_ENV === 'development' ? 'localhost' : baseURL.hostname;
       return `https://www.youtube.com/live_chat?v=ISXUrm_XIs4&embed_domain=${host}`;
     },
   },
