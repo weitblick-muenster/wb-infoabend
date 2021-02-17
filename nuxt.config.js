@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import responsiveLoader from 'responsive-loader/sharp';
-import groups from './data/groups';
+import generate from './lib/generate';
 
 export default {
   target: 'static',
@@ -133,19 +133,5 @@ export default {
     },
   },
 
-  generate: {
-    routes() {
-      const groupRoutes = groups.map((group) => `/gruppe/${group.slug}`);
-
-      return [
-        '/',
-        '/mitmachen',
-        // '/stream',
-        '/datenschutz',
-        '/hilfe',
-        '/gruppentisch-treffen',
-        ...groupRoutes,
-      ];
-    },
-  },
+  generate,
 };
