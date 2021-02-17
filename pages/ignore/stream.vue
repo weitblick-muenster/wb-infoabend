@@ -38,6 +38,11 @@ export default {
     Pubs,
     Random,
   },
+  middleware({ store, redirect }) {
+    if (store.getters.streamIsOver) {
+      redirect({ path: '/', replace: true });
+    }
+  },
   computed: {
     groups() {
       return this.$store.getters.groups.map((group) => ({ ...group, shortDescription: 'Zum Speed Dating 🕒' }));
