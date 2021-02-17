@@ -37,7 +37,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#ff9900' },
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: false,
