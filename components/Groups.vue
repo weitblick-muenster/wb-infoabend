@@ -1,59 +1,32 @@
 <template>
   <div>
-    <section
-      id="groups"
-      key="groups"
-      class="tiles"
-    >
-      <Tile
+    <section id="groups" class="tiles">
+      <GroupTile
         v-for="group in groups"
         :key="group.name"
-        v-bind="groupTileProps(group)"
-        :class="pubs ? 'pubs' : ''"
+        :group="group"
+        :use-meetings="useMeetings"
       />
     </section>
   </div>
 </template>
 
 <script>
-import Tile from '~/components/Tile.vue';
+import { GroupTile } from './Tiles';
 
 export default {
   components: {
-    Tile,
+    GroupTile,
   },
   props: {
     groups: {
       type: Array,
       required: true,
     },
-    withTeamsUrls: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-    pubs: {
-      type: Boolean,
-      required: false,
-      default: false,
-    },
-  },
-  methods: {
-    groupTileProps(group) {
-      const tileProps = {
-        title: group.name,
-        text: group.description,
-        image: group.imgSrc,
-        slug: group.slug,
-      };
 
-      if (this.withTeamsUrls) {
-        tileProps.teamsUrl = group.teams;
-      } else {
-        tileProps.styleNumber = group.styleNumber;
-      }
-
-      return tileProps;
+    useMeetings: {
+      type: Boolean,
+      default: false,
     },
   },
 };
