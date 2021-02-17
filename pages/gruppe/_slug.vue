@@ -5,7 +5,7 @@
     <!-- eslint-disable-next-line vue/no-v-html -->
     <div v-html="$md.render(group.text)" />
 
-    <NuxtLink to="/mitmachen" tag="button" class="button primary">
+    <NuxtLink to="/mitmachen" class="button primary">
       <span class="label">Kontaktformular</span>
     </NuxtLink>
 

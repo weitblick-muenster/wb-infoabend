@@ -49,13 +49,12 @@
         admin.muenster@weitblicker.org
       </a>
     </p>
-    <a
-      tag="button"
+    <button
       class="button primary"
       @click="$router.back()"
     >
       <span class="label">Zurück</span>
-    </a>
+    </button>
   </section>
 </template>
 

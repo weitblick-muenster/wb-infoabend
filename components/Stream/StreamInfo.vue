@@ -29,11 +29,7 @@
       gebeten haben, deine Kontaktdaten in einem Formular zu hinterlassen. Das kannst du hier
       machen!
       <br>
-      <NuxtLink
-        to="/mitmachen"
-        tag="button"
-        class="button primary"
-      >
+      <NuxtLink to="/mitmachen" class="button primary">
         <span class="label">Kontaktformular</span>
       </NuxtLink>
     </p>
