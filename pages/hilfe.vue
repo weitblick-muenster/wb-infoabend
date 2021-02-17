@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import { Help, Follow } from '~/components';
+import { Help, Follow } from '~/components/TextSections';
 
 export default {
   components: {

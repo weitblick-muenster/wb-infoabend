@@ -3,28 +3,15 @@
     <Stream />
     <StreamInfo />
 
-    <Groups
-      :groups="groups"
-      :with-teams-urls="true"
-    />
-    <Random
-      :items="groups"
-      @randomize="redirectToTeams"
-    >
+    <Groups :groups="groups" use-meetings />
+    <Random :items="groups" @randomize="redirectToTeams">
       <template #title>
         Blind Date
       </template>
     </Random>
 
-    <Groups
-      :groups="pubs"
-      :with-teams-urls="true"
-      :pubs="true"
-    />
-    <Random
-      :items="pubs"
-      @randomize="redirectToTeams"
-    >
+    <Pubs :pubs="pubs" />
+    <Random :items="pubs" @randomize="redirectToTeams">
       <template #title>
         Mitläufer
       </template>
@@ -37,26 +24,32 @@
 </template>
 
 <script>
-import {
-  Stream,
-  StreamInfo,
-  Groups,
-  Random,
-} from '~/components';
-
-import groups from '~/data/groups';
-import pubs from '~/data/pubs';
+import { Stream, StreamInfo } from '~/components/Stream';
+import Groups from '~/components/Groups.vue';
+import Pubs from '~/components/Pubs.vue';
+import Random from '~/components/Random.vue';
 
 export default {
   components: {
     Stream,
     StreamInfo,
     Groups,
+    Pubs,
     Random,
   },
-  data() {
+  async asyncData({ payload, $contentfulClient }) {
+    if (payload) {
+      return {
+        groups: payload.groups,
+        pubs: payload.pubs,
+      };
+    }
+
+    const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
+    const { items: pubs } = await $contentfulClient.fetchItems({ type: 'pub' });
+
     return {
-      groups: groups.map((group) => ({ ...group, description: 'Zum Speed Dating 🕒' })),
+      groups: groups.map((group) => ({ ...group, shortDescription: 'Zum Speed Dating 🕒' })),
       pubs,
     };
   },
