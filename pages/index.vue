@@ -2,7 +2,7 @@
   <div>
     <Introduction />
     <EventInfo />
-    <StreamReplay />
+    <component :is="streamComponent" v-if="streamStartingAt" :stream-starting-at="streamStartingAt" />
     <Groups :groups="groups" />
     <Random :items="groups" @randomize="redirectToGroup" />
     <About />
@@ -20,7 +20,7 @@ import {
   Follow,
   More,
 } from '~/components/TextSections';
-import { StreamReplay } from '~/components/Stream';
+import { StreamReplay, StreamTeaser } from '~/components/Stream';
 import Groups from '~/components/Groups.vue';
 import Random from '~/components/Random.vue';
 
@@ -32,11 +32,17 @@ export default {
     Follow,
     More,
     StreamReplay,
+    StreamTeaser,
     Groups,
     Random,
   },
   computed: {
     groups: get('groups'),
+    streamStartingAt: get('schedule@streamStartingAt'),
+    streamIsOver: get('streamIsOver'),
+    streamComponent() {
+      return this.streamIsOver ? 'stream-replay' : 'stream-teaser';
+    },
   },
   methods: {
     redirectToGroup(group) {

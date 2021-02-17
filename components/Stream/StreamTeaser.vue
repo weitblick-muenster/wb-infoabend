@@ -1,18 +1,22 @@
 <template>
   <section>
-    <!-- <div
+    <div
+      v-if="showStream"
       class="countdown"
-    > -->
-    <NuxtLink to="/stream">
-      <img
-        src="~/assets/images/wb-stream-cta.gif"
-        class="stream-thumbnail"
-      >
-    </NuxtLink>
-    <!-- </div> -->
+    >
+      <NuxtLink to="/stream">
+        <img
+          src="~/assets/images/wb-stream-cta.gif"
+          class="stream-thumbnail"
+        >
+      </NuxtLink>
+    </div>
 
-    <!-- <template v-else>
-      <h2 class ="countdown-header">12.11.2020 | 20 Uhr</h2>
+    <template v-else>
+      <h2 class="countdown-header">
+        {{ streamStartingAt | asDate }}
+      </h2>
+
       <div class="countdown">
         <ClientOnly>
           <Countdown
@@ -29,22 +33,43 @@
           ⬇️
         </p>
       </div>
-    </template> -->
+    </template>
   </section>
 </template>
 
 <script>
 import { confetti } from 'dom-confetti';
-// import Countdown from './Countdown.vue';
+import Countdown from './Countdown.vue';
 
 export default {
-  // components: {
-  //   Countdown,
-  // },
+  components: {
+    Countdown,
+  },
+  filters: {
+    asDate(isoDateString) {
+      const parsedDate = new Date(isoDateString);
+
+      const day = parsedDate.getDate() < 10 ? `0${parsedDate.getDate()}` : parsedDate.getDate();
+      const month = parsedDate.getMonth() < 11 ? `0${parsedDate.getMonth() + 1}` : parsedDate.getMonth() + 1;
+      const year = parsedDate.getFullYear();
+      const hours = parsedDate.getHours() < 10 ? `0${parsedDate.getHours()}` : parsedDate.getHours();
+      const minutes = parsedDate.getMinutes() < 10 ? `0${parsedDate.getMinutes()}` : parsedDate.getMinutes();
+
+      const time = parsedDate.getMinutes() === 0 ? `${hours} Uhr` : `${hours}:${minutes} Uhr`;
+      const date = `${day}.${month}.${year}`;
+
+      return `${date} | ${time}`;
+    },
+  },
+  props: {
+    streamStartingAt: {
+      type: String,
+      required: true,
+    },
+  },
   data() {
     return {
-      streamStartingAt: '2020-11-12T20:00:00',
-      showStream: true,
+      showStream: false,
     };
   },
   created() {
