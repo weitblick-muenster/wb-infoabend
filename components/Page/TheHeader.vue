@@ -16,7 +16,7 @@
       </div>
       <div class="nav">
         <NuxtLink
-          v-for="link in navLinks"
+          v-for="link in allowedNavLinks"
           :key="link.name"
           :to="link.href"
           class="nav-link is-underlined"
@@ -42,7 +42,7 @@
     >
       <ul class="list-style-none">
         <li
-          v-for="link in navLinks"
+          v-for="link in allowedNavLinks"
           :key="link.name"
         >
           <NuxtLink
@@ -58,6 +58,8 @@
 </template>
 
 <script>
+import { get } from 'vuex-pathify';
+
 export default {
   data() {
     return {
@@ -68,11 +70,12 @@ export default {
           name: 'ueber-uns',
           text: 'Über uns',
         },
-        // {
-        //   href: '/stream',
-        //   name: 'stream',
-        //   text: 'Live-Stream',
-        // },
+        {
+          href: '/stream',
+          name: 'stream',
+          text: 'Live-Stream',
+          condition: () => !this.streamIsOver,
+        },
         {
           href: '/mitmachen',
           name: 'mitmachen',
@@ -92,6 +95,8 @@ export default {
     };
   },
   computed: {
+    streamIsOver: get('streamIsOver'),
+
     burgerCssClasses() {
       return [
         'hamburger',
@@ -99,6 +104,9 @@ export default {
         'nav-burger',
         { 'is-active': this.burgerMenuClicked },
       ];
+    },
+    allowedNavLinks() {
+      return this.navLinks.filter((link) => !Object.keys(link).includes('condition') || link.condition());
     },
   },
 };
