@@ -2,7 +2,7 @@
   <ClientOnly>
     <Countdown
       :end="deadline"
-      :end-function="() => $emit('deadlineEnd')"
+      :end-function="() => $emit('deadline-end')"
       show-days
       show-hours
       show-minutes

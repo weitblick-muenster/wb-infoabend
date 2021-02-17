@@ -17,7 +17,7 @@
         <ClientOnly>
           <Countdown
             :deadline="streamStartingAt"
-            @deadlineEnd="onCountdownFinish"
+            @deadline-end="onCountdownFinish"
           />
         </ClientOnly>
         <div
