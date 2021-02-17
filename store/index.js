@@ -27,4 +27,11 @@ export const actions = {
 
 export const getters = {
   ...make.getters(state),
+  streamIsOver({ schedule }) {
+    if (schedule) {
+      return schedule.hasEnded || new Date() < new Date(schedule.streamEndingAt);
+    }
+
+    return false;
+  },
 };
