@@ -2,12 +2,9 @@
   <div>
     <Introduction />
     <EventInfo />
-    <StreamReplay />
+    <component :is="streamComponent" v-if="streamStartingAt" :stream-starting-at="streamStartingAt" />
     <Groups :groups="groups" />
-    <Random
-      :items="groups"
-      @randomize="redirectToGroup"
-    />
+    <Random :items="groups" @randomize="redirectToGroup" />
     <About />
     <Follow />
     <More />
@@ -15,33 +12,37 @@
 </template>
 
 <script>
+import { get } from 'vuex-pathify';
 import {
   Introduction,
   EventInfo,
-  StreamReplay,
   About,
   Follow,
-  Groups,
-  Random,
   More,
-} from '~/components';
-import groups from '~/data/groups';
+} from '~/components/TextSections';
+import { StreamReplay, StreamTeaser } from '~/components/Stream';
+import Groups from '~/components/Groups.vue';
+import Random from '~/components/Random.vue';
 
 export default {
   components: {
     Introduction,
     EventInfo,
-    StreamReplay,
-    Follow,
     About,
+    Follow,
+    More,
+    StreamReplay,
+    StreamTeaser,
     Groups,
     Random,
-    More,
   },
-  data() {
-    return {
-      groups,
-    };
+  computed: {
+    groups: get('groups'),
+    streamStartingAt: get('schedule@streamStartingAt'),
+    streamIsOver: get('streamIsOver'),
+    streamComponent() {
+      return this.streamIsOver ? 'stream-replay' : 'stream-teaser';
+    },
   },
   methods: {
     redirectToGroup(group) {

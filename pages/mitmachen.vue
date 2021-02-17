@@ -7,7 +7,8 @@
 </template>
 
 <script>
-import { Form, Follow, Join } from '~/components';
+import { Follow, Join } from '~/components/TextSections';
+import Form from '~/components/Form.vue';
 
 export default {
   components: {

@@ -1,77 +1,64 @@
 <template>
   <section>
-    <img
-      :srcset="imageSrc.srcSet"
-      class="hero-image"
-    >
+    <img :src="group.image.src" :alt="group.image.alt" class="hero-image">
     <h1>{{ group.name }}</h1>
-    <p>{{ group.text }}</p>
-    <NuxtLink
-      to="/mitmachen"
-      tag="button"
-      class="button primary"
-    >
+    <!-- eslint-disable-next-line vue/no-v-html -->
+    <div v-html="$md.render(group.text)" />
+
+    <NuxtLink to="/mitmachen" class="button primary">
       <span class="label">Kontaktformular</span>
     </NuxtLink>
-    <div
-      v-if="group.videoSrc"
-      class="yt-video lazyload group-video"
-    >
+
+    <div v-if="group.videoSource" class="yt-video lazyload group-video">
       <iframe
         title="Gruppen Vorstellungsvideo"
-        :src="group.videoSrc"
+        :src="group.videoSource"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope;"
         allowfullscreen
       />
     </div>
-    <Random
-      :items="groups"
-      @randomize="redirectToGroup"
-    />
+
+    <Random :items="groups" @randomize="redirectToGroup" />
     <Follow />
-    <NuxtLink
-      to="/"
-      class="is-underlined"
-    >
+
+    <NuxtLink to="/" class="is-underlined">
       Zurück
     </NuxtLink>
   </section>
 </template>
 
 <script>
-/* eslint-disable global-require */
-/* eslint-disable import/no-dynamic-require */
-import {
-  Follow,
-  Random,
-} from '~/components';
-import groups from '~/data/groups';
+import { Follow } from '~/components/TextSections';
+import Random from '~/components/Random.vue';
+import { NotFoundError } from '~/lib/contentful';
 
 export default {
   components: {
     Follow,
     Random,
   },
-  asyncData({ payload, params, error }) {
-    if (payload) return payload;
-
-    const group = groups.find((g) => g.slug === params.slug);
-    if (group) {
-      return { group };
+  async asyncData({ payload, params, error, $contentfulClient }) {
+    if (payload) {
+      return {
+        group: payload.group,
+      };
     }
 
-    return error({ statusCode: 404, message: 'Gruppe nicht gefunden' });
-  },
-  data() {
+    let group;
+    try {
+      group = await $contentfulClient.fetchItemBySlug({ type: 'group', slug: params.slug });
+    } catch (err) {
+      if (err instanceof NotFoundError) {
+        return error({ statusCode: 404, message: 'Gruppe nicht gefunden' });
+      }
+
+      throw err;
+    }
+
     return {
-      groups,
+      group,
     };
-  },
-  computed: {
-    imageSrc() {
-      return require(`~/assets/images/${this.group.imgSrc}?resize`);
-    },
   },
   methods: {
     redirectToGroup(group) {

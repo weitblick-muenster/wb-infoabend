@@ -8,6 +8,9 @@
 # install dependencies
 $ yarn install
 
+# Copy example .env and configure values
+$ cp .env.example .env
+
 # serve with hot reload at localhost:3000
 $ yarn dev
 

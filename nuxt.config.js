@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import responsiveLoader from 'responsive-loader/sharp';
-import groups from './data/groups';
+import generate from './lib/generate';
 
 export default {
   target: 'static',
@@ -37,7 +37,7 @@ export default {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: { color: '#ff9900' },
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: false,
@@ -56,6 +56,7 @@ export default {
   */
   plugins: [
     { src: '~/plugins/lazysizes.js', mode: 'client' },
+    { src: '~/plugins/contentful.js' },
   ],
 
   /*
@@ -71,7 +72,23 @@ export default {
   */
   modules: [
     '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/markdownit',
   ],
+
+  publicRuntimeConfig: {
+    baseURL: process.env.BASE_URL || 'https://infoabend.weitblicker.live',
+    contentful: {
+      space: process.env.CONTENTFUL_SPACE_ID,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    },
+  },
+  privateRuntimeConfig: {
+    baseURL: process.env.BASE_URL || 'https://infoabend.weitblicker.live',
+    contentful: {
+      space: process.env.CONTENTFUL_SPACE_ID,
+      accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    },
+  },
 
   optimizedImages: {
     optimizeImages: true,
@@ -87,6 +104,12 @@ export default {
       sizes: [300, 600, 1200],
       adapter: responsiveLoader,
     },
+  },
+
+  markdownit: {
+    runtime: true,
+    linkify: true,
+    breaks: true,
   },
 
   router: {
@@ -110,19 +133,5 @@ export default {
     },
   },
 
-  generate: {
-    routes() {
-      const groupRoutes = groups.map((group) => `/gruppe/${group.slug}`);
-
-      return [
-        '/',
-        '/mitmachen',
-        // '/stream',
-        '/datenschutz',
-        '/hilfe',
-        '/gruppentisch-treffen',
-        ...groupRoutes,
-      ];
-    },
-  },
+  generate,
 };

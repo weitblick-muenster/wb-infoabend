@@ -14,14 +14,13 @@
       </slot>
     </p>
 
-    <a
+    <button
       ref="randomizer"
-      tag="button"
       class="random button primary"
       @click="randomize"
     >
       Auf gut Glück
-    </a>
+    </button>
   </section>
 </template>
 

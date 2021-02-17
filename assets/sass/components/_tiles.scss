@@ -16,7 +16,7 @@
   margin: 0 auto 100px;
   max-width: 1200px;
 
-  .pubs {
+  .pub {
     width: calc(#{(100% / 4)} - #{$gutter * 0.5});
   }
 
@@ -203,7 +203,7 @@
       margin: $gutter 0 0 $gutter;
     }
 
-    .pubs {
+    .pub {
       width: calc(#{(100% / 4)} - #{$gutter * 1});
     }
   }
@@ -216,7 +216,7 @@
       margin: $gutter 0 0 $gutter;
     }
 
-    .pubs {
+    .pub {
       width: calc(#{(100% / 3)} - #{$gutter * 1.5});
     }
   }
@@ -235,7 +235,7 @@
       }
     }
 
-    .pubs {
+    .pub {
       width: calc(#{(100% / 2)} - #{$gutter * 1.5});
     }
   }
@@ -255,7 +255,7 @@
       }
     }
 
-    .pubs {
+    .pub {
       margin: $gutter 0 0 $gutter;
       width: calc(#{(100% / 2)} - #{$gutter * 1});
     }

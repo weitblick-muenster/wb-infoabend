@@ -1,6 +1,8 @@
 <template>
   <div>
-    <GroupMeetingInfo />
+    <Stream />
+    <StreamInfo />
+
     <Groups :groups="groups" use-meetings />
     <Random :items="groups" @randomize="redirectToTeams">
       <template #title>
@@ -23,21 +25,27 @@
 
 <script>
 import { get } from 'vuex-pathify';
-import { GroupMeetingInfo } from '~/components/TextSections';
+import { Stream, StreamInfo } from '~/components/Stream';
 import Groups from '~/components/Groups.vue';
 import Pubs from '~/components/Pubs.vue';
 import Random from '~/components/Random.vue';
 
 export default {
   components: {
-    GroupMeetingInfo,
+    Stream,
+    StreamInfo,
     Groups,
-    Random,
     Pubs,
+    Random,
+  },
+  middleware({ store, redirect }) {
+    if (store.getters.streamIsOver) {
+      redirect({ path: '/', replace: true });
+    }
   },
   computed: {
     groups() {
-      return this.$store.getters.groups.map((group) => ({ ...group, shortDescription: 'Zum Gruppentisch ☎️' }));
+      return this.$store.getters.groups.map((group) => ({ ...group, shortDescription: 'Zum Speed Dating 🕒' }));
     },
     pubs: get('pubs'),
   },
