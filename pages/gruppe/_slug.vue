@@ -42,7 +42,6 @@ export default {
     if (payload) {
       return {
         group: payload.group,
-        groups: payload.groups,
       };
     }
 
@@ -57,11 +56,8 @@ export default {
       throw err;
     }
 
-    const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
-
     return {
       group,
-      groups,
     };
   },
   methods: {

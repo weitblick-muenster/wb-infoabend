@@ -24,6 +24,7 @@
 </template>
 
 <script>
+import { get } from 'vuex-pathify';
 import { Stream, StreamInfo } from '~/components/Stream';
 import Groups from '~/components/Groups.vue';
 import Pubs from '~/components/Pubs.vue';
@@ -37,21 +38,11 @@ export default {
     Pubs,
     Random,
   },
-  async asyncData({ payload, $contentfulClient }) {
-    if (payload) {
-      return {
-        groups: payload.groups,
-        pubs: payload.pubs,
-      };
-    }
-
-    const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
-    const { items: pubs } = await $contentfulClient.fetchItems({ type: 'pub' });
-
-    return {
-      groups: groups.map((group) => ({ ...group, shortDescription: 'Zum Speed Dating 🕒' })),
-      pubs,
-    };
+  computed: {
+    groups() {
+      return this.$store.getters.groups.map((group) => ({ ...group, shortDescription: 'Zum Speed Dating 🕒' }));
+    },
+    pubs: get('pubs'),
   },
   methods: {
     redirectToTeams(item) {

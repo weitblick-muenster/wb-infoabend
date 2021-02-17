@@ -12,6 +12,7 @@
 </template>
 
 <script>
+import { get } from 'vuex-pathify';
 import {
   Introduction,
   EventInfo,
@@ -34,18 +35,8 @@ export default {
     Groups,
     Random,
   },
-  async asyncData({ payload, $contentfulClient }) {
-    if (payload) {
-      return {
-        groups: payload.groups,
-      };
-    }
-
-    const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
-
-    return {
-      groups,
-    };
+  computed: {
+    groups: get('groups'),
   },
   methods: {
     redirectToGroup(group) {

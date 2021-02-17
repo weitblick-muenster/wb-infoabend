@@ -22,6 +22,7 @@
 </template>
 
 <script>
+import { get } from 'vuex-pathify';
 import { GroupMeetingInfo } from '~/components/TextSections';
 import Groups from '~/components/Groups.vue';
 import Pubs from '~/components/Pubs.vue';
@@ -34,21 +35,11 @@ export default {
     Random,
     Pubs,
   },
-  async asyncData({ payload, $contentfulClient }) {
-    if (payload) {
-      return {
-        groups: payload.groups,
-        pubs: payload.pubs,
-      };
-    }
-
-    const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
-    const { items: pubs } = await $contentfulClient.fetchItems({ type: 'pub' });
-
-    return {
-      groups: groups.map((group) => ({ ...group, shortDescription: 'Zum Gruppentisch ☎️' })),
-      pubs,
-    };
+  computed: {
+    groups() {
+      return this.$store.getters.groups.map((group) => ({ ...group, shortDescription: 'Zum Gruppentisch ☎️' }));
+    },
+    pubs: get('pubs'),
   },
   methods: {
     redirectToTeams(item) {
