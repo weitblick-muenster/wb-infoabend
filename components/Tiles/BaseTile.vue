@@ -41,13 +41,13 @@ export default {
   },
   computed: {
     hasExternalLink() {
-      const { baseURL } = this.$nuxt.$config;
+      const { baseURL } = this.$config;
       const parsedURL = new URL(this.link, baseURL);
 
       return parsedURL.hostname !== new URL(baseURL).hostname;
     },
     hasTeamsMeetingLink() {
-      const { baseURL } = this.$nuxt.$config;
+      const { baseURL } = this.$config;
       const parsedURL = new URL(this.link, baseURL);
 
       return parsedURL.hostname === 'teams.microsoft.com';
