@@ -8,6 +8,7 @@ export const state = () => ({
   schedule: null,
   groups: [],
   pubs: [],
+  about: null,
 });
 
 export const mutations = {
@@ -19,9 +20,11 @@ export const actions = {
   async nuxtServerInit({ dispatch }, { $contentfulClient }) {
     const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
     const { items: pubs } = await $contentfulClient.fetchItems({ type: 'pub' });
+    const { items: about } = await $contentfulClient.fetchItems({ type: 'about' });
 
     await dispatch('setGroups', groups);
     await dispatch('setPubs', pubs);
+    await dispatch('setAbout', about);
   },
 };
 

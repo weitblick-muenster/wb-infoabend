@@ -5,7 +5,7 @@
     <component :is="streamComponent" v-if="streamStartingAt" :stream-starting-at="streamStartingAt" />
     <Groups :groups="groups" />
     <Random :items="groups" @randomize="redirectToGroup" />
-    <About />
+    <About :about="about[0]" />
     <Follow />
     <More />
   </div>
@@ -40,6 +40,7 @@ export default {
     groups: get('groups'),
     streamStartingAt: get('schedule@streamStartingAt'),
     streamIsOver: get('streamIsOver'),
+    about: get('about'),
     streamComponent() {
       return this.streamIsOver ? 'stream-replay' : 'stream-teaser';
     },
