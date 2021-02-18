@@ -27,8 +27,5 @@ export default {
       required: true,
     },
   },
-  // mounted() {
-  //   debugger;
-  // },
 };
 </script>

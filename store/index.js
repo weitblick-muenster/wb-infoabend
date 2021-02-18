@@ -5,6 +5,7 @@ export const plugins = [
 ];
 
 export const state = () => ({
+  introduction: null,
   schedule: null,
   groups: [],
   pubs: [],
@@ -21,10 +22,12 @@ export const actions = {
     const { items: groups } = await $contentfulClient.fetchItems({ type: 'group' });
     const { items: pubs } = await $contentfulClient.fetchItems({ type: 'pub' });
     const { items: about } = await $contentfulClient.fetchItems({ type: 'about' });
+    const { items: introduction } = await $contentfulClient.fetchItems({ type: 'introduction' });
 
     await dispatch('setGroups', groups);
     await dispatch('setPubs', pubs);
     await dispatch('setAbout', about);
+    await dispatch('setIntroduction', introduction);
   },
 };
 

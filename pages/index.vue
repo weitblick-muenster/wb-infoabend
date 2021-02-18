@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Introduction />
+    <Introduction  :introduction="introduction[0]" />
     <EventInfo />
     <component :is="streamComponent" v-if="streamStartingAt" :stream-starting-at="streamStartingAt" />
     <Groups :groups="groups" />
@@ -41,6 +41,7 @@ export default {
     streamStartingAt: get('schedule@streamStartingAt'),
     streamIsOver: get('streamIsOver'),
     about: get('about'),
+    introduction: get('introduction'),
     streamComponent() {
       return this.streamIsOver ? 'stream-replay' : 'stream-teaser';
     },
