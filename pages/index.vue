@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Introduction  :introduction="introduction[0]" />
+    <Introduction :introduction="introduction[0]" />
     <EventInfo />
     <component :is="streamComponent" v-if="streamStartingAt" :stream-starting-at="streamStartingAt" />
     <Groups :groups="groups" />
