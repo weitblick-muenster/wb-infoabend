@@ -1,15 +1,12 @@
 <template>
   <section>
-    <h1>Interesse?</h1>
-    <p>
-      Du möchtest noch nicht direkt Mitglied werden, hast aber Interesse den Verein
-      und die verschiedenen Gruppen genauer kennen zu lernen? Dann Trage hier
-      deine Daten ein, damit wir mit dir in Kontakt bleiben können!
-    </p>
+    <h1>{{ join.interestedTitle }}</h1>
+    <!-- eslint-disable-next-line vue/no-v-html -->
+    <div v-html="$md.render(join.interestedText)" />
     <div class="ms-form">
       <ClientOnly>
         <iframe
-          :data-src="formSrc1"
+          :data-src="join.interestedForm"
           width="100%"
           height="2550px"
           frameborder="0"
@@ -24,7 +21,7 @@
         />
       </ClientOnly>
       <a
-        :href="formSrc1"
+        :href="join.interestedForm"
         class="button primary"
       >
         Kontaktformular
@@ -35,10 +32,11 @@
 
 <script>
 export default {
-  data() {
-    return {
-      formSrc1: 'https://forms.microsoft.com/Pages/ResponsePage.aspx?id=peouUPPwFkytW-ZNLh-TwyoPZ9o80BhLvDqYhHG8NYtUNEcwSzk1OEM2RElFWlowUUJUSzRST0FKQiQlQCN0PWcu&embed=true',
-    };
+  props: {
+    join: {
+      type: Object,
+      required: true,
+    },
   },
 };
 </script>

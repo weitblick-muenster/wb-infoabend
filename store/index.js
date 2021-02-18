@@ -12,6 +12,7 @@ export const state = () => ({
   about: null,
   more: null,
   groupMeetingInfo: null,
+  join: null,
 });
 
 export const mutations = {
@@ -27,6 +28,7 @@ export const actions = {
     const { items: introduction } = await $contentfulClient.fetchItems({ type: 'introduction' });
     const { items: more } = await $contentfulClient.fetchItems({ type: 'more' });
     const { items: groupMeetingInfo } = await $contentfulClient.fetchItems({ type: 'groupMeetingInfo' });
+    const { items: join } = await $contentfulClient.fetchItems({ type: 'join' });
 
     await dispatch('setGroups', groups);
     await dispatch('setPubs', pubs);
@@ -34,6 +36,7 @@ export const actions = {
     await dispatch('setIntroduction', introduction);
     await dispatch('setMore', more);
     await dispatch('setGroupMeetingInfo', groupMeetingInfo);
+    await dispatch('setJoin', join);
   },
 };
 
