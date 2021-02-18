@@ -1,6 +1,6 @@
 <template>
   <div>
-    <GroupMeetingInfo />
+    <GroupMeetingInfo :info="info[0]" />
     <Groups :groups="groups" use-meetings />
     <Random :items="groups" @randomize="redirectToTeams">
       <template #title>
@@ -40,6 +40,7 @@ export default {
       return this.$store.getters.groups.map((group) => ({ ...group, shortDescription: 'Zum Gruppentisch ☎️' }));
     },
     pubs: get('pubs'),
+    info: get('groupMeetingInfo'),
   },
   methods: {
     redirectToTeams(item) {
