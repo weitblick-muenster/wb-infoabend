@@ -4,6 +4,7 @@
       <!-- eslint-disable max-len -->
       <div class="column">
         <h1>{{ introduction.title }}</h1>
+        <!-- eslint-disable-next-line vue/no-v-html -->
         <div v-html="$md.render(introduction.introText)" />
       </div>
       <div class="column">
@@ -19,6 +20,6 @@ export default {
       type: Object,
       required: true,
     },
-  }
+  },
 };
 </script>

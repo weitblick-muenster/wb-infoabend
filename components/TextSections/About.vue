@@ -4,7 +4,7 @@
     key="about"
   >
     <h1>{{ about.title }}</h1>
-    <!-- <p v-html="$md.render(about.textAboveVideo)"></p> -->
+    <!-- eslint-disable vue/no-v-html -->
     <div v-html="$md.render(about.textAboveVideo)" />
     <div v-if="about.videoSource" class="yt-video lazyload group-video">
       <iframe
