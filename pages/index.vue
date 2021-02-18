@@ -7,7 +7,7 @@
     <Random :items="groups" @randomize="redirectToGroup" />
     <About :about="about[0]" />
     <Follow />
-    <More />
+    <More :more="more[0]" />
   </div>
 </template>
 
@@ -42,6 +42,7 @@ export default {
     streamIsOver: get('streamIsOver'),
     about: get('about'),
     introduction: get('introduction'),
+    more: get('more'),
     streamComponent() {
       return this.streamIsOver ? 'stream-replay' : 'stream-teaser';
     },
