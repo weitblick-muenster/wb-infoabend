@@ -19,7 +19,7 @@
     <div class="yt-video lazyload">
       <iframe
         title="Weitblick Vorstellungsvideo"
-        src="https://www.youtube.com/embed/GFzKoPBkS50"
+        src="https://www.youtube.com/embed/QDnMCUpl7m0"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope;"
         allowfullscreen
