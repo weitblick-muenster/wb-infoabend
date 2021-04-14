@@ -1,18 +1,17 @@
-<template functional>
+<template>
   <section key="more">
-    <h1>Noch nicht genug?</h1>
-    <p>
-      Noch mehr Informationen zu unserer Arbeit und unseren Projekten findest du auf unserer
-      offiziellen Homepage
-      <a
-        class="is-underlined"
-        href="https://weitblicker.org/muenster/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        weitblicker.org/muenster
-      </a>
-      .
-    </p>
+    <h1>{{ more.title }}</h1>
+    <!-- eslint-disable-next-line vue/no-v-html -->
+    <div v-html="$md.render(more.text)" />
   </section>
 </template>
+<script>
+export default {
+  props: {
+    more: {
+      type: Object,
+      required: true,
+    },
+  },
+};
+</script>

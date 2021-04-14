@@ -110,6 +110,8 @@ export default {
     runtime: true,
     linkify: true,
     breaks: true,
+    injected: true,
+    html: true,
   },
 
   router: {

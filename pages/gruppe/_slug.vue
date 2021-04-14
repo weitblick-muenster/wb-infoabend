@@ -29,6 +29,7 @@
 </template>
 
 <script>
+import { get } from 'vuex-pathify';
 import { Follow } from '~/components/TextSections';
 import Random from '~/components/Random.vue';
 import { NotFoundError } from '~/lib/contentful';
@@ -59,6 +60,9 @@ export default {
     return {
       group,
     };
+  },
+  computed: {
+    groups: get('groups'),
   },
   methods: {
     redirectToGroup(group) {
