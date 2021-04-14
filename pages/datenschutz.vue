@@ -73,7 +73,7 @@
 
     <strong>Server-Log-Dateien</strong>
     <p>
-      In Server-Log-Dateien erhebt und speichert der Provider (Github Pages) der Website automatisch Informationen, die Ihr
+      In Server-Log-Dateien erhebt und speichert der Provider (Netlify) der Website automatisch Informationen, die Ihr
       Browser automatisch an uns übermittelt. Dies sind:
       <ul>
         <li>Besuchte Seite auf unserer Domain</li>
@@ -86,12 +86,12 @@
       </ul>
       Es findet keine Zusammenführung dieser Daten mit anderen Datenquellen statt. Grundlage der Datenverarbeitung bildet
       Art. 6 Abs. 1 lit. b) DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen
-      gestattet. Die Github Global Privacy Practices finden Sie hier:<br>
+      gestattet. Die Privacy Policy finden Sie hier:<br>
       <a
-        href="https://help.github.com/en/articles/global-privacy-practices"
+        href="https://www.netlify.com/privacy"
         target="_blank"
       >
-        https://help.github.com/en/articles/global-privacy-practices
+        https://www.netlify.com/privacy
       </a>.
     </p>
 
@@ -130,9 +130,9 @@
     <p>
       Einzelheiten über Google Web Fonts finden Sie unter:
       <a
-        href="https://www.google.com/fonts#AboutPlace:about"
+        href="https://fonts.google.com/about"
         target="_blank"
-      >https://www.google.com/fonts#AboutPlace:about</a>
+      >https://fonts.google.com/about</a>
       und weitere Informationen in den Datenschutzbestimmungen von Google:
       <a
         href="https://policies.google.com/privacy/partners?hl=de"
