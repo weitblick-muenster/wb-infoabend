@@ -2,7 +2,7 @@
   <section>
     <h1>Live-Stream 🎥</h1>
     <p>
-      Ab 20 Uhr gibt es eine ca. 30 minütige Präsentation über unsere
+      Ab 20 Uhr gibt es eine ca. 20 minütige Präsentation über unsere
       Arbeit. Wenn du während der Präsentation Dinge nicht verstehst oder Fragen hast,
       stelle diese gerne im Chat! Unsere Moderator:innen werden sie nebenbei beantworten.
       Wenn etwas nicht klappt findest du
@@ -24,7 +24,7 @@
     <h1>Speed Dating ⏲</h1>
     <p>
       Nach der Präsentation wird es ein Speed Dating geben. Was bedeutet das? Da wir in vielen
-      Gruppen arbeiten, hast du die Möglichkeit - wie beim Speed Dating - zwei mal ca. 15 Minuten
+      Gruppen arbeiten, hast du die Möglichkeit - wie beim Speed Dating - drei mal ca. 15 Minuten
       lang eine Gruppe kennenzulernen, danach geht es zur nächsten. Klicke dazu einfach auf eine
       der unten aufgeführten Gruppen, darüber gelangst du zum Video-Call. Diesen kannst du bei den
       meisten Browsern direkt ohne Installation von Teams beitreten. Wähle diese Option falls

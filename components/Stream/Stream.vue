@@ -4,7 +4,7 @@
       <div class="yt-video lazyload stream-left">
         <iframe
           title="Weitblick Live Stream"
-          src="https://www.youtube.com/embed/J_88T_bILy0"
+          src="https://www.youtube.com/embed/OXGEz2yHtwU"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope;"
           allowfullscreen
@@ -29,7 +29,7 @@ export default {
     liveChatSrc() {
       const baseURL = new URL(this.$config.baseURL);
       const host = process.env.NODE_ENV === 'development' ? 'localhost' : baseURL.hostname;
-      return `https://www.youtube.com/live_chat?v=ISXUrm_XIs4&embed_domain=${host}`;
+      return `https://www.youtube.com/live_chat?v=OXGEz2yHtwU&embed_domain=${host}`;
     },
   },
 };
