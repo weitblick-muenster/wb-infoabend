@@ -13,6 +13,13 @@
         hier
       </NuxtLink>
       Hilfe.
+      <ul>
+        <li>20:00 Uhr - Beginn des Streams</li>
+        <li>20:20 Uhr - Beginn der 1. Speeddatingrunde</li>
+        <li>20:35 Uhr - Beginn der 2. Speeddatingrunde</li>
+        <li>20:50 Uhr - Beginn der 3. Speeddatingrunde und die Kneipen sind geöffnet!</li>
+        <li>21:15 Uhr bis open end - Kneipen, wir freuen uns auf euch!</li>
+      </ul>
     </p>
     <h1>Speed Dating ⏲</h1>
     <p>
