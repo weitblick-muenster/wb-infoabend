@@ -33,7 +33,7 @@
     </p>
     <h1>Altstadt danach 🍻</h1>
     <p>
-      Altstadt danach? Leider nein... Falsch! Endlich wieder! Wir sehen uns ob du Live oder in Präsenz dabei warst im 
+      Altstadt danach? Leider nein... Falsch! Endlich wieder! Wir sehen uns ob du Live oder in Präsenz dabei warst im F24 ab ca. 20:30 Uhr.
     </p>
   </section>
 </template>
