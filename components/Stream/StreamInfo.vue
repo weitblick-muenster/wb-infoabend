@@ -23,7 +23,7 @@
     </p>
     <h1>Kontaktdaten 💌</h1>
     <p>
-      Dich Interessiert die Arbeit in der ein oder anderen Gruppe? Dann freuen wir uns darüber, 
+      Dich interessiert die Arbeit in der ein oder anderen Gruppe? Dann freuen wir uns darüber, 
       wenn du deine Kontaktdaten in dem Formular hinterlässt. Die Gruppenleitung wird sich zeitnah an dich wenden. Das kannst du hier
       machen!
       <br>
@@ -33,7 +33,7 @@
     </p>
     <h1>Altstadt danach 🍻</h1>
     <p>
-      Altstadt danach? Leider nein... Falsch! Endlich wieder! Wir sehen uns ob du Live oder in Präsenz dabei warst im F24 ab ca. 20:30 Uhr.
+      Altstadt danach? Leider nein... Falsch! Endlich wieder! Wir sehen uns ob du online oder in Präsenz dabei warst im F24 ab ca. 20:30 Uhr.
     </p>
   </section>
 </template>
