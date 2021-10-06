@@ -17,15 +17,16 @@
     <h1>Markt der Möglichkeiten ⏲</h1>
     <p>
       Nach der Präsentation wird es einen Markt der Möglichkeiten geben. Was bedeutet das? Da wir in vielen
-      Gruppen arbeiten, hast du die Möglichkeit - wie auf einem Markt - an verschiedenen Ständen unsere Gruppen kennenzulernen.
-      Solltest du online dabei sein: Es tut uns leid das wir so etwas online leider nicht anbieten können. Du hast natürlich 
-      trotzdem die Möglichkeit unsere Gruppen kennenzulernen. Hinterlasse einfach deine Kontaktdaten im Formular unten!
+      Gruppen arbeiten, hast du die Möglichkeit - wie auf einem Markt - an verschiedenen Ständen unsere Gruppen
+      kennenzulernen. Solltest du online dabei sein: Es tut uns leid, dass wir so etwas online leider nicht anbieten
+      können. Du hast natürlich trotzdem die Möglichkeit unsere Gruppen kennenzulernen. Hinterlasse einfach deine
+      Kontaktdaten im Formular unten!
     </p>
     <h1>Kontaktdaten 💌</h1>
     <p>
-      Dich interessiert die Arbeit in der ein oder anderen Gruppe? Dann freuen wir uns darüber, 
-      wenn du deine Kontaktdaten in dem Formular hinterlässt. Die Gruppenleitung wird sich zeitnah an dich wenden. Das kannst du hier
-      machen!
+      Dich interessiert die Arbeit in der ein oder anderen Gruppe? Dann freuen wir uns darüber,
+      wenn du deine Kontaktdaten in dem Formular hinterlässt. Die Gruppenleitung wird sich zeitnah an dich wenden.
+      Das kannst du hier machen!
       <br>
       <NuxtLink to="/mitmachen" class="button primary">
         <span class="label">Kontaktformular</span>
@@ -33,7 +34,8 @@
     </p>
     <h1>Altstadt danach 🍻</h1>
     <p>
-      Altstadt danach? Leider nein... Falsch! Endlich wieder! Wir sehen uns ob du online oder in Präsenz dabei warst im F24 ab ca. 20:30 Uhr.
+      Altstadt danach? Leider nein... Falsch! Endlich wieder! Wir sehen uns, egal ob du online oder in Präsenz dabei
+      warst im F24 ab ca. 20:30 Uhr.
     </p>
   </section>
 </template>
