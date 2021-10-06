@@ -27,17 +27,17 @@
 <script>
 import { get } from 'vuex-pathify';
 import { Stream, StreamInfo } from '~/components/Stream';
-//import Groups from '~/components/Groups.vue';
-//import Pubs from '~/components/Pubs.vue';
-//import Random from '~/components/Random.vue';
+// import Groups from '~/components/Groups.vue';
+// import Pubs from '~/components/Pubs.vue';
+// import Random from '~/components/Random.vue';
 
 export default {
   components: {
     Stream,
     StreamInfo,
-    //Groups,
-    //Pubs,
-    //Random,
+    // Groups,
+    // Pubs,
+    // Random,
   },
   middleware({ store, redirect }) {
     if (store.getters.streamIsOver) {
