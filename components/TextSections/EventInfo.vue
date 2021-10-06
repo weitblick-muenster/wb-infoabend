@@ -4,7 +4,7 @@
     <ul class="explanation">
       <li class="explanation-list-element">
         <!-- eslint-disable-next-line max-len -->
-        {{ streamIsOver ? '💻 Aufzeichung vom Infoabend anschauen' : '💻 (Online) Infoabend mit Live-Stream und anschließendem Kennenlernen' }}
+        {{ streamIsOver ? '💻 Aufzeichung vom Infoabend anschauen' : '💻 Hybrid Infoabend in Präsenz im Hörsaal S8, Schloss oder als Live-Stream' }}
       </li>
       <li class="explanation-list-element">
         💌 Hinterlasse der Gruppe, die du interessant findest,
