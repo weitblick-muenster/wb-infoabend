@@ -2,7 +2,7 @@
   <div>
     <Stream />
     <StreamInfo />
-
+    <!--
     <Groups :groups="groups" use-meetings />
     <Random :items="groups" @randomize="redirectToTeams">
       <template #title>
@@ -20,23 +20,24 @@
         Dann laufe einfach mit und suche "auf gut Glück" eine Kneipe!
       </template>
     </Random>
+    -->
   </div>
 </template>
 
 <script>
 import { get } from 'vuex-pathify';
 import { Stream, StreamInfo } from '~/components/Stream';
-import Groups from '~/components/Groups.vue';
-import Pubs from '~/components/Pubs.vue';
-import Random from '~/components/Random.vue';
+// import Groups from '~/components/Groups.vue';
+// import Pubs from '~/components/Pubs.vue';
+// import Random from '~/components/Random.vue';
 
 export default {
   components: {
     Stream,
     StreamInfo,
-    Groups,
-    Pubs,
-    Random,
+    // Groups,
+    // Pubs,
+    // Random,
   },
   middleware({ store, redirect }) {
     if (store.getters.streamIsOver) {
