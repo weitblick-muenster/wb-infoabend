@@ -4,7 +4,7 @@
     <ul class="explanation">
       <li class="explanation-list-element">
         <!-- eslint-disable-next-line max-len -->
-        {{ streamIsOver ? '💻 Aufzeichung vom Infoabend anschauen' : '💻 Online Infoabend mit Live-Stream und anschließendem Kennenlernen per Video-Call' }}
+        {{ streamIsOver ? '💻 Aufzeichung vom Infoabend anschauen' : '💻 (Online) Infoabend mit Live-Stream und anschließendem Kennenlernen' }}
       </li>
       <li class="explanation-list-element">
         💌 Hinterlasse der Gruppe, die du interessant findest,
