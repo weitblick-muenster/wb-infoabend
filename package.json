@@ -15,6 +15,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2",
     "@nuxtjs/markdownit": "^2.0.0",
+    "caniuse-lite": "^1.0.30001265",
     "contentful": "^8.1.7",
     "countdown-vue": "^1.1.5",
     "dom-confetti": "^0.2.2",
