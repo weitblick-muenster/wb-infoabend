@@ -13,7 +13,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@nuxtjs/markdownit": "^2.0.0",
     "caniuse-lite": "^1.0.30001265",
     "contentful": "^9.0.3",
