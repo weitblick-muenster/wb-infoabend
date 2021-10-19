@@ -70,12 +70,12 @@ export default {
           name: 'ueber-uns',
           text: 'Über uns',
         },
-        {
-          href: '/stream',
-          name: 'stream',
-          text: 'Live-Stream',
-          condition: () => !this.streamIsOver,
-        },
+        // {
+        //   href: '/stream',
+        //   name: 'stream',
+        //   text: 'Live-Stream',
+        //   condition: () => !this.streamIsOver,
+        // },
         {
           href: '/mitmachen',
           name: 'mitmachen',
