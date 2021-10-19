@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div
+    <!-- <div
       v-if="showStream"
       class="countdown"
     >
@@ -33,17 +33,27 @@
           ⬇️
         </p>
       </div>
-    </template>
+    </template> -->
+    <div>
+      <a
+        href="https://bit.ly/3vFba1P"
+        class="button primary"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <span class="label">Zum Zoomcall</span>
+      </a>
+    </div>
   </section>
 </template>
 
 <script>
 import { confetti } from 'dom-confetti';
-import Countdown from './Countdown.vue';
+// import Countdown from './Countdown.vue';
 
 export default {
   components: {
-    Countdown,
+    // Countdown,
   },
   filters: {
     asDate(isoDateString) {
