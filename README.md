@@ -4,7 +4,12 @@
 
 ## Build Setup
 
+Dependencies: Nodejs 15.3.xx
+
 ```bash
+# install yarn if necessary
+$ npm install --global yarn
+
 # install dependencies
 $ yarn install
 
@@ -43,4 +48,4 @@ aj@lkn.io
 Icons:
   Font [Awesome](fontawesome.io)
 
-(c) 2020 Pferdinand :horse:
+(c) 2021 Pferdinand :horse:
