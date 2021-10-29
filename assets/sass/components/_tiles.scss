@@ -6,6 +6,8 @@
 
 /* Tiles */
 
+@use "sass:math";
+
 .tiles {
   $gutter: _size(gutter);
   $duration: 0.5s;
@@ -17,7 +19,7 @@
   max-width: 1200px;
 
   .pub {
-    width: calc(#{(100% / 4)} - #{$gutter * 0.5});
+    width: calc(#{(100% * 0.25)} - #{$gutter * 0.5});
   }
 
   article {
@@ -26,7 +28,7 @@
       'opacity #{$duration} #{$ease}'
     ));
     position: relative;
-    width: calc(#{(100% / 3)} - #{$gutter * 1});
+    width: calc(#{math.div(100%, 3)} - #{$gutter * 1});
     max-height: 220px;
     margin: $gutter 0 0 $gutter;
 
@@ -199,12 +201,12 @@
     $gutter: _size(gutter) * 0.5;
 
     article {
-      width: calc(#{(100% / 3)} - #{$gutter * 1});
+      width: calc(#{math.div(100%, 3)} - #{$gutter * 1});
       margin: $gutter 0 0 $gutter;
     }
 
     .pub {
-      width: calc(#{(100% / 4)} - #{$gutter * 1});
+      width: calc(#{(100% * 0.25)} - #{$gutter * 1});
     }
   }
 
@@ -212,12 +214,12 @@
     $gutter: _size(gutter);
 
     article {
-      width: calc(#{(100% / 2)} - #{$gutter * 1.5});
+      width: calc(#{(100% * 0.5)} - #{$gutter * 1.5});
       margin: $gutter 0 0 $gutter;
     }
 
     .pub {
-      width: calc(#{(100% / 3)} - #{$gutter * 1.5});
+      width: calc(#{math.div(100%, 3)} - #{$gutter * 1.5});
     }
   }
 
@@ -225,7 +227,7 @@
     $gutter: _size(gutter) * 0.5;
 
     article {
-      width: calc(#{(100% / 2)} - #{$gutter * 1.5});
+      width: calc(#{(100% * 0.5)} - #{$gutter * 1.5});
       margin: $gutter 0 0 $gutter;
 
       &:hover {
@@ -236,7 +238,7 @@
     }
 
     .pub {
-      width: calc(#{(100% / 2)} - #{$gutter * 1.5});
+      width: calc(#{(100% * 0.5)} - #{$gutter * 1.5});
     }
   }
 
@@ -257,7 +259,7 @@
 
     .pub {
       margin: $gutter 0 0 $gutter;
-      width: calc(#{(100% / 2)} - #{$gutter * 1});
+      width: calc(#{(100% * 0.5)} - #{$gutter * 1});
     }
   }
 }
