@@ -81,11 +81,11 @@ export default {
           name: 'mitmachen',
           text: 'Mitmachen',
         },
-        // {
-        //   href: '/gruppentisch-treffen',
-        //   name: 'gruppentisch-treffen',
-        //   text: 'Gruppentisch-Treffen',
-        // },
+        {
+          href: '/gruppentisch-treffen',
+          name: 'gruppentisch-treffen',
+          text: 'Gruppentisch-Treffen',
+        },
         {
           href: '/hilfe',
           name: 'hilfe',
