@@ -1,6 +1,6 @@
 <template>
   <section>
-    <!-- <div
+    <div
       v-if="showStream"
       class="countdown"
     >
@@ -33,8 +33,8 @@
           ⬇️
         </p>
       </div>
-    </template> -->
-    <!-- <div>
+    </template>
+    <div>
       <a
         href="https://bit.ly/3vFba1P"
         class="button primary"
@@ -43,7 +43,7 @@
       >
         <span class="label">Zum Zoomcall</span>
       </a>
-    </div> -->
+    </div>
   </section>
 </template>
 
