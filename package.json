@@ -16,7 +16,7 @@
     "@fortawesome/fontawesome-free": "^5.15.4",
     "@nuxtjs/markdownit": "^2.0.0",
     "caniuse-lite": "^1.0.30001309",
-    "contentful": "^9.1.7",
+    "contentful": "^9.1.13",
     "countdown-vue": "^1.1.5",
     "dom-confetti": "^0.2.2",
     "hamburgers": "^1.1.3",
