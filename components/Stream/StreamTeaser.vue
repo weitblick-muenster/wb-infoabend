@@ -60,7 +60,7 @@ export default {
       const parsedDate = new Date(isoDateString);
 
       const day = parsedDate.getDate() < 10 ? `0${parsedDate.getDate()}` : parsedDate.getDate();
-      const month = parsedDate.getMonth() < 10 ? `0${parsedDate.getMonth() + 1}` : parsedDate.getMonth() + 1;
+      const month = parsedDate.getMonth() < 11 ? `${parsedDate.getMonth() + 1}` : parsedDate.getMonth() + 1;
       const year = parsedDate.getFullYear();
       const hours = parsedDate.getHours() < 10 ? `0${parsedDate.getHours()}` : parsedDate.getHours();
       const minutes = parsedDate.getMinutes() < 10 ? `0${parsedDate.getMinutes()}` : parsedDate.getMinutes();
