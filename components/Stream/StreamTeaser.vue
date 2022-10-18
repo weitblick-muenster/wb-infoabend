@@ -34,16 +34,16 @@
         </p>
       </div>
     </template>
-    <!-- <div>
+    <div>
       <a
-        href="https://wwu.zoom.us/j/67412027723"
+        href="https://fh-muenster.zoom.us/j/68196858609?pwd=Y1IyRzE0TWoyWnVnSkh3OW0wcTMvQT09"
         class="button primary"
         target="_blank"
         rel="noreferrer"
       >
         <span class="label">Zum Zoomcall</span>
       </a>
-    </div> -->
+    </div>
   </section>
 </template>
 
