@@ -34,7 +34,7 @@
         </p>
       </div>
     </template>
-    <!-- <div>
+    <div>
       <a
         href="https://fh-muenster.zoom.us/j/68196858609?pwd=Y1IyRzE0TWoyWnVnSkh3OW0wcTMvQT09"
         class="button primary"
@@ -43,7 +43,7 @@
       >
         <span class="label">Zum Zoomcall</span>
       </a>
-    </div> -->
+    </div>
   </section>
 </template>
 
