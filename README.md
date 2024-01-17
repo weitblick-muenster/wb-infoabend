@@ -1,6 +1,6 @@
-# wb-infoabend ![Deploy](https://github.com/weitblick-muenster/wb-infoabend/workflows/Deploy/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/97e20b97-d73d-4a24-89c2-d7e1e30ea6e3/deploy-status)](https://app.netlify.com/sites/infoabend/deploys)
+# wb-infoabend
 
-> Weitblick Münster - Infoabend Seite
+> Weitblick Münster - ehemalige Infoabend Seite
 
 ## Build Setup
 
